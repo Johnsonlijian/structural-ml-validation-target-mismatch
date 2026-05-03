@@ -3,8 +3,8 @@ title: "Structural ML-Bench v1.0: Source-aware validation suite for structural p
 message: If you use this software or processed outputs, please cite this repository and the associated manuscript.
 type: software
 authors:
-  - family-names: Ren
-    given-names: Chang
+  - family-names: REN
+    given-names: Lijian
 version: "1.0.0"
 date-released: "2026-05-03"
 doi: "10.5281/zenodo.20006918"
