@@ -22,12 +22,16 @@ This repository contains scripts, manifests, processed outputs and figure-source
 - Private correspondence or non-public datasets
 - Any numeric claim not traceable to the bundled scripts/CSVs
 
+## Zenodo archive
+Versioned snapshot: https://doi.org/10.5281/zenodo.20006918
+
 ## Quick start
 ```bash
 conda env create -f environment_reproducibility_v0.yml
 conda activate p1-structural-ml-validation
 python tests/smoke_test.py
-python code/run_qa_chain.py --skip-06 --skip-24   # if you already have results.csv
+python run_qa_chain.py --smoke-test
+python run_qa_chain.py --skip-06 --skip-24   # if you already have results.csv
 ```
 
 ## Expected outputs (after full rerun)
@@ -36,7 +40,7 @@ python code/run_qa_chain.py --skip-06 --skip-24   # if you already have results.
 - `figures/submission/` and `figures/supplementary/` raster/vector exports when scripts are run with data present
 
 ## Citation
-See `CITATION.cff` (update Zenodo DOI after minting).
+See `CITATION.cff` (Zenodo DOI `10.5281/zenodo.20006918`).
 
 ## License
 See `LICENSE` (MIT for code; CC-BY for original docs/tables where applicable; third-party data unchanged).

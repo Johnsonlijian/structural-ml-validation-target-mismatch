@@ -197,7 +197,7 @@ The manuscript uses public datasets and public metadata. Dataset-specific downlo
 
 ## Code availability
 
-Code, processed outputs, manifests and figure-source data are available at https://github.com/Johnsonlijian/structural-ml-validation-target-mismatch. A versioned archival DOI will be provided through Zenodo after the GitHub release is archived.
+Code, processed outputs, manifests and figure-source data are available at https://github.com/Johnsonlijian/structural-ml-validation-target-mismatch and archived on Zenodo at https://doi.org/10.5281/zenodo.20006918. The archive contains environment files, modular reproduction scripts, dataset manifests, processed output tables, figure-source data and the one-command QA runner used to regenerate Table S7, Figure S5 and the graphical abstract. Raw third-party datasets are not redistributed where source licences prohibit redistribution; dataset DOIs, access URLs, access dates and checksums are recorded in the data manifests.
 
 ## Acknowledgements
 

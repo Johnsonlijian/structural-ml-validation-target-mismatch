@@ -8,7 +8,7 @@ authors:
 version: "1.0.0"
 date-released: "2026-05-03"
 repository-code: "https://github.com/Johnsonlijian/structural-ml-validation-target-mismatch"
-doi: "<ZENODO_DOI_TO_FILL_AFTER_RELEASE>"
+doi: "10.5281/zenodo.20006918"
 keywords:
   - structural machine learning
   - source-aware validation

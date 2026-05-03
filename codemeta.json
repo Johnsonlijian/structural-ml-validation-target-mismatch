@@ -7,6 +7,7 @@
   "programmingLanguage": "Python",
   "runtimePlatform": "Python 3.10+",
   "codeRepository": "https://github.com/Johnsonlijian/structural-ml-validation-target-mismatch",
+  "identifier": "https://doi.org/10.5281/zenodo.20006918",
   "license": "https://spdx.org/licenses/MIT.html",
   "author": [
     {
