@@ -1,0 +1,14 @@
+{
+  "datasets": [
+    "10.17603/ds2-52bz-0n63",
+    "10.17603/ds2-7qg0-4303"
+  ],
+  "target": "Maximum lateral load (primary) (Vmax1) [kips]",
+  "group_proxy": "Authors / First Author",
+  "outputs": {
+    "results": "code\\outputs\\reproductions\\designsafe_rc_columns\\results.csv",
+    "predictions": "code\\outputs\\reproductions\\designsafe_rc_columns\\predictions.csv",
+    "group_sizes": "code\\outputs\\reproductions\\designsafe_rc_columns\\group_sizes.csv",
+    "figure": "figures\\draft\\figS2_designsafe_rc_column_validation_v0.png"
+  }
+}

@@ -1,0 +1,10 @@
+case_id,case_label,short_label,task,metric_name,group_proxy,random_metric,group_metric,gap,n_samples,n_groups,interpretation
+1,"Mangalathu 2020
+RC shear wall","Shear wall
+classification",classification,accuracy,Author/source family,0.8270042194092826,0.5230177717019823,0.3039864477073003,393,75,strong collapse
+2,"Rahman 2021 /
+Lantsoght SFRC","SFRC shear
+regression",regression,R2,Source reference,0.6415719318588532,-1.0472480609722754,1.6888199928311285,488,118,strong collapse
+3,"Nguyen 2021 /
+UCI concrete","Concrete strength
+regression",regression,pooled R2,Mix proportions,0.9086558697785868,0.868203658349163,0.04045221142942379,1030,428,mild optimism

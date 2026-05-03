@@ -1,0 +1,1 @@
+Consolidated `regression_validation_metrics_random_grouped_loso.csv` (manuscript Table S1) is not yet exported as a single machine-readable CSV in this repository. Values are documented in supplementary markdown fragments and per-module `results.csv`. Track: add exporter script that concatenates per-dataset metrics without recomputing.

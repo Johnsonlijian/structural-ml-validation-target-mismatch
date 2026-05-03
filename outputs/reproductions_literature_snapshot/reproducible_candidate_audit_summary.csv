@@ -1,0 +1,21 @@
+reproduction_priority,topic_bucket,n
+completed,concrete strength,3
+high,concrete strength,3
+high,CFST/composite column,1
+high,beam-column joint,1
+low,CFST/composite column,9
+low,other structural ML,6
+low,concrete strength,4
+low,fiber/SFRC shear,4
+low,shear wall,3
+low,pile/geotechnical,1
+low,seismic/fragility,1
+medium,concrete strength,173
+medium,other structural ML,33
+medium,pile/geotechnical,26
+medium,seismic/fragility,25
+medium,CFST/composite column,12
+medium,fiber/SFRC shear,10
+medium,beam-column joint,7
+medium,shear wall,5
+medium,structural deterioration,5

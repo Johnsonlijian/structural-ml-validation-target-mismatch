@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+title: "Structural ML-Bench v1.0: Source-aware validation suite for structural performance prediction"
+message: If you use this software or processed outputs, please cite this repository and the associated manuscript.
+type: software
+authors:
+  - family-names: Ren
+    given-names: Chang
+version: "1.0.0"
+date-released: "2026-05-03"
+repository-code: "https://github.com/Johnsonlijian/structural-ml-validation-target-mismatch"
+doi: "<ZENODO_DOI_TO_FILL_AFTER_RELEASE>"
+keywords:
+  - structural machine learning
+  - source-aware validation
+  - grouped cross-validation
+  - civil infrastructure engineering
+  - reproducibility
+  - validation-target mismatch
+license: MIT

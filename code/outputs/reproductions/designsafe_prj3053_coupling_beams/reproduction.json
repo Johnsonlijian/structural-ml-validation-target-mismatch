@@ -1,0 +1,20 @@
+{
+  "dataset": "DesignSafe PRJ-3053 Database of Diagonally-Reinforced Concrete Coupling Beams",
+  "doi": "10.17603/ds2-g5n8-4p74",
+  "n_rows": 60,
+  "n_source_groups": 21,
+  "group_proxy": "Reference",
+  "targets": [
+    "V_m_avg_kips",
+    "v_m_normalized",
+    "CR_capacity_average"
+  ],
+  "n_features": 30,
+  "outputs": {
+    "extracted_data": "code\\outputs\\reproductions\\designsafe_prj3053_coupling_beams\\extracted_coupling_beam_data.csv",
+    "results": "code\\outputs\\reproductions\\designsafe_prj3053_coupling_beams\\results.csv",
+    "predictions": "code\\outputs\\reproductions\\designsafe_prj3053_coupling_beams\\predictions.csv",
+    "group_sizes": "code\\outputs\\reproductions\\designsafe_prj3053_coupling_beams\\group_sizes.csv",
+    "figure": "figures\\draft\\figS4_designsafe_prj3053_coupling_beam_validation_v0.png"
+  }
+}

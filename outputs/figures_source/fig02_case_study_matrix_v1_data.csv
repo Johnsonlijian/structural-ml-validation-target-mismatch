@@ -1,0 +1,13 @@
+case_id,case_label,short_label,domain,task,metric_name,random_metric,group_metric,group_proxy,n_samples,n_groups,topology_note,severity,gap
+1,"Mangalathu 2020
+RC shear wall","Shear wall
+failure mode",RC walls,classification,Accuracy,0.8270042194092826,0.5230177717019823,Author/source,393,75,median group n=3; 26 singletons,large,0.3039864477073003
+2,"Rahman 2021 /
+Lantsoght SFRC","SFRC shear
+capacity",SFRC beams,regression,Fold-mean R^2,0.6415719318588532,-1.0472480609722754,Source reference,488,118,many small source groups,large,1.6888199928311285
+3,"Nguyen 2021 /
+UCI concrete","Concrete
+strength",Concrete mixtures,regression,Pooled R^2,0.9086558697785868,0.868203658349163,Mix proportions,1030,428,standardized material dataset,small,0.04045221142942379
+4,"Matthews 2023 /
+corroded RC beams","Corroded beam
+moment",RC deterioration,regression,Pooled R^2,0.9740192973066634,0.7936641180073299,Experimental program,804,54,54 programs; median group n=10.5,moderate,0.18035517929933342

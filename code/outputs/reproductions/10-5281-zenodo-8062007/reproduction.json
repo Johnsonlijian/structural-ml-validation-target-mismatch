@@ -1,0 +1,150 @@
+{
+  "doi": "10.5281/zenodo.8062007",
+  "paper": "Corroded RC beam residual moment capacity ML example",
+  "created_utc": "2026-04-28T09:44:15.623326+00:00",
+  "n_samples": 804,
+  "n_source_groups": 54,
+  "target": "log_mmax_exp",
+  "group_proxy": "experimental program parsed from Author, Specimen ID",
+  "delta_pooled_r2_random_minus_group": {
+    "GradientBoosting": 0.12056591962891405,
+    "RandomForest": 0.18035517929933342,
+    "Ridge": 0.1978268831177039
+  },
+  "pooled_r2": {
+    "GradientBoosting": {
+      "GroupKFold_Source": 0.8530316972745534,
+      "LeaveOneSourceOut": 0.8463173129082289,
+      "RandomKFold": 0.9735976169034675
+    },
+    "RandomForest": {
+      "GroupKFold_Source": 0.7936641180073299,
+      "LeaveOneSourceOut": 0.8028010625324585,
+      "RandomKFold": 0.9740192973066634
+    },
+    "Ridge": {
+      "GroupKFold_Source": 0.7554583325607492,
+      "LeaveOneSourceOut": 0.7663855117697097,
+      "RandomKFold": 0.9532852156784531
+    }
+  },
+  "results": [
+    {
+      "model": "GradientBoosting",
+      "validation": "GroupKFold_Source",
+      "n_splits": 10,
+      "n_samples": 804,
+      "n_groups": 54,
+      "r2_mean": 0.6562728018486769,
+      "r2_std": 0.446448213630742,
+      "mae_mean": 0.30949510456069873,
+      "mae_std": 0.09199269907016189,
+      "pooled_r2": 0.8530316972745534,
+      "pooled_mae": 0.31458098320197614
+    },
+    {
+      "model": "GradientBoosting",
+      "validation": "LeaveOneSourceOut",
+      "n_splits": 54,
+      "n_samples": 804,
+      "n_groups": 54,
+      "r2_mean": -25.260737502422582,
+      "r2_std": 96.76035902070619,
+      "mae_mean": 0.28468209334691397,
+      "mae_std": 0.18219004108795223,
+      "pooled_r2": 0.8463173129082289,
+      "pooled_mae": 0.3209344191880741
+    },
+    {
+      "model": "GradientBoosting",
+      "validation": "RandomKFold",
+      "n_splits": 10,
+      "n_samples": 804,
+      "n_groups": 54,
+      "r2_mean": 0.972710045899505,
+      "r2_std": 0.00679130971771582,
+      "mae_mean": 0.11518438614377939,
+      "mae_std": 0.008843341505318706,
+      "pooled_r2": 0.9735976169034675,
+      "pooled_mae": 0.11519967706314732
+    },
+    {
+      "model": "RandomForest",
+      "validation": "GroupKFold_Source",
+      "n_splits": 10,
+      "n_samples": 804,
+      "n_groups": 54,
+      "r2_mean": 0.5767110532723051,
+      "r2_std": 0.4757804056141154,
+      "mae_mean": 0.36234479605557884,
+      "mae_std": 0.14338560554970914,
+      "pooled_r2": 0.7936641180073299,
+      "pooled_mae": 0.36391616427757234
+    },
+    {
+      "model": "RandomForest",
+      "validation": "LeaveOneSourceOut",
+      "n_splits": 54,
+      "n_samples": 804,
+      "n_groups": 54,
+      "r2_mean": -30.876520152860273,
+      "r2_std": 139.56519723253254,
+      "mae_mean": 0.3150345249510399,
+      "mae_std": 0.21445197500828483,
+      "pooled_r2": 0.8028010625324585,
+      "pooled_mae": 0.3557438535303867
+    },
+    {
+      "model": "RandomForest",
+      "validation": "RandomKFold",
+      "n_splits": 10,
+      "n_samples": 804,
+      "n_groups": 54,
+      "r2_mean": 0.9735448608841171,
+      "r2_std": 0.006630700447196129,
+      "mae_mean": 0.10186747687927744,
+      "mae_std": 0.008736335478822809,
+      "pooled_r2": 0.9740192973066634,
+      "pooled_mae": 0.10187571326012755
+    },
+    {
+      "model": "Ridge",
+      "validation": "GroupKFold_Source",
+      "n_splits": 10,
+      "n_samples": 804,
+      "n_groups": 54,
+      "r2_mean": 0.4871833124733003,
+      "r2_std": 0.6148146267067617,
+      "mae_mean": 0.4131436170883953,
+      "mae_std": 0.11290792417526176,
+      "pooled_r2": 0.7554583325607492,
+      "pooled_mae": 0.41848193111278204
+    },
+    {
+      "model": "Ridge",
+      "validation": "LeaveOneSourceOut",
+      "n_splits": 54,
+      "n_samples": 804,
+      "n_groups": 54,
+      "r2_mean": -109.47600867925556,
+      "r2_std": 549.7730603470075,
+      "mae_mean": 0.3761582441380139,
+      "mae_std": 0.25761417208649645,
+      "pooled_r2": 0.7663855117697097,
+      "pooled_mae": 0.4091664981777141
+    },
+    {
+      "model": "Ridge",
+      "validation": "RandomKFold",
+      "n_splits": 10,
+      "n_samples": 804,
+      "n_groups": 54,
+      "r2_mean": 0.9520847435558935,
+      "r2_std": 0.018056199248073786,
+      "mae_mean": 0.16562045524236352,
+      "mae_std": 0.02098315412805871,
+      "pooled_r2": 0.9532852156784531,
+      "pooled_mae": 0.16570876703787857
+    }
+  ]
+}

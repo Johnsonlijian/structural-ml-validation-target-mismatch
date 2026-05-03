@@ -1,0 +1,19 @@
+{
+  "dataset": "DesignSafe PRJ-2430 UoA-UW Reinforced Concrete Wall Database",
+  "doi": "10.17603/ds2-r12q-t415",
+  "n_rows": 142,
+  "n_source_groups": 28,
+  "group_proxy": "Authors",
+  "targets": [
+    "Vmax",
+    "driftCap"
+  ],
+  "n_features": 76,
+  "outputs": {
+    "extracted_data": "code\\outputs\\reproductions\\designsafe_prj2430_wall\\extracted_wall_data.csv",
+    "results": "code\\outputs\\reproductions\\designsafe_prj2430_wall\\results.csv",
+    "predictions": "code\\outputs\\reproductions\\designsafe_prj2430_wall\\predictions.csv",
+    "group_sizes": "code\\outputs\\reproductions\\designsafe_prj2430_wall\\group_sizes.csv",
+    "figure": "figures\\draft\\figS3_designsafe_prj2430_wall_validation_v0.png"
+  }
+}

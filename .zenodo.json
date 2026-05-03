@@ -1,0 +1,23 @@
+{
+  "title": "Structural ML-Bench v1.0: Source-aware validation suite for structural performance prediction",
+  "upload_type": "software",
+  "description": "Reproducibility package for the manuscript 'Validation-target mismatch in structural machine learning: A reproducible source-aware evaluation framework for structural performance prediction'.",
+  "creators": [
+    {
+      "name": "Ren, Chang",
+      "affiliation": "TODO_AFFILIATION_VERIFY"
+    }
+  ],
+  "keywords": [
+    "structural machine learning",
+    "source-aware validation",
+    "grouped cross-validation",
+    "validation-target mismatch",
+    "reproducibility",
+    "Computer-Aided Civil and Infrastructure Engineering"
+  ],
+  "license": "MIT",
+  "version": "1.0.0",
+  "related_identifiers": [],
+  "access_right": "open"
+}

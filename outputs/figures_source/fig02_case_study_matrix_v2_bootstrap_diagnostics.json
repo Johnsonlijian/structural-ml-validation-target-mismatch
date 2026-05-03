@@ -1,0 +1,24 @@
+[
+  {
+    "case": "UCI concrete",
+    "n_boot_requested": 2000,
+    "n_boot_used": 2000,
+    "n_boot_skipped": 0,
+    "n_groups": 428,
+    "group_col": "mix_group",
+    "model": "RandomForest",
+    "random_validation": "RandomKFold",
+    "group_validation": "GroupKFold_Mix"
+  },
+  {
+    "case": "Corroded RC beams",
+    "n_boot_requested": 2000,
+    "n_boot_used": 2000,
+    "n_boot_skipped": 0,
+    "n_groups": 54,
+    "group_col": "source_group",
+    "model": "RandomForest",
+    "random_validation": "RandomKFold",
+    "group_validation": "GroupKFold_Source"
+  }
+]

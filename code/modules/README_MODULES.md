@@ -1,0 +1,1 @@
+Executable benchmark implementations live as numbered scripts in `code/` (e.g. `08_reproduce_rahman_2021_sfrc_regression.py`). Processed outputs are written under `code/outputs/reproductions/<dataset-key>/` when you rerun the download + reproduction pipeline.
