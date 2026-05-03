@@ -3,7 +3,7 @@
 ## A reproducible source-aware evaluation framework for structural performance prediction
 
 **Target journal:** Computer-Aided Civil and Infrastructure Engineering (CACE)  
-**Manuscript status:** CACE submission draft **v1.1** — taxonomy-first Results; SAVP + algorithm sketch; **Table S8** topology master; cross-tier summary; compressed OpenAlex/manual block; Discussion de-duplicated; shortened physics and AI prose; Figure 2 unified (no internal v2 label); recent CACE (2021/2023) inventory lines; GitHub/Zenodo placeholders to replace at upload.  
+**Manuscript status:** CACE submission draft **v1.2** — taxonomy-first Results; SAVP + algorithm sketch; **Table S8** topology master; GitHub/Zenodo archive completed; final figure and reference formatting pending journal upload.  
 **Date:** 2026-05-03  
 
 ## Abstract
@@ -227,9 +227,9 @@ Plots were generated with scripted `matplotlib` visualizations of regenerated me
 
 The author vetted and rewrote AI-assisted suggestions, asserted final scientific wording, and accepts full accountability for methodology, citations, interpretations and licence compliance. AI tools were **not listed as authors**.
 
-## Reference inventory (DOI-verified keys; v0)
+## References
 
-Full bibliographic strings for the three non-structural method precedents below are in `manuscript/references_verified_v0.md` (CACE-ready paste block).
+Formatted reference strings for submission are maintained in `references_verified_v0.md`. The keyed list below preserves one-to-one traceability between in-text claims, public datasets and methodological precedents (DOI or repository identifier).
 
 - Mangalathu et al., reinforced-concrete shear-wall failure mode, `10.1016/j.engstruct.2019.110331`
 - Rahman et al. / Lantsoght SFRC shear-capacity setting, `10.1016/j.engstruct.2020.111743`
@@ -255,7 +255,7 @@ Full bibliographic strings for the three non-structural method precedents below 
 
 ### Figure 1 | Validation-target taxonomy and workflow for reproducible structural-ML evaluation
 
-**Layout.** Panel A summarizes the validation-target taxonomy: within-source interpolation (random folds), out-of-source or out-of-programme grouping (literature-aware `GroupKFold`), mixture-family grouping, structural-family extrapolation holds and user-defined deployment-matched splitting. Panel B shows the reproducibility workflow recommended for civil-infrastructure datasets: retrieve OpenAlex-screened structural-ML candidates, triage reproducibility hints, prioritize dataset-first repositories, execute the nine modular benchmarks under identical preprocessing rules, attach group-topology diagnostics and export reporting-checklist artefacts. The figure is organized so that Panel A (taxonomy) and Panel B (workflow) read jointly as **framework plus workflow**.
+Panel A summarizes the validation-target taxonomy: within-source interpolation (random folds), out-of-source or out-of-programme grouping (literature-aware `GroupKFold`), mixture-family grouping, structural-family extrapolation holds and user-defined deployment-matched splitting. Panel B shows the reproducibility workflow recommended for civil-infrastructure datasets: retrieve OpenAlex-screened structural-ML candidates, triage reproducibility hints, prioritize dataset-first repositories, execute the nine modular benchmarks under identical preprocessing rules, attach group-topology diagnostics and export reporting-checklist artefacts. The figure is organized so that Panel A (taxonomy) and Panel B (workflow) read jointly as **framework plus workflow**.
 
 ### Figure 2 | Random validation optimism is heterogeneous and topology-dependent across civil-engineering machine-learning datasets
 

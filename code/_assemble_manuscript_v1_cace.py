@@ -9,6 +9,11 @@ MANUSCRIPT = Path(__file__).resolve().parent.parent / "manuscript"
 SRC = max(MANUSCRIPT.glob("main_manuscript_v0_*214320*Conflict*.md"), key=lambda p: p.stat().st_mtime)
 OUT = MANUSCRIPT / "main_manuscript_v1_CACE_submission.md"
 
+STATUS_V12 = (
+    "**Manuscript status:** CACE submission draft **v1.2** — taxonomy-first Results; SAVP + algorithm sketch; **Table S8** topology master; "
+    "GitHub/Zenodo archive completed; final figure and reference formatting pending journal upload."
+)
+
 TABLE_S8 = r"""
 
 ### Table S8 | Cross-module group topology and headline Random Forest gaps
@@ -167,7 +172,8 @@ def main() -> None:
     )
 
     repls = [
-        ("**CACE-oriented layout.** Panel A summarizes", "**Layout.** Panel A summarizes"),
+        ("**CACE-oriented layout.** Panel A summarizes", "Panel A summarizes"),
+        ("**Layout.** Panel A summarizes", "Panel A summarizes"),
         (
             "Earlier drafts emphasized only the PRISMA-style layer; editors and practitioners should resolve both panels simultaneously so the manuscript reads as **framework plus workflow**, not a disconnected case anthology.",
             "The figure is organized so that Panel A (taxonomy) and Panel B (workflow) read jointly as **framework plus workflow**.",
@@ -205,12 +211,21 @@ def main() -> None:
 
     text = text.replace(
         "**Manuscript status:** evidence layer frozen at nine executable public modules; narrative retargeted to a source-aware validation **framework and reporting protocol** (not a field-wide prevalence study); full bibliography cleanup, public code archive and figure remapping for CACE remain before submission",
-        "**Manuscript status:** CACE submission draft **v1.1** — taxonomy-first Results; SAVP + algorithm sketch; **Table S8** topology master; cross-tier summary; compressed OpenAlex/manual block; Discussion de-duplicated; shortened physics and AI prose; Figure 2 unified (no internal v2 label); recent CACE (2021/2023) inventory lines; GitHub/Zenodo placeholders to replace at upload.",
+        STATUS_V12,
         1,
     )
     text = text.replace(
         "**Manuscript status:** CACE submission draft **v1** — taxonomy-first Results; SAVP + metric protocol; **Table S8** topology master; declarative figure captions; GitHub/Zenodo placeholders in Code availability to be replaced before upload.",
+        STATUS_V12,
+        1,
+    )
+    text = text.replace(
         "**Manuscript status:** CACE submission draft **v1.1** — taxonomy-first Results; SAVP + algorithm sketch; **Table S8** topology master; cross-tier summary; compressed OpenAlex/manual block; Discussion de-duplicated; shortened physics and AI prose; Figure 2 unified (no internal v2 label); recent CACE (2021/2023) inventory lines; GitHub/Zenodo placeholders to replace at upload.",
+        STATUS_V12,
+    )
+    text = text.replace(
+        "## Reference inventory (DOI-verified keys; v0)\n\nFull bibliographic strings for the three non-structural method precedents below are in `manuscript/references_verified_v0.md` (CACE-ready paste block).\n\n",
+        "## References\n\nFormatted reference strings for submission are maintained in `references_verified_v0.md`. The keyed list below preserves one-to-one traceability between in-text claims, public datasets and methodological precedents (DOI or repository identifier).\n\n",
         1,
     )
 
