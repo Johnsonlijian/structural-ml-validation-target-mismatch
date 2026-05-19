@@ -1,0 +1,15 @@
+label,task,n_samples,n_groups,samples_per_group,gap,abs_gap,severity,diagnostic_flags,interpretation_boundary
+Shear-wall failure classification (Mangalathu),classification,393,75,5.24,0.303986,0.303986,severe,classification_topology,descriptive_only_not_causal
+SFRC shear capacity (Lantsoght DB; Rahman-like task),regression,488,118,4.14,0.810546,0.810546,severe,low_samples_per_group,descriptive_only_not_causal
+UCI concrete strength (mix-family grouping),regression,1030,428,2.41,0.040452,0.040452,negligible,low_samples_per_group,descriptive_only_not_causal
+Corroded RC beam moment capacity (Zenodo),regression,804,54,14.89,0.180355,0.180355,moderate,no_obvious_topology_flag_from_headline,descriptive_only_not_causal
+Stub-CFST axial capacity (section-family holdout),regression (deployment extrapolation),1316,3,438.67,1.783621,1.783621,severe,few_groups;structural_family_holdout,descriptive_only_not_causal
+Mendeley - Exterior joint shear strength,regression,203,33,6.15,0.198112,0.198112,moderate,no_obvious_topology_flag_from_headline,descriptive_only_not_causal
+Mendeley - Exterior joint failure mode,classification,203,33,6.15,0.369458,0.369458,severe,classification_topology,descriptive_only_not_causal
+Mendeley - Cyclic joint shear strength,regression,98,18,5.44,1.391878,1.391878,severe,few_groups,descriptive_only_not_causal
+DesignSafe RC columns (circular + rectangular combined),regression,497,99,5.02,0.109874,0.109874,moderate,no_obvious_topology_flag_from_headline,descriptive_only_not_causal
+DesignSafe - PRJ-2430 wall peak lateral strength,regression,142,28,5.07,0.528888,0.528888,severe,no_obvious_topology_flag_from_headline,descriptive_only_not_causal
+DesignSafe - PRJ-2430 wall drift capacity,regression,142,28,5.07,0.385274,0.385274,severe,no_obvious_topology_flag_from_headline,descriptive_only_not_causal
+PRJ-3053 coupling beam - peak shear V_m_avg,regression,60,21,2.86,-0.068754,0.068754,contrast,few_groups;low_samples_per_group;singleton_sensitive_reference_groups,descriptive_only_not_causal
+PRJ-3053 coupling beam - normalized shear,regression,60,21,2.86,0.303106,0.303106,moderate,few_groups;low_samples_per_group;singleton_sensitive_reference_groups,descriptive_only_not_causal
+PRJ-3053 coupling beam - chord rotation capacity,regression,60,21,2.86,0.134961,0.134961,moderate,few_groups;low_samples_per_group;singleton_sensitive_reference_groups,descriptive_only_not_causal

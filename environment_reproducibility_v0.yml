@@ -1,0 +1,13 @@
+name: p1-structural-ml-validation
+channels:
+  - conda-forge
+dependencies:
+  - python>=3.10
+  - numpy
+  - pandas
+  - scikit-learn
+  - scipy
+  - matplotlib
+  - openpyxl
+  - xlrd
+  - requests

@@ -1,0 +1,29 @@
+{
+  "title": "Structural ML-Bench v1.0: Source-aware validation suite for structural performance prediction",
+  "upload_type": "software",
+  "description": "Reproducibility package for the manuscript 'Validation-target mismatch in structural machine learning: A reproducible source-aware evaluation framework for structural performance prediction'.",
+  "creators": [
+    {
+      "name": "REN, Lijian",
+      "affiliation": "School of Civil Engineering, Inner Mongolia University of Technology"
+    }
+  ],
+  "keywords": [
+    "structural machine learning",
+    "source-aware validation",
+    "grouped cross-validation",
+    "validation-target mismatch",
+    "reproducibility",
+    "Computer-Aided Civil and Infrastructure Engineering"
+  ],
+  "license": "MIT",
+  "version": "1.0.0",
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/Johnsonlijian/structural-ml-validation-target-mismatch",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    }
+  ],
+  "access_right": "open"
+}

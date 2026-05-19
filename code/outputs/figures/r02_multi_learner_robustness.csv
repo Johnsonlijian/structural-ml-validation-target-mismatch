@@ -1,0 +1,17 @@
+module,descriptor,metric,n_models,models,median_gap,min_gap,max_gap,positive_models,negative_models,near_zero_models,random_forest_gap,robustness_class
+10-1016-j-conbuildmat-2020-120950,10-1016-j-conbuildmat-2020-120950,pooled_r2,3,Gradient Boosting;Random Forest;Ridge,0.037659,0.002447,0.040452,0,0,3,0.040452,low_or_negligible_across_models
+10-1016-j-engstruct-2019-110331,10-1016-j-engstruct-2019-110331,accuracy_mean,3,Gradient Boosting;Logistic Regression;Random Forest,0.303986,0.225473,0.337881,3,0,0,0.303986,robust_large_positive_gap
+10-1016-j-engstruct-2020-111743,10-1016-j-engstruct-2020-111743,pooled_r2,3,Gradient Boosting;Random Forest;Ridge,0.652943,0.194432,0.810546,3,0,0,0.810546,robust_large_positive_gap
+10-1038-s41598-024-53352-1,10-1038-s41598-024-53352-1,pooled_r2,3,Gradient Boosting;Random Forest;Ridge,1.730820,0.891012,1.783621,3,0,0,1.783621,robust_large_positive_gap
+10-5281-zenodo-8062007,10-5281-zenodo-8062007,pooled_r2,3,Gradient Boosting;Random Forest;Ridge,0.180355,0.120566,0.197827,3,0,0,0.180355,robust_positive_gap
+designsafe_prj2430_wall,PRJ-2430 RC wall drift capacity|driftCap,pooled_r2,3,Gradient Boosting;Random Forest;Ridge,0.479017,0.385274,2.816438,3,0,0,0.385274,robust_large_positive_gap
+designsafe_prj2430_wall,PRJ-2430 RC wall peak lateral strength|Vmax,pooled_r2,3,Gradient Boosting;Random Forest;Ridge,0.552037,0.528888,2.229524,3,0,0,0.528888,robust_large_positive_gap
+designsafe_prj3053_coupling_beams,PRJ-3053 coupling beam chord-rotation capacity|CR_capacity_average,pooled_r2,3,Gradient Boosting;Random Forest;Ridge,0.148299,0.134961,0.251748,3,0,0,0.134961,robust_positive_gap
+designsafe_prj3053_coupling_beams,PRJ-3053 coupling beam normalized shear|v_m_normalized,pooled_r2,3,Gradient Boosting;Random Forest;Ridge,0.264862,0.050177,0.303106,3,0,0,0.303106,robust_positive_gap
+designsafe_prj3053_coupling_beams,PRJ-3053 coupling beam peak shear|V_m_avg_kips,pooled_r2,3,Gradient Boosting;Random Forest;Ridge,0.001664,-0.068754,0.006199,0,1,2,-0.068754,low_or_negligible_across_models
+designsafe_rc_columns,DesignSafe RC columns combined,pooled_r2,3,Gradient Boosting;Random Forest;Ridge,0.097886,0.062211,0.109874,3,0,0,0.109874,robust_positive_gap
+designsafe_rc_columns,DesignSafe circular RC columns,pooled_r2,3,Gradient Boosting;Random Forest;Ridge,0.208978,0.028432,0.303975,2,0,1,0.208978,learner_sensitive_magnitude
+designsafe_rc_columns,DesignSafe rectangular RC columns,pooled_r2,3,Gradient Boosting;Random Forest;Ridge,0.192753,0.066558,0.206719,3,0,0,0.206719,robust_positive_gap
+mendeley_beam_column_joint,Mendeley cyclic beam-column joint shear|joint_shear_strength_regression,pooled_r2,3,Gradient Boosting;Random Forest;Ridge,1.391878,1.012309,2.151948,3,0,0,1.391878,robust_large_positive_gap
+mendeley_beam_column_joint,Mendeley exterior RC beam-column joints|failure_mode_classification,accuracy,2,Gradient Boosting;Random Forest,0.359606,0.349754,0.369458,2,0,0,0.369458,robust_large_positive_gap
+mendeley_beam_column_joint,Mendeley exterior RC beam-column joints|shear_strength_regression,pooled_r2,3,Gradient Boosting;Random Forest;Ridge,0.170373,0.108633,0.198112,3,0,0,0.198112,robust_positive_gap

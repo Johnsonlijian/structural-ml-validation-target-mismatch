@@ -1,0 +1,19 @@
+module,task,feature,expected_direction,learner,n_counterfactuals,violation_rate,mean_violation_magnitude,p90_violation_magnitude
+UCI concrete,UCI concrete strength,cement,nondecreasing,Random Forest full-data diagnostic,500,0.154000,0.089852,0.294339
+UCI concrete,UCI concrete strength,water,nonincreasing,Random Forest full-data diagnostic,500,0.184000,0.095902,0.361465
+UCI concrete,UCI concrete strength,age,nondecreasing,Random Forest full-data diagnostic,500,0.006000,0.000363,0.000000
+SFRC shear,SFRC shear capacity,fc,nondecreasing,Random Forest full-data diagnostic,488,0.247951,5.679757,14.234653
+SFRC shear,SFRC shear capacity,rho_l,nondecreasing,Random Forest full-data diagnostic,488,0.344262,7.531832,26.460958
+SFRC shear,SFRC shear capacity,Vf,nondecreasing,Random Forest full-data diagnostic,488,0.213115,1.444220,1.140975
+SFRC shear,SFRC shear capacity,F,nondecreasing,Random Forest full-data diagnostic,488,0.323770,2.697138,3.660867
+Corroded RC beams,Corroded RC beam moment capacity,f'c (MPa) ,nondecreasing,Random Forest full-data diagnostic,500,0.196000,0.001732,0.002033
+Corroded RC beams,Corroded RC beam moment capacity,Width (mm),nondecreasing,Random Forest full-data diagnostic,500,0.076000,0.000174,0.000000
+Corroded RC beams,Corroded RC beam moment capacity,Depth (mm),nondecreasing,Random Forest full-data diagnostic,500,0.076000,0.000537,0.000000
+Corroded RC beams,Corroded RC beam moment capacity,mass_loss_tensile_bars,nonincreasing,Random Forest full-data diagnostic,500,0.156000,0.000600,0.001139
+PRJ-2430 RC walls,PRJ-2430 RC wall peak lateral strength|Vmax,mat_fc,nondecreasing,Random Forest full-data diagnostic,142,0.288732,0.727099,1.555472
+PRJ-2430 RC walls,PRJ-2430 RC wall peak lateral strength|Vmax,geom_Area,nondecreasing,Random Forest full-data diagnostic,142,0.049296,0.004649,0.000000
+PRJ-2430 RC walls,PRJ-2430 RC wall peak lateral strength|Vmax,reinf_rho_v,nondecreasing,Random Forest full-data diagnostic,142,0.077465,0.085589,0.000000
+PRJ-2430 RC walls,PRJ-2430 RC wall peak lateral strength|Vmax,reinf_rho_h,nondecreasing,Random Forest full-data diagnostic,142,0.063380,0.072291,0.000000
+Mendeley cyclic joint,Cyclic beam-column joint shear,fc (MPa),nondecreasing,Random Forest full-data diagnostic,98,0.520408,0.041486,0.114059
+Mendeley cyclic joint,Cyclic beam-column joint shear,fy (MPa),nondecreasing,Random Forest full-data diagnostic,98,0.448980,0.165039,0.668181
+Mendeley cyclic joint,Cyclic beam-column joint shear,beam Long. RFT ratio %,nondecreasing,Random Forest full-data diagnostic,98,0.387755,0.046476,0.117954

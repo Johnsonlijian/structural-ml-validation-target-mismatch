@@ -1,0 +1,26 @@
+{
+  "@context": "https://schema.org",
+  "@type": "SoftwareSourceCode",
+  "name": "structural-ml-validation-target-mismatch",
+  "version": "1.0.0",
+  "description": "Structural ML-Bench v1.0 \u2014 source-aware validation suite for structural performance prediction (CACE submission reproducibility package).",
+  "programmingLanguage": "Python",
+  "runtimePlatform": "Python 3.10+",
+  "codeRepository": "https://github.com/Johnsonlijian/structural-ml-validation-target-mismatch",
+  "identifier": "https://doi.org/10.5281/zenodo.20006918",
+  "license": "https://spdx.org/licenses/MIT.html",
+  "author": [
+    {
+      "@type": "Person",
+      "givenName": "Lijian",
+      "familyName": "REN"
+    }
+  ],
+  "keywords": [
+    "structural machine learning",
+    "source-aware validation",
+    "grouped cross-validation",
+    "reproducibility"
+  ],
+  "softwareRequirements": "See requirements.txt and environment_reproducibility_v0.yml"
+}
