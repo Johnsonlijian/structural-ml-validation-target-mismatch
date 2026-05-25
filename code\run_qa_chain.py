@@ -4,16 +4,12 @@ One-shot QA chain for a local terminal:
   1) Run Mangalathu (06) and Mendeley (24) reproduction scripts.
   2) Verify canonical ``results.csv`` files before exports.
   3) Run ``33_cace_nine_module_summary.py`` (Table S7 + Figure S5).
-  4) Run R02/R04 hardening diagnostics (Tables S11-S20).
-  5) Optionally run R05 retraining diagnostics (Tables S21-S26).
-  6) Optionally run R06 shift/proxy diagnostics (Tables S27-S28).
 
 Use the same interpreter you use for other scripts, e.g.::
 
     python code/run_qa_chain.py
 
-Optional flags: ``--skip-06``, ``--skip-24``, ``--skip-33``,
-``--skip-36``, ``--skip-37``, ``--run-r05``, ``--run-r06``, ``--only-sync-results``.
+Optional flags: ``--skip-06``, ``--skip-24``, ``--skip-33``, ``--only-sync-results``.
 """
 
 from __future__ import annotations
@@ -25,7 +21,7 @@ import sys
 from pathlib import Path
 
 
-CODE = Path(__file__).resolve().parent / "code"
+CODE = Path(__file__).resolve().parent
 REPRO = CODE / "outputs" / "reproductions"
 MANGA = REPRO / "10-1016-j-engstruct-2019-110331"
 MENDELEY = REPRO / "mendeley_beam_column_joint"
@@ -52,14 +48,10 @@ def run_path(label: str, script: Path) -> None:
 
 
 def main() -> None:
-    ap = argparse.ArgumentParser(description="Run 06 + 24 + normalize results.csv + run 33 + diagnostics.")
+    ap = argparse.ArgumentParser(description="Run 06 + 24 + normalize results.csv + run 33.")
     ap.add_argument("--skip-06", action="store_true", help="Skip Mangalathu reproduction.")
     ap.add_argument("--skip-24", action="store_true", help="Skip Mendeley reproduction.")
     ap.add_argument("--skip-33", action="store_true", help="Skip nine-module summary / Figure S5.")
-    ap.add_argument("--skip-36", action="store_true", help="Skip R02 hardening diagnostics.")
-    ap.add_argument("--skip-37", action="store_true", help="Skip R04 mechanism/decision diagnostics.")
-    ap.add_argument("--run-r05", action="store_true", help="Run slower R05 retraining/mitigation diagnostics.")
-    ap.add_argument("--run-r06", action="store_true", help="Run R06 shift/source-proxy diagnostics.")
     ap.add_argument(
         "--only-sync-results",
         action="store_true",
@@ -86,39 +78,6 @@ def main() -> None:
         if not p33.is_file():
             raise FileNotFoundError(p33)
         run_path("33", p33)
-
-    if not args.skip_36:
-        p36 = CODE / "36_r02_hardening_analysis.py"
-        if p36.is_file():
-            run_path("36", p36)
-        else:
-            print("[warn] skip 36: script not found", flush=True)
-
-    if not args.skip_37:
-        p37 = CODE / "37_r04_mechanism_decision_diagnostics.py"
-        if p37.is_file():
-            run_path("37", p37)
-        else:
-            print("[warn] skip 37: script not found", flush=True)
-
-    if args.run_r05:
-        p50 = CODE / "50_r05_retraining_mitigation_experiments.py"
-        p51 = CODE / "51_r05_make_figures.py"
-        if p50.is_file():
-            run_path("50", p50)
-        else:
-            print("[warn] skip 50: script not found", flush=True)
-        if p51.is_file():
-            run_path("51", p51)
-        else:
-            print("[warn] skip 51: script not found", flush=True)
-
-    if args.run_r06:
-        p60 = CODE / "60_r06_shift_proxy_diagnostics.py"
-        if p60.is_file():
-            run_path("60", p60)
-        else:
-            print("[warn] skip 60: script not found", flush=True)
 
     print("[OK] run_qa_chain complete", flush=True)
 

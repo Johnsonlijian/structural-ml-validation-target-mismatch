@@ -1,0 +1,16 @@
+module,task,baseline,baseline_grouped_r2,baseline_nmae,baseline_overprediction_rate,rf_grouped_r2,rf_grouped_nmae,rf_minus_baseline_r2
+UCI concrete,UCI concrete strength,grouped_training_mean,-0.001211,0.376026,0.527184,0.869234,0.121856,0.870445
+UCI concrete,UCI concrete strength,simplified_feature_ridge,0.604914,0.232734,0.469903,0.869234,0.121856,0.264320
+SFRC shear,SFRC shear capacity,grouped_training_mean,-0.006959,0.686627,0.649590,-0.187075,0.727142,-0.180116
+SFRC shear,SFRC shear capacity,simplified_feature_ridge,-0.035353,0.696707,0.612705,-0.187075,0.727142,-0.151722
+Stub-CFST,Stub-CFST section-family holdout,empirical_constant,-1.049821,0.149546,0.155015,-0.922310,0.156874,0.127511
+Stub-CFST,Stub-CFST section-family holdout,grouped_training_mean,-0.598265,0.137848,0.467325,-0.922310,0.156874,-0.324045
+Stub-CFST,Stub-CFST section-family holdout,simplified_feature_ridge,-0.884472,0.152709,0.419453,-0.922310,0.156874,-0.037838
+Corroded RC beams,Corroded RC beam moment capacity,grouped_training_mean,-0.197507,0.372511,0.529851,0.800394,0.133693,0.997902
+Corroded RC beams,Corroded RC beam moment capacity,simplified_feature_ridge,0.799050,0.139198,0.512438,0.800394,0.133693,0.001344
+PRJ-2430 RC walls,PRJ-2430 RC wall peak lateral strength|Vmax,grouped_training_mean,-0.158409,0.744399,0.591549,0.055118,0.635074,0.213527
+PRJ-2430 RC walls,PRJ-2430 RC wall peak lateral strength|Vmax,simplified_feature_ridge,0.096417,0.633352,0.654930,0.055118,0.635074,-0.041298
+PRJ-2430 RC walls,PRJ-2430 RC wall drift capacity|driftCap,grouped_training_mean,-0.035609,0.445476,0.514085,-0.088665,0.426374,-0.053056
+PRJ-2430 RC walls,PRJ-2430 RC wall drift capacity|driftCap,simplified_feature_ridge,-0.021013,0.428530,0.478873,-0.088665,0.426374,-0.067652
+Mendeley cyclic joint,Cyclic beam-column joint shear,grouped_training_mean,-0.090242,0.299667,0.581633,-0.751881,0.408674,-0.661639
+Mendeley cyclic joint,Cyclic beam-column joint shear,simplified_feature_ridge,-0.703323,0.399185,0.653061,-0.751881,0.408674,-0.048558

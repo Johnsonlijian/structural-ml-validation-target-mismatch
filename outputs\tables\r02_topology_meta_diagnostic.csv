@@ -1,0 +1,15 @@
+label,topology_family,task,n_samples,n_groups,samples_per_group,median_group_size,singleton_rate,top_group_share,gap,abs_gap,severity,topology_flags
+Shear-wall failure classification (Mangalathu),source/reference grouping,classification,393,75,5.24,3.00,0.347,0.224,0.303986,0.303986,severe,low_median_group_size;high_singleton_rate;concentrated_group;classification
+SFRC shear capacity (Lantsoght DB; Rahman-like task),source/reference grouping,regression,488,118,4.14,1.00,0.576,0.086,0.810546,0.810546,severe,low_median_group_size;high_singleton_rate
+UCI concrete strength (mix-family grouping),mixture-family constraint,regression,1030,428,2.41,1.00,0.575,0.019,0.040452,0.040452,negligible,low_median_group_size;high_singleton_rate
+Corroded RC beam moment capacity (Zenodo),experimental-programme grouping,regression,804,54,14.89,10.50,0.000,0.138,0.180355,0.180355,moderate,no_large_topology_flag
+Stub-CFST axial capacity (section-family holdout),structural-family extrapolation,regression (deployment extrapolation),1316,3,438.67,396.00,0.000,0.512,1.783621,1.783621,severe,few_groups;concentrated_group;structural_family_holdout
+Mendeley - Exterior joint shear strength,source/reference grouping,regression,203,33,6.15,5.00,0.121,0.099,0.198112,0.198112,moderate,no_large_topology_flag
+Mendeley - Exterior joint failure mode,source/reference grouping,classification,203,33,6.15,5.00,0.121,0.099,0.369458,0.369458,severe,classification
+Mendeley - Cyclic joint shear strength,other deployment grouping,regression,98,18,5.44,4.00,0.000,0.184,1.391878,1.391878,severe,few_groups
+DesignSafe RC columns (circular + rectangular combined),source/reference grouping,regression,497,99,5.02,3.00,0.167,0.026,0.109874,0.109874,moderate,low_median_group_size
+DesignSafe - PRJ-2430 wall peak lateral strength,source/reference grouping,regression,142,28,5.07,4.00,0.036,0.106,0.528888,0.528888,severe,no_large_topology_flag
+DesignSafe - PRJ-2430 wall drift capacity,source/reference grouping,regression,142,28,5.07,4.00,0.036,0.106,0.385274,0.385274,severe,no_large_topology_flag
+PRJ-3053 coupling beam - peak shear V_m_avg,source/reference grouping,regression,60,21,2.86,2.00,0.286,0.150,-0.068754,0.068754,contrast,few_groups;low_median_group_size;high_singleton_rate
+PRJ-3053 coupling beam - normalized shear,source/reference grouping,regression,60,21,2.86,2.00,0.286,0.150,0.303106,0.303106,moderate,few_groups;low_median_group_size;high_singleton_rate
+PRJ-3053 coupling beam - chord rotation capacity,source/reference grouping,regression,60,21,2.86,2.00,0.286,0.150,0.134961,0.134961,moderate,few_groups;low_median_group_size;high_singleton_rate

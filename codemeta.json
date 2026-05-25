@@ -3,7 +3,7 @@
   "@type": "SoftwareSourceCode",
   "name": "structural-ml-validation-target-mismatch",
   "version": "1.0.0",
-  "description": "Structural ML-Bench v1.0 \u2014 source-aware validation suite for structural performance prediction (CACE submission reproducibility package).",
+  "description": "Structural ML-Bench v1.0 \u2014 source-aware, deployment-matched validation suite for structural-engineering machine-learning benchmarks.",
   "programmingLanguage": "Python",
   "runtimePlatform": "Python 3.10+",
   "codeRepository": "https://github.com/Johnsonlijian/structural-ml-validation-target-mismatch",

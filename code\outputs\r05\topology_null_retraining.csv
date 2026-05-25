@@ -1,0 +1,9 @@
+module,task,metric_kind,learner,true_random_score,true_grouped_score,true_gap,pseudo_gap_median,pseudo_gap_95_low,pseudo_gap_95_high,true_gap_percentile,excess_over_topology_null,pseudo_reps,interpretation
+UCI concrete,UCI concrete strength,regression,Random Forest,0.906490,0.869234,0.037257,0.001541,-0.004672,0.009768,1.000,0.035716,30,true_gap_exceeds_topology_retraining_null
+SFRC shear,SFRC shear capacity,regression,Random Forest,0.569777,-0.187075,0.756852,-0.030395,-0.076549,0.055704,1.000,0.787247,30,true_gap_exceeds_topology_retraining_null
+Mangalathu shear-wall,Shear-wall failure classification,classification,Random Forest,0.829517,0.503817,0.325700,-0.003817,-0.021056,0.014122,1.000,0.329517,30,true_gap_exceeds_topology_retraining_null
+Stub-CFST,Stub-CFST section-family holdout,regression,Random Forest,0.808680,-0.922310,1.730990,0.029907,0.014192,0.043332,1.000,1.701084,30,true_gap_exceeds_topology_retraining_null
+Corroded RC beams,Corroded RC beam moment capacity,regression,Random Forest,0.974214,0.800394,0.173820,0.001711,-0.000219,0.004418,1.000,0.172109,30,true_gap_exceeds_topology_retraining_null
+PRJ-2430 RC walls,PRJ-2430 RC wall peak lateral strength|Vmax,regression,Random Forest,0.552870,0.055118,0.497751,-0.005383,-0.075765,0.124870,1.000,0.503135,30,true_gap_exceeds_topology_retraining_null
+PRJ-2430 RC walls,PRJ-2430 RC wall drift capacity|driftCap,regression,Random Forest,0.290063,-0.088665,0.378728,0.017734,-0.044253,0.070312,1.000,0.360994,30,true_gap_exceeds_topology_retraining_null
+Mendeley cyclic joint,Cyclic beam-column joint shear,regression,Random Forest,0.631588,-0.751881,1.383469,0.045236,-0.019083,0.325891,1.000,1.338233,30,true_gap_exceeds_topology_retraining_null

@@ -1,0 +1,9 @@
+case_id,short_label,metric_name,random_metric,random_lo,random_hi,group_metric,group_lo,group_hi,gap,gap_lo,gap_hi,group_proxy,n_samples,n_groups,severity,uncertainty_method,uncertainty_note
+1,"Shear wall
+failure mode",Accuracy,0.8270042194092826,0.8105173151638287,0.8434911236547364,0.5230177717019823,0.39154466030415,0.6544908830998145,0.3039864477073003,0.17148362874775677,0.43648926666684384,Author/source,393,75,large,fold_summary_normal_approx_unpaired,approximate unpaired fold-summary CI; folds are not independent experiments
+2,"SFRC shear
+capacity",Fold-mean R^2,0.6415719318588532,0.5555712779639537,0.7275725857537527,-1.0472480609722754,-2.064061113742399,-0.030435008202151836,1.6888199928311285,0.6683765124001697,2.7092634732620873,Source reference,488,118,large,fold_summary_normal_approx_unpaired,approximate unpaired fold-summary CI; reflects fold instability
+3,"Concrete
+strength",Pooled R^2,0.9086558697785867,0.891030967392247,0.9225812139370727,0.868203658349163,0.8452412008728432,0.8874293999315908,0.04045221142942368,0.025413250335772648,0.056018993055054866,Mix proportions,1030,428,small,paired_group_bootstrap_prediction_level,paired gap in pooled R^2
+4,"Corroded beam
+moment",Pooled R^2,0.9740192973066634,0.9592418299497337,0.9821179973197103,0.79366411800733,0.6317841881333357,0.8777090210029219,0.1803551792993333,0.09740206788871257,0.3322731425447428,Experimental program,804,54,moderate,paired_group_bootstrap_prediction_level,paired gap in pooled R^2

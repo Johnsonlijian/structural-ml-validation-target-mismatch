@@ -1,0 +1,3 @@
+metric,value,source,notes
+openalex_deduplicated_records,3919,manuscript Methods / literature pipeline,Full row-level OpenAlex exports are not redistributed here; regenerate via code/01_literature_search.py and code/02_screen.py with local API access.
+strict_structural_ml_candidate_pool,332,manuscript Methods,Triage labels: completed / high / medium / low priority.

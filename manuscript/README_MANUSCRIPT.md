@@ -1,1 +1,0 @@
-Submission-facing markdown copies. After Zenodo mints a DOI, replace placeholders in `manuscript/CODE_AVAILABILITY_AFTER_ZENODO_PARAGRAPH.txt` and paste into the manuscript **Code availability** section.

@@ -1,0 +1,58 @@
+module,descriptor,model,metric_type,metric,n_pairs,n_bootstrap_groups,random_score,grouped_score,gap,gap_ci_low,gap_ci_high,ci_excludes_zero,bootstrap_reps_used
+10-1016-j-conbuildmat-2020-120950,10-1016-j-conbuildmat-2020-120950,Ridge,regression,pooled_r2,1030,428,0.606318,0.603871,0.002447,-0.001927,0.006447,False,1000
+10-1016-j-conbuildmat-2020-120950,10-1016-j-conbuildmat-2020-120950,Random Forest,regression,pooled_r2,1030,428,0.908656,0.868204,0.040452,0.026063,0.054671,True,1000
+10-1016-j-conbuildmat-2020-120950,10-1016-j-conbuildmat-2020-120950,Gradient Boosting,regression,pooled_r2,1030,428,0.907397,0.869738,0.037659,0.018637,0.062129,True,1000
+10-1016-j-engstruct-2019-110331,10-1016-j-engstruct-2019-110331,Logistic Regression,classification,accuracy,393,75,0.620865,0.389313,0.231552,0.063152,0.354318,True,1000
+10-1016-j-engstruct-2019-110331,10-1016-j-engstruct-2019-110331,Logistic Regression,classification,balanced_accuracy,393,75,0.584166,0.395489,0.188677,0.039249,0.266251,True,1000
+10-1016-j-engstruct-2019-110331,10-1016-j-engstruct-2019-110331,Logistic Regression,classification,macro_f1,393,75,0.545587,0.351273,0.194314,0.062746,0.260908,True,1000
+10-1016-j-engstruct-2019-110331,10-1016-j-engstruct-2019-110331,Random Forest,classification,accuracy,393,75,0.826972,0.516539,0.310433,0.160906,0.424166,True,1000
+10-1016-j-engstruct-2019-110331,10-1016-j-engstruct-2019-110331,Random Forest,classification,balanced_accuracy,393,75,0.730322,0.436884,0.293438,0.192851,0.364081,True,1000
+10-1016-j-engstruct-2019-110331,10-1016-j-engstruct-2019-110331,Random Forest,classification,macro_f1,393,75,0.752972,0.432123,0.320848,0.195336,0.397725,True,1000
+10-1016-j-engstruct-2019-110331,10-1016-j-engstruct-2019-110331,Gradient Boosting,classification,accuracy,393,75,0.816794,0.468193,0.348601,0.131253,0.505531,True,1000
+10-1016-j-engstruct-2019-110331,10-1016-j-engstruct-2019-110331,Gradient Boosting,classification,balanced_accuracy,393,75,0.723338,0.400665,0.322673,0.145755,0.435834,True,1000
+10-1016-j-engstruct-2019-110331,10-1016-j-engstruct-2019-110331,Gradient Boosting,classification,macro_f1,393,75,0.745811,0.381547,0.364265,0.145661,0.465608,True,1000
+10-1016-j-engstruct-2020-111743,10-1016-j-engstruct-2020-111743,Ridge,regression,pooled_r2,488,118,0.233325,0.038893,0.194432,0.080385,0.380564,True,1000
+10-1016-j-engstruct-2020-111743,10-1016-j-engstruct-2020-111743,Random Forest,regression,pooled_r2,488,118,0.638294,-0.172252,0.810546,0.505549,1.523302,True,1000
+10-1016-j-engstruct-2020-111743,10-1016-j-engstruct-2020-111743,Gradient Boosting,regression,pooled_r2,488,118,0.627589,-0.025354,0.652943,0.458909,0.935545,True,1000
+10-1038-s41598-024-53352-1,10-1038-s41598-024-53352-1,Ridge,regression,pooled_r2,1316,3,0.568275,-0.322737,0.891012,0.090686,6.117089,True,1000
+10-1038-s41598-024-53352-1,10-1038-s41598-024-53352-1,Random Forest,regression,pooled_r2,1316,3,0.827992,-0.955630,1.783621,0.733426,6.355564,True,1000
+10-1038-s41598-024-53352-1,10-1038-s41598-024-53352-1,Gradient Boosting,regression,pooled_r2,1316,3,0.771005,-0.959814,1.730820,0.670061,6.866009,True,1000
+10-5281-zenodo-8062007,10-5281-zenodo-8062007,Ridge,regression,pooled_r2,804,54,0.953285,0.755458,0.197827,0.126464,0.338714,True,1000
+10-5281-zenodo-8062007,10-5281-zenodo-8062007,Random Forest,regression,pooled_r2,804,54,0.974019,0.793664,0.180355,0.094775,0.351798,True,1000
+10-5281-zenodo-8062007,10-5281-zenodo-8062007,Gradient Boosting,regression,pooled_r2,804,54,0.973598,0.853032,0.120566,0.061721,0.220405,True,1000
+designsafe_prj2430_wall,PRJ-2430 RC wall peak lateral strength|Vmax,Ridge,regression,pooled_r2,142,28,0.356277,-1.873248,2.229524,1.230997,4.411208,True,1000
+designsafe_prj2430_wall,PRJ-2430 RC wall peak lateral strength|Vmax,Random Forest,regression,pooled_r2,142,28,0.598377,0.069488,0.528888,0.406155,0.838826,True,1000
+designsafe_prj2430_wall,PRJ-2430 RC wall peak lateral strength|Vmax,Gradient Boosting,regression,pooled_r2,142,28,0.623896,0.071859,0.552037,0.326529,0.887755,True,1000
+designsafe_prj2430_wall,PRJ-2430 RC wall drift capacity|driftCap,Ridge,regression,pooled_r2,142,28,-0.020336,-2.836774,2.816438,1.320984,5.589285,True,1000
+designsafe_prj2430_wall,PRJ-2430 RC wall drift capacity|driftCap,Random Forest,regression,pooled_r2,142,28,0.300198,-0.085076,0.385274,0.165350,0.880122,True,1000
+designsafe_prj2430_wall,PRJ-2430 RC wall drift capacity|driftCap,Gradient Boosting,regression,pooled_r2,142,28,0.140161,-0.338856,0.479017,0.153549,1.063586,True,1000
+designsafe_prj3053_coupling_beams,PRJ-3053 coupling beam peak shear|V_m_avg_kips,Ridge,regression,pooled_r2,60,21,0.575195,0.573531,0.001664,-0.075749,0.122052,False,1000
+designsafe_prj3053_coupling_beams,PRJ-3053 coupling beam peak shear|V_m_avg_kips,Random Forest,regression,pooled_r2,60,21,0.594087,0.662841,-0.068754,-0.194297,0.088032,False,1000
+designsafe_prj3053_coupling_beams,PRJ-3053 coupling beam peak shear|V_m_avg_kips,Gradient Boosting,regression,pooled_r2,60,21,0.595671,0.589473,0.006199,-0.198093,0.312975,False,1000
+designsafe_prj3053_coupling_beams,PRJ-3053 coupling beam normalized shear|v_m_normalized,Ridge,regression,pooled_r2,60,21,0.715560,0.665383,0.050177,-0.088687,0.235862,False,1000
+designsafe_prj3053_coupling_beams,PRJ-3053 coupling beam normalized shear|v_m_normalized,Random Forest,regression,pooled_r2,60,21,0.552188,0.249082,0.303106,-0.023023,0.868228,False,1000
+designsafe_prj3053_coupling_beams,PRJ-3053 coupling beam normalized shear|v_m_normalized,Gradient Boosting,regression,pooled_r2,60,21,0.537549,0.272687,0.264862,-0.140225,0.945938,False,1000
+designsafe_prj3053_coupling_beams,PRJ-3053 coupling beam chord-rotation capacity|CR_capacity_average,Ridge,regression,pooled_r2,60,21,0.611732,0.359984,0.251748,0.056686,0.587756,True,1000
+designsafe_prj3053_coupling_beams,PRJ-3053 coupling beam chord-rotation capacity|CR_capacity_average,Random Forest,regression,pooled_r2,60,21,0.726550,0.591589,0.134961,-0.038764,0.284829,False,1000
+designsafe_prj3053_coupling_beams,PRJ-3053 coupling beam chord-rotation capacity|CR_capacity_average,Gradient Boosting,regression,pooled_r2,60,21,0.704870,0.556571,0.148299,-0.182057,0.409015,False,1000
+designsafe_rc_columns,DesignSafe circular RC columns,Ridge,regression,pooled_r2,172,43,0.727355,0.698923,0.028432,-0.055211,0.308564,False,1000
+designsafe_rc_columns,DesignSafe circular RC columns,Random Forest,regression,pooled_r2,172,43,0.593040,0.384062,0.208978,0.078876,0.287041,True,1000
+designsafe_rc_columns,DesignSafe circular RC columns,Gradient Boosting,regression,pooled_r2,172,43,0.655978,0.352003,0.303975,0.150946,0.378069,True,1000
+designsafe_rc_columns,DesignSafe rectangular RC columns,Ridge,regression,pooled_r2,325,62,0.882584,0.816025,0.066558,0.036792,0.106196,True,1000
+designsafe_rc_columns,DesignSafe rectangular RC columns,Random Forest,regression,pooled_r2,325,62,0.884859,0.678140,0.206719,0.131763,0.345499,True,1000
+designsafe_rc_columns,DesignSafe rectangular RC columns,Gradient Boosting,regression,pooled_r2,325,62,0.945239,0.752486,0.192753,0.105744,0.295513,True,1000
+designsafe_rc_columns,DesignSafe RC columns combined,Ridge,regression,pooled_r2,497,99,0.783092,0.720881,0.062211,0.035214,0.127276,True,1000
+designsafe_rc_columns,DesignSafe RC columns combined,Random Forest,regression,pooled_r2,497,99,0.600110,0.490236,0.109874,0.067480,0.191942,True,1000
+designsafe_rc_columns,DesignSafe RC columns combined,Gradient Boosting,regression,pooled_r2,497,99,0.607032,0.509145,0.097886,0.042640,0.218109,True,1000
+mendeley_beam_column_joint,Mendeley exterior RC beam-column joints|shear_strength_regression,Ridge,regression,pooled_r2,203,33,0.867096,0.758463,0.108633,0.053058,0.254006,True,1000
+mendeley_beam_column_joint,Mendeley exterior RC beam-column joints|shear_strength_regression,Random Forest,regression,pooled_r2,203,33,0.951819,0.753707,0.198112,0.125761,0.306447,True,1000
+mendeley_beam_column_joint,Mendeley exterior RC beam-column joints|shear_strength_regression,Gradient Boosting,regression,pooled_r2,203,33,0.957798,0.787426,0.170373,0.119887,0.266659,True,1000
+mendeley_beam_column_joint,Mendeley exterior RC beam-column joints|failure_mode_classification,Random Forest,classification,accuracy,203,33,0.635468,0.266010,0.369458,0.206665,0.532597,True,1000
+mendeley_beam_column_joint,Mendeley exterior RC beam-column joints|failure_mode_classification,Random Forest,classification,balanced_accuracy,203,33,0.474646,0.210912,0.263734,0.138468,0.446134,True,1000
+mendeley_beam_column_joint,Mendeley exterior RC beam-column joints|failure_mode_classification,Random Forest,classification,macro_f1,203,33,0.478488,0.203942,0.274547,0.149458,0.486996,True,1000
+mendeley_beam_column_joint,Mendeley exterior RC beam-column joints|failure_mode_classification,Gradient Boosting,classification,accuracy,203,33,0.610837,0.261084,0.349754,0.206409,0.504912,True,1000
+mendeley_beam_column_joint,Mendeley exterior RC beam-column joints|failure_mode_classification,Gradient Boosting,classification,balanced_accuracy,203,33,0.456615,0.197569,0.259046,0.162318,0.454174,True,1000
+mendeley_beam_column_joint,Mendeley exterior RC beam-column joints|failure_mode_classification,Gradient Boosting,classification,macro_f1,203,33,0.459623,0.196116,0.263507,0.167868,0.471271,True,1000
+mendeley_beam_column_joint,Mendeley cyclic beam-column joint shear|joint_shear_strength_regression,Ridge,regression,pooled_r2,98,18,0.514706,-0.497603,1.012309,0.625050,2.260669,True,1000
+mendeley_beam_column_joint,Mendeley cyclic beam-column joint shear|joint_shear_strength_regression,Random Forest,regression,pooled_r2,98,18,0.574912,-0.816965,1.391878,0.910849,2.937095,True,1000
+mendeley_beam_column_joint,Mendeley cyclic beam-column joint shear|joint_shear_strength_regression,Gradient Boosting,regression,pooled_r2,98,18,0.795047,-1.356902,2.151948,0.980599,5.360789,True,1000

@@ -1,1 +1,0 @@
-Union CSV `classification_metrics_random_grouped.csv` can be built from Mangalathu + Mendeley failure-mode `results.csv` columns. Until exporter exists, see `cace_ninemodule_rf_summary.csv` for headline classification gaps.

@@ -1,0 +1,32 @@
+# Local environments
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Credentials and local config
+.env
+*.key
+*.pem
+*.token
+
+# Private manuscript/submission material
+manuscript/
+rounds/
+logs/
+cover_letter*
+reviewer*
+response_to_reviewers*
+*.docx
+*.xlsx
+
+# Raw or bulky third-party data
+data/
+raw_data/
+downloads/
+*.zip
+*.7z
+*.rar
+
+# NAS conflict copies
+*_DESKTOP-*_Conflict*

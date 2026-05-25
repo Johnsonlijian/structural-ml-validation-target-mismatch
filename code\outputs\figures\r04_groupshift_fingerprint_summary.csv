@@ -1,0 +1,48 @@
+module,descriptor,model,metric_type,n_groups,groups_with_feature_shift,median_grouped_loss,median_paired_loss_gap,spearman_feature_shift_vs_grouped_loss,spearman_target_shift_vs_grouped_loss,spearman_group_size_vs_grouped_loss,mechanism_fingerprint
+10-1016-j-conbuildmat-2020-120950,10-1016-j-conbuildmat-2020-120950,Gradient Boosting,regression,428,0,0.092823,0.001395,,0.152,0.116,target_or_class_shift_associated
+10-1016-j-conbuildmat-2020-120950,10-1016-j-conbuildmat-2020-120950,Random Forest,regression,428,0,0.076504,0.001820,,0.127,0.269,group_size_associated
+10-1016-j-conbuildmat-2020-120950,10-1016-j-conbuildmat-2020-120950,Ridge,regression,428,0,0.189036,-0.000048,,0.274,0.268,target_or_class_shift_associated
+10-1016-j-engstruct-2019-110331,10-1016-j-engstruct-2019-110331,Gradient Boosting,classification,75,0,0.181818,0.000000,,0.037,0.403,group_size_associated
+10-1016-j-engstruct-2019-110331,10-1016-j-engstruct-2019-110331,Logistic Regression,classification,75,0,0.333333,0.000000,,-0.112,0.317,group_size_associated
+10-1016-j-engstruct-2019-110331,10-1016-j-engstruct-2019-110331,Random Forest,classification,75,0,0.250000,0.000000,,0.055,0.332,group_size_associated
+10-1016-j-engstruct-2020-111743,10-1016-j-engstruct-2020-111743,Gradient Boosting,regression,118,0,0.411087,0.069165,,0.359,0.201,target_or_class_shift_associated
+10-1016-j-engstruct-2020-111743,10-1016-j-engstruct-2020-111743,Random Forest,regression,118,0,0.332535,0.042114,,0.298,0.279,target_or_class_shift_associated
+10-1016-j-engstruct-2020-111743,10-1016-j-engstruct-2020-111743,Ridge,regression,118,0,0.452659,0.013906,,0.404,0.116,target_or_class_shift_associated
+10-1038-s41598-024-53352-1,10-1038-s41598-024-53352-1,Gradient Boosting,regression,3,3,0.170220,0.119585,-1.000,1.000,0.500,feature_shift_associated
+10-1038-s41598-024-53352-1,10-1038-s41598-024-53352-1,Random Forest,regression,3,3,0.168709,0.132869,-0.500,0.500,1.000,group_size_associated
+10-1038-s41598-024-53352-1,10-1038-s41598-024-53352-1,Ridge,regression,3,3,0.110658,0.044071,-1.000,1.000,0.500,feature_shift_associated
+10-5281-zenodo-8062007,10-5281-zenodo-8062007,Gradient Boosting,regression,54,54,0.095192,0.038138,-0.157,-0.167,0.294,group_size_associated
+10-5281-zenodo-8062007,10-5281-zenodo-8062007,Random Forest,regression,54,54,0.096270,0.052469,-0.019,-0.052,0.305,group_size_associated
+10-5281-zenodo-8062007,10-5281-zenodo-8062007,Ridge,regression,54,54,0.136167,0.062975,0.041,-0.003,0.254,group_size_associated
+designsafe_prj2430_wall,PRJ-2430 RC wall drift capacity|driftCap,Gradient Boosting,regression,28,0,0.411886,0.088614,,0.359,-0.065,target_or_class_shift_associated
+designsafe_prj2430_wall,PRJ-2430 RC wall drift capacity|driftCap,Random Forest,regression,28,0,0.396585,0.065319,,0.445,-0.186,target_or_class_shift_associated
+designsafe_prj2430_wall,PRJ-2430 RC wall drift capacity|driftCap,Ridge,regression,28,0,0.715801,0.250034,,0.584,-0.022,target_or_class_shift_associated
+designsafe_prj2430_wall,PRJ-2430 RC wall peak lateral strength|Vmax,Gradient Boosting,regression,28,0,0.578467,0.211058,,0.538,0.011,target_or_class_shift_associated
+designsafe_prj2430_wall,PRJ-2430 RC wall peak lateral strength|Vmax,Random Forest,regression,28,0,0.486309,0.230785,,0.499,0.219,target_or_class_shift_associated
+designsafe_prj2430_wall,PRJ-2430 RC wall peak lateral strength|Vmax,Ridge,regression,28,0,0.835134,0.336875,,0.395,0.086,target_or_class_shift_associated
+designsafe_prj3053_coupling_beams,PRJ-3053 coupling beam chord-rotation capacity|CR_capacity_average,Gradient Boosting,regression,21,0,0.215249,0.036381,,0.316,-0.280,target_or_class_shift_associated
+designsafe_prj3053_coupling_beams,PRJ-3053 coupling beam chord-rotation capacity|CR_capacity_average,Random Forest,regression,21,0,0.172600,0.018763,,0.549,-0.341,target_or_class_shift_associated
+designsafe_prj3053_coupling_beams,PRJ-3053 coupling beam chord-rotation capacity|CR_capacity_average,Ridge,regression,21,0,0.232622,-0.000388,,-0.151,-0.113,target_or_class_shift_associated
+designsafe_prj3053_coupling_beams,PRJ-3053 coupling beam normalized shear|v_m_normalized,Gradient Boosting,regression,21,0,0.131392,-0.015124,,0.312,0.498,group_size_associated
+designsafe_prj3053_coupling_beams,PRJ-3053 coupling beam normalized shear|v_m_normalized,Random Forest,regression,21,0,0.169084,0.015532,,0.517,0.448,target_or_class_shift_associated
+designsafe_prj3053_coupling_beams,PRJ-3053 coupling beam normalized shear|v_m_normalized,Ridge,regression,21,0,0.166114,0.016310,,0.397,0.112,target_or_class_shift_associated
+designsafe_prj3053_coupling_beams,PRJ-3053 coupling beam peak shear|V_m_avg_kips,Gradient Boosting,regression,21,0,0.172155,0.039436,,-0.125,0.486,group_size_associated
+designsafe_prj3053_coupling_beams,PRJ-3053 coupling beam peak shear|V_m_avg_kips,Random Forest,regression,21,0,0.216246,-0.014686,,0.029,0.254,group_size_associated
+designsafe_prj3053_coupling_beams,PRJ-3053 coupling beam peak shear|V_m_avg_kips,Ridge,regression,21,0,0.176825,-0.007632,,0.166,-0.271,group_size_associated
+designsafe_rc_columns,DesignSafe RC columns combined,Gradient Boosting,regression,99,0,0.184480,0.037124,,0.356,-0.034,target_or_class_shift_associated
+designsafe_rc_columns,DesignSafe RC columns combined,Random Forest,regression,99,0,0.208759,0.040436,,0.363,-0.093,target_or_class_shift_associated
+designsafe_rc_columns,DesignSafe RC columns combined,Ridge,regression,99,0,0.243049,0.028058,,0.210,-0.019,target_or_class_shift_associated
+designsafe_rc_columns,DesignSafe circular RC columns,Gradient Boosting,regression,43,0,0.230415,0.061985,,0.504,0.111,target_or_class_shift_associated
+designsafe_rc_columns,DesignSafe circular RC columns,Random Forest,regression,43,0,0.288352,0.057210,,0.470,-0.010,target_or_class_shift_associated
+designsafe_rc_columns,DesignSafe circular RC columns,Ridge,regression,43,0,0.315003,0.010970,,0.135,0.072,target_or_class_shift_associated
+designsafe_rc_columns,DesignSafe rectangular RC columns,Gradient Boosting,regression,62,0,0.182368,0.053967,,0.279,0.050,target_or_class_shift_associated
+designsafe_rc_columns,DesignSafe rectangular RC columns,Random Forest,regression,62,0,0.223764,0.090311,,0.428,-0.153,target_or_class_shift_associated
+designsafe_rc_columns,DesignSafe rectangular RC columns,Ridge,regression,62,0,0.174252,0.021281,,0.207,0.012,target_or_class_shift_associated
+mendeley_beam_column_joint,Mendeley cyclic beam-column joint shear|joint_shear_strength_regression,Gradient Boosting,regression,18,0,0.372586,0.239752,,0.278,-0.068,target_or_class_shift_associated
+mendeley_beam_column_joint,Mendeley cyclic beam-column joint shear|joint_shear_strength_regression,Random Forest,regression,18,0,0.363941,0.243817,,0.426,-0.175,target_or_class_shift_associated
+mendeley_beam_column_joint,Mendeley cyclic beam-column joint shear|joint_shear_strength_regression,Ridge,regression,18,0,0.347238,0.139045,,0.449,-0.250,target_or_class_shift_associated
+mendeley_beam_column_joint,Mendeley exterior RC beam-column joints|failure_mode_classification,Gradient Boosting,classification,33,0,0.800000,0.153846,,0.307,-0.033,target_or_class_shift_associated
+mendeley_beam_column_joint,Mendeley exterior RC beam-column joints|failure_mode_classification,Random Forest,classification,33,0,0.800000,0.384615,,0.347,-0.023,target_or_class_shift_associated
+mendeley_beam_column_joint,Mendeley exterior RC beam-column joints|shear_strength_regression,Gradient Boosting,regression,33,0,0.280500,0.091947,,0.159,-0.412,group_size_associated
+mendeley_beam_column_joint,Mendeley exterior RC beam-column joints|shear_strength_regression,Random Forest,regression,33,0,0.232246,0.135180,,0.037,-0.198,group_size_associated
+mendeley_beam_column_joint,Mendeley exterior RC beam-column joints|shear_strength_regression,Ridge,regression,33,0,0.314751,0.078205,,0.093,-0.152,group_size_associated
