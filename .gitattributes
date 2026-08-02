@@ -1,8 +1,2 @@
-* text=auto eol=lf
-*.py text eol=lf
-*.ps1 text eol=crlf
-*.csv text eol=lf
-*.json text eol=lf
-*.md text eol=lf
-*.cff text eol=lf
-
+# Preserve the exact receipt-bound bytes. Do not apply line-ending filters.
+* -text
