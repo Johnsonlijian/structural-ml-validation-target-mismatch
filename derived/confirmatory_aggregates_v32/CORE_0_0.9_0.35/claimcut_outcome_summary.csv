@@ -1,0 +1,2 @@
+scenario,attempted,success,refusal,failure,not_applicable,success_rate,refusal_rate,failure_rate
+CORE_0_0.9_0.35,100,100,0,0,0,1.0,0.0,0.0

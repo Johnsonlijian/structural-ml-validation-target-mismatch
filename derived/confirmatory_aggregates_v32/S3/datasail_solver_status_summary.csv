@@ -1,0 +1,2 @@
+scenario,datasail_outcome,datasail_solver_status,n_replicates,n_assignment_returned,n_time_limit_likely
+S3,success,optimal_inaccurate,100,100,100

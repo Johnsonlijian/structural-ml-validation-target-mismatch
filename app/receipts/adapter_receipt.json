@@ -1,0 +1,102 @@
+{
+  "adapter_freeze_sha256": "42ac1a0bed31307884ce19bc38eb629cff198cd67c06b6ea1347af1f3d919515",
+  "evaluation_plan_sha256": "9dabb8178a8f1d96fe6278adb8ce4e38d9e1e0e8dc7699c12a4a001b00d09a76",
+  "private_table_receipts": [
+    {
+      "parent": "nwc242",
+      "rows": 242,
+      "sha256": "0536b23c575c38cd576d7aca8b2e84e86ddf142bea08dd76015764b921b9085e"
+    },
+    {
+      "parent": "deck464",
+      "rows": 413,
+      "sha256": "7dfc3c8b5cbf5a26db2ece4e34f3208e2e1fa3a51ffc70b3bd0030c4e819b3ff"
+    },
+    {
+      "parent": "lwc90",
+      "rows": 60,
+      "sha256": "5ce01b736b1e3c58712edbb8b9018d7ad0ec10b3ac0dc8821856a1050b6bba9b"
+    },
+    {
+      "parent": "rac27",
+      "rows": 27,
+      "sha256": "2db515e97ea5d6a8d081f3b025bb5d56e57f3d8f3d709b4c11ac717149249d64"
+    }
+  ],
+  "row_tables_included": false,
+  "schema_version": "headed-stud-public-adapter-receipt-v1",
+  "summaries": [
+    {
+      "n_missing_target_or_feature": 0,
+      "n_nonpositive_target": 0,
+      "n_raw": 242,
+      "n_retained": 242,
+      "n_retained_exact_source_groups": 20,
+      "n_source_quarantine": 0,
+      "n_unresolved_source_rows": 0,
+      "parent": "nwc242",
+      "raw_target_range_kN": [
+        61.83028024,
+        318.9
+      ],
+      "retained_target_range_kN": [
+        61.83028024,
+        318.9
+      ]
+    },
+    {
+      "n_missing_target_or_feature": 26,
+      "n_nonpositive_target": 0,
+      "n_raw": 464,
+      "n_retained": 413,
+      "n_retained_exact_source_groups": 21,
+      "n_source_quarantine": 25,
+      "n_unresolved_source_rows": 12,
+      "parent": "deck464",
+      "raw_target_range_kN": [
+        35.0,
+        130.0
+      ],
+      "retained_target_range_kN": [
+        35.46,
+        130.0
+      ]
+    },
+    {
+      "n_missing_target_or_feature": 0,
+      "n_nonpositive_target": 0,
+      "n_raw": 90,
+      "n_retained": 60,
+      "n_retained_exact_source_groups": 5,
+      "n_source_quarantine": 30,
+      "n_unresolved_source_rows": 0,
+      "parent": "lwc90",
+      "raw_target_range_kN": [
+        40.92363872,
+        123.66056048
+      ],
+      "retained_target_range_kN": [
+        40.92363872,
+        123.66056048
+      ]
+    },
+    {
+      "n_missing_target_or_feature": 0,
+      "n_nonpositive_target": 0,
+      "n_raw": 27,
+      "n_retained": 27,
+      "n_retained_exact_source_groups": 1,
+      "n_source_quarantine": 0,
+      "n_unresolved_source_rows": 0,
+      "parent": "rac27",
+      "raw_target_range_kN": [
+        38.2,
+        121.2
+      ],
+      "retained_target_range_kN": [
+        38.2,
+        121.2
+      ]
+    }
+  ]
+}

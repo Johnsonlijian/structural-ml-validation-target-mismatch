@@ -1,0 +1,54 @@
+{
+  "parents": [
+    {
+      "archive_bytes": 50788,
+      "archive_sha256": "9a62db392a6b86a09c0f0a7a719508049bc5ce11a2aca09ad9dd8faa5bdc2957",
+      "doi": "10.17632/rfrw3z4hs7.2",
+      "download_url": "https://data.mendeley.com/public-api/zip/rfrw3z4hs7/download/2",
+      "id": "nwc_solid_242",
+      "licence": "CC BY 4.0",
+      "object": "headed stud connectors embedded in normal-weight solid concrete slabs",
+      "official_page": "https://data.mendeley.com/datasets/rfrw3z4hs7/2",
+      "redistribution_policy": "download from source; archive and extracted rows excluded from this projection",
+      "role": "development_parent"
+    },
+    {
+      "archive_bytes": 1231021,
+      "archive_sha256": "7f428f8a696e986b940bbd89594276e0c6d148d6ca3ec602f64298d80b0f2787",
+      "doi": "10.17632/nfmhnzbfy9.2",
+      "download_url": "https://data.mendeley.com/public-api/zip/nfmhnzbfy9/download/2",
+      "id": "profiled_deck_464",
+      "licence": "CC BY 4.0",
+      "object": "headed studs welded in ribs of profiled steel decking transverse to beams",
+      "official_page": "https://data.mendeley.com/datasets/nfmhnzbfy9/2",
+      "redistribution_policy": "download from source; archive and extracted rows excluded from this projection",
+      "role": "primary_external_parent"
+    },
+    {
+      "archive_bytes": 28404,
+      "archive_sha256": "046ee5410a98c512aca413467a3a2da995bd8a25cec5f3d256a5c4fd0252091b",
+      "doi": "10.17632/xtg3w85hdr.1",
+      "download_url": "https://data.mendeley.com/public-api/zip/xtg3w85hdr/download/1",
+      "id": "lwc_solid_90",
+      "licence": "CC BY 4.0",
+      "object": "headed stud connectors embedded in lightweight-concrete solid slabs",
+      "official_page": "https://data.mendeley.com/datasets/xtg3w85hdr/1",
+      "redistribution_policy": "download from source; archive and extracted rows excluded from this projection",
+      "role": "near_domain_control"
+    },
+    {
+      "archive_bytes": 557930,
+      "archive_sha256": "98a7581b4c24d369eeb9e247ba7ded9017370f2d746385ef5cb5804c89c299e1",
+      "doi": "10.5281/zenodo.17607687",
+      "download_url": "https://zenodo.org/api/records/17607687/files/Research%20data_V2.zip/content",
+      "id": "rac_scc_independent_27",
+      "licence": "CC BY-NC-SA 4.0",
+      "object": "headed studs in recycled-aggregate self-compacting concrete from one University of Basrah programme",
+      "official_page": "https://zenodo.org/records/17607687",
+      "redistribution_policy": "download from source; archive and extracted rows excluded from this projection",
+      "role": "small_independent_experiment_confirmation"
+    }
+  ],
+  "raw_or_row_level_files_included": false,
+  "schema_version": "headed-stud-public-input-registry-v1"
+}

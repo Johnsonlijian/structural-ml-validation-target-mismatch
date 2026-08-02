@@ -1,0 +1,4 @@
+left_parent,right_parent,n_left,n_right,retained_source_group_overlap_count,exact_feature_pair_count,exact_left_row_count,exact_right_row_count,minimum_robust_scaled_chebyshev_distance,minimum_robust_scaled_euclidean_distance,near_pair_count_at_0.01_iqr,near_left_row_count_at_0.01_iqr,near_right_row_count_at_0.01_iqr,near_pair_count_at_0.025_iqr,near_left_row_count_at_0.025_iqr,near_right_row_count_at_0.025_iqr,near_pair_count_at_0.05_iqr,near_left_row_count_at_0.05_iqr,near_right_row_count_at_0.05_iqr
+nwc242,rac27,242,27,0,0,0,0,0.3333333333333333,0.6312366036000917,0,0,0,0,0,0,0,0,0
+deck464,rac27,413,27,0,0,0,0,0.3166666666666664,0.5103475530283582,0,0,0,0,0,0,0,0,0
+lwc90,rac27,60,27,0,0,0,0,0.3593101406109391,0.4332065685543421,0,0,0,0,0,0,0,0,0

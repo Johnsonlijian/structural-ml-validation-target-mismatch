@@ -1,0 +1,5 @@
+method,parent,selected_model,external_oracle_model,external_nrmse_regret
+GroupKFold_Source,rac27,ExtraTrees,Ridge,0.1756195742971895
+ClaimCut_C_source,rac27,ExtraTrees,Ridge,0.1756195742971895
+RandomKFold,rac27,HistGradientBoosting,Ridge,0.343729566812243
+DataSAIL_C1e_Scalar_C_deck,rac27,ExtraTrees,Ridge,0.1756195742971895

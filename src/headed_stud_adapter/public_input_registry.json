@@ -1,0 +1,34 @@
+{
+  "schema_version": "headed-stud-public-input-registry-v1",
+  "policy": "Download from the cited repositories; raw archives and generated row tables remain local and uncommitted.",
+  "archives": [
+    {
+      "filename": "nwc242.zip",
+      "bytes": 50788,
+      "sha256": "9a62db392a6b86a09c0f0a7a719508049bc5ce11a2aca09ad9dd8faa5bdc2957",
+      "doi": "10.17632/rfrw3z4hs7.2",
+      "license": "CC BY 4.0"
+    },
+    {
+      "filename": "deck464.zip",
+      "bytes": 1231021,
+      "sha256": "7f428f8a696e986b940bbd89594276e0c6d148d6ca3ec602f64298d80b0f2787",
+      "doi": "10.17632/nfmhnzbfy9.2",
+      "license": "CC BY 4.0"
+    },
+    {
+      "filename": "lwc90.zip",
+      "bytes": 28404,
+      "sha256": "046ee5410a98c512aca413467a3a2da995bd8a25cec5f3d256a5c4fd0252091b",
+      "doi": "10.17632/xtg3w85hdr.1",
+      "license": "CC BY 4.0"
+    },
+    {
+      "filename": "rac27.zip",
+      "bytes": 557930,
+      "sha256": "98a7581b4c24d369eeb9e247ba7ded9017370f2d746385ef5cb5804c89c299e1",
+      "doi": "10.5281/zenodo.17607687",
+      "license": "CC BY-NC-SA 4.0"
+    }
+  ]
+}

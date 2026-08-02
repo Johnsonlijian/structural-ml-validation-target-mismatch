@@ -1,0 +1,51 @@
+{
+  "critical_numeric_missing_or_nonfinite": 0,
+  "dimensions": {
+    "completeness_30": 29.514824797843666,
+    "consistency_25": 25.0,
+    "provenance_timeliness_and_hash_integrity_10": 10.0,
+    "row_key_uniqueness_15": 15.0,
+    "validity_20": 20.0
+  },
+  "dqs": 99.5,
+  "dqs_max": 100.0,
+  "input_checks": {
+    "deck464": {
+      "critical_missing_cells": 0,
+      "row_id_unique": true,
+      "rows": 413,
+      "sha256": "7dfc3c8b5cbf5a26db2ece4e34f3208e2e1fa3a51ffc70b3bd0030c4e819b3ff",
+      "source_recovered_rows": 401
+    },
+    "lwc90": {
+      "critical_missing_cells": 0,
+      "row_id_unique": true,
+      "rows": 60,
+      "sha256": "5ce01b736b1e3c58712edbb8b9018d7ad0ec10b3ac0dc8821856a1050b6bba9b",
+      "source_recovered_rows": 60
+    },
+    "nwc242": {
+      "critical_missing_cells": 0,
+      "row_id_unique": true,
+      "rows": 242,
+      "sha256": "0536b23c575c38cd576d7aca8b2e84e86ddf142bea08dd76015764b921b9085e",
+      "source_recovered_rows": 242
+    },
+    "rac27": {
+      "critical_missing_cells": 0,
+      "row_id_unique": true,
+      "rows": 27,
+      "sha256": "2db515e97ea5d6a8d081f3b025bb5d56e57f3d8f3d709b4c11ac717149249d64",
+      "source_recovered_rows": 27
+    }
+  },
+  "nonpositive_target_or_feature": 0,
+  "row_tables_included": false,
+  "schema_version": "r30-headed-stud-targeted-data-quality-v1",
+  "scope_note": "DQS assesses adapter integrity, not representativeness; support shift is reported separately and is not repaired by deleting rows",
+  "source_recovered_rows": 730,
+  "source_recovery_fraction": 0.9838274932614556,
+  "total_rows": 742,
+  "unresolved_source_rows": 12,
+  "verdict": "model-ready frozen adapters with a documented 12-row deck source-identity limitation"
+}

@@ -1,0 +1,8 @@
+parent,feature,development_min,development_max,external_min,external_max,fraction_outside_development_range
+rac27,f_cm_MPa,18.40900676169024,115.83333333333331,25.7,41.2,0.0
+rac27,E_cm_MPa,15099.52240003806,46500.0,19300.0,30600.0,0.0
+rac27,f_um_MPa,426.0,675.0,440.0,448.0,0.0
+rac27,d_m_mm,12.7,31.75,12.0,20.0,0.3333333333333333
+rac27,d_dom_mm,21.0,44.45,17.0,25.0,0.3333333333333333
+rac27,h_wm_mm,3.0,8.549999999999999,3.0,6.0,0.0
+rac27,h_scm_mm,69.92,200.0,100.0,100.0,0.0

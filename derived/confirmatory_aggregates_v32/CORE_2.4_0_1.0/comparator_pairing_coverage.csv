@@ -1,0 +1,8 @@
+scenario,reference_method,comparator,pairing_status,n_reference_model_rows,n_comparator_model_rows,n_paired_model_rows,model_pairing_coverage_vs_reference,n_reference_replicates,n_comparator_replicates,n_paired_replicates,replicate_pairing_coverage_vs_reference
+CORE_2.4_0_1.0,ClaimCut,RandomKFold,paired,400,400,400,1.0,100,100,100,1.0
+CORE_2.4_0_1.0,ClaimCut,GroupKFold_Lab,paired,400,400,400,1.0,100,100,100,1.0
+CORE_2.4_0_1.0,ClaimCut,GroupKFold_Source,paired,400,400,400,1.0,100,100,100,1.0
+CORE_2.4_0_1.0,ClaimCut,GroupKFold_Supplier,paired,400,400,400,1.0,100,100,100,1.0
+CORE_2.4_0_1.0,ClaimCut,CompositeGroup_LabPair,paired,400,400,400,1.0,100,100,100,1.0
+CORE_2.4_0_1.0,ClaimCut,HardUnion_LabSupplier,missing_comparator,400,0,0,0.0,100,0,0,0.0
+CORE_2.4_0_1.0,ClaimCut,DataSAIL_C1e_Scalar,paired,400,400,400,1.0,100,100,100,1.0

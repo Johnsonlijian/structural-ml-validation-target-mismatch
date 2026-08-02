@@ -1,0 +1,2 @@
+scenario,datasail_outcome,datasail_solver_status,n_replicates,n_assignment_returned,n_time_limit_likely
+S10,not_attempted,missing,100,0,0

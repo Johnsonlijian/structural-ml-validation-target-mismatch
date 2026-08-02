@@ -1,0 +1,400 @@
+{
+  "excluded_classes": [
+    "raw archives and publication PDFs/text",
+    "canonical row tables and source-audit rows",
+    "row IDs, source-group IDs, nearest pairs and delete-one-source records",
+    "target, prediction and fold-assignment vectors"
+  ],
+  "files": {
+    "README.md": {
+      "bytes": 763,
+      "sha256": "53842abff372a9f0d9de9363ed12d13d30cf89d98c984d5495d052a5b719a41d"
+    },
+    "THIRD_PARTY_NOTICES.md": {
+      "bytes": 1346,
+      "sha256": "1274e657d2210e4dfbfe766d44083fe01a85b2bef07301412d255628780a32e7"
+    },
+    "methods/cross_parent_duplicate_method.json": {
+      "bytes": 649,
+      "sha256": "81311f0ee19fde3b68a2ab7995e5c3bacaa6aaaf2f002a48b440ab1fa951d581"
+    },
+    "methods/deck_positive_control_verification.json": {
+      "bytes": 1712,
+      "sha256": "8014d4af88c494cad1b4a6ab2a34e18a67011f52722c8d149cf1f26dba711ace"
+    },
+    "methods/fixed_model_reproduction.json": {
+      "bytes": 609,
+      "sha256": "5fb3927072816bfd2086338806de4b8731f35811179bbba7b7c56cabbeefcf4d"
+    },
+    "methods/multivariate_support_method.json": {
+      "bytes": 911,
+      "sha256": "9c98798b84a6c9c790053f09736d4c69ceba545d86f87f85063807f111187817"
+    },
+    "methods/split_audits.json": {
+      "bytes": 1972,
+      "sha256": "3f71245c3ae9d6a957e1e653af0183f8ad35e9b8c0fa4a32ba42a80b82c77100"
+    },
+    "protocol/adapter_contract.json": {
+      "bytes": 5956,
+      "sha256": "51cd673ba27ab7706e7bf60b594bf30cdfb0fa8b81b87ba641ad3538108477e1"
+    },
+    "protocol/input_registry.json": {
+      "bytes": 2790,
+      "sha256": "72905d3fa109e65bfd5d6b9944687df4b7cbfed9ebc459cf5effa49b9ec11fd0"
+    },
+    "protocol/overlap_decisions.json": {
+      "bytes": 1868,
+      "sha256": "4944df514806e23519082803a4385f9be1145feb920270a2d24739c6f6a5e329"
+    },
+    "receipts/adapter_receipt.json": {
+      "bytes": 2685,
+      "sha256": "e6c1e8cc877b033c555c7c6c5ed519e57edff8fe6716614495bce7f70b09f3bf"
+    },
+    "receipts/control_receipt.json": {
+      "bytes": 2266,
+      "sha256": "8ebaa1ad8cdc10873056556ddd96cef5f37b3e76f11e0ea659b16dcec59e1bb1"
+    },
+    "results/cc_by_4_0/LICENSE_DATA.md": {
+      "bytes": 293,
+      "sha256": "36e0145fb0b21dae6f4af1091c4379950c7052c0b26ce2b1280155804d539afa"
+    },
+    "results/cc_by_4_0/cross_parent/control_cross_parent_duplicate_summary.csv": {
+      "bytes": 762,
+      "sha256": "ecc7fe5d52adb0ca1f15b31973aa6c61817557c54f045c9490f6f55d3ee74a43"
+    },
+    "results/cc_by_4_0/deck464/control_deck_positive_control.csv": {
+      "bytes": 2096,
+      "sha256": "3c1e24e985f8e1433296ddb0410bb0c5f14f042600638b716f842d7a3996de90"
+    },
+    "results/cc_by_4_0/deck464/control_multivariate_support.csv": {
+      "bytes": 692,
+      "sha256": "d19af45a6df206c266bea898848e42a1ea2f478456c4d05361f99b8e145a92c6"
+    },
+    "results/cc_by_4_0/deck464/control_prediction_ratio_metrics.csv": {
+      "bytes": 1971,
+      "sha256": "1dfc34e772ab9aa108e44129e2cba9d2c6f7d609f7e175c742b7919696116eb0"
+    },
+    "results/cc_by_4_0/deck464/control_source_composition_intervals.csv": {
+      "bytes": 1536,
+      "sha256": "1db8cd535ec14f39e6bb01943020cfd91371e82a47ba5b199ef5d628e9a5a0b4"
+    },
+    "results/cc_by_4_0/deck464/control_source_jackknife_summary.csv": {
+      "bytes": 922,
+      "sha256": "bb66882d0ff1b5220526a86e5473fe28d8bdca7be606a336789843ea4793891a"
+    },
+    "results/cc_by_4_0/deck464/control_unresolved_source_sensitivity.csv": {
+      "bytes": 9632,
+      "sha256": "b0235c81fc228ce0411b5785c4bb10c873e54e8e0738b98410ca1de2f3cad386"
+    },
+    "results/cc_by_4_0/deck464/evaluation_bootstrap_summary.csv": {
+      "bytes": 3110,
+      "sha256": "17e1fc1cd4719215bb946e097ab59cca2fe5149477681f19eebcf9931d0d7288"
+    },
+    "results/cc_by_4_0/deck464/evaluation_external_metrics.csv": {
+      "bytes": 694,
+      "sha256": "82bafb6c55361e6e5a08cfc365319a65e816972a95489c550163883776666af3"
+    },
+    "results/cc_by_4_0/deck464/evaluation_model_selection.csv": {
+      "bytes": 379,
+      "sha256": "03cfd8672d49298ebe75bfd3f636bfb0c681da4927e4d382dadb34b3c3e80219"
+    },
+    "results/cc_by_4_0/deck464/evaluation_risk_estimation.csv": {
+      "bytes": 4586,
+      "sha256": "038e5fff155c36d8a31ff7d66e2d7aed7060fe694198d72ef7c95fb2b14d9c1b"
+    },
+    "results/cc_by_4_0/deck464/evaluation_support_shift.csv": {
+      "bytes": 513,
+      "sha256": "d12309158ed11a1443218293648cd3b4811f8cf26fc16e7f05fc3fb1840b44fb"
+    },
+    "results/cc_by_4_0/lwc90/control_multivariate_support.csv": {
+      "bytes": 675,
+      "sha256": "6bd62e81e31d5a840c059688052a747c9576bb854eec47789834f03173c69adb"
+    },
+    "results/cc_by_4_0/lwc90/control_prediction_ratio_metrics.csv": {
+      "bytes": 1555,
+      "sha256": "63a31610295b459b434f34e017309b3f0bbba959e6405838f4e303a8c36db2c4"
+    },
+    "results/cc_by_4_0/lwc90/control_source_composition_intervals.csv": {
+      "bytes": 1182,
+      "sha256": "ec5eb0eb6a64f7e4c47c806206102e39310a68bcd81c81fbf43e8cb3c7c12d32"
+    },
+    "results/cc_by_4_0/lwc90/control_source_jackknife_summary.csv": {
+      "bytes": 704,
+      "sha256": "5622c5ec33fca6d4858ceb1c4f4c2541ad522e36993273fbd6e209078272e403"
+    },
+    "results/cc_by_4_0/lwc90/evaluation_bootstrap_summary.csv": {
+      "bytes": 3047,
+      "sha256": "8833f16bb7f3a9369e10cfb1e8af2484e701752475a6da89e7ca3865d7d7aab3"
+    },
+    "results/cc_by_4_0/lwc90/evaluation_external_metrics.csv": {
+      "bytes": 681,
+      "sha256": "6d8ad8bd19095c0306b62f7c55d40c481d1e2c6aa2612b278cce685e3d1ad623"
+    },
+    "results/cc_by_4_0/lwc90/evaluation_model_selection.csv": {
+      "bytes": 323,
+      "sha256": "cdd69b03abd2d0bdc8d422188e675f4a1406b2cb32c470444ad84eca71322bc7"
+    },
+    "results/cc_by_4_0/lwc90/evaluation_risk_estimation.csv": {
+      "bytes": 4532,
+      "sha256": "2a0698ce6c29fc0caa2e87ec1accb3f071ed84b678dc8bfeeec46818a87e5ee2"
+    },
+    "results/cc_by_4_0/lwc90/evaluation_support_shift.csv": {
+      "bytes": 566,
+      "sha256": "9209c365baff927bdb1f8668c6bcbc016d99e1a11150587bf1d2690df464e866"
+    },
+    "results/cc_by_4_0/nwc242/evaluation_cv_metrics.csv": {
+      "bytes": 1770,
+      "sha256": "b3e9a410d1b170deed1858f4880051b11ce7a52b14811713cb352d286d493719"
+    },
+    "results/cc_by_nc_sa_4_0/LICENSE_DATA.md": {
+      "bytes": 379,
+      "sha256": "7e48813a8d3cc6696a026c67eabc8b97d35a6e550fc86f2e3fdbcaf8da112788"
+    },
+    "results/cc_by_nc_sa_4_0/combined/data_quality_summary.json": {
+      "bytes": 1783,
+      "sha256": "2ec8f826f4958f1aaa1c0b07c73eb2269cf563ca1bfbc291c85a1d299cd89b94"
+    },
+    "results/cc_by_nc_sa_4_0/cross_parent_with_rac/control_cross_parent_duplicate_summary.csv": {
+      "bytes": 759,
+      "sha256": "21261ee321e7ac1eb50efeaea5661ee38ea77b40a2a70d652d58905317217545"
+    },
+    "results/cc_by_nc_sa_4_0/rac27/control_multivariate_support.csv": {
+      "bytes": 688,
+      "sha256": "504bb08ead0ecb6c5d41f1002da899c5ddd948c123aa7431349af4ad70505e86"
+    },
+    "results/cc_by_nc_sa_4_0/rac27/control_prediction_ratio_metrics.csv": {
+      "bytes": 1554,
+      "sha256": "1e344827acd734983930cb069151b15f0d5494b70ad876c6365e5bac014cc5f1"
+    },
+    "results/cc_by_nc_sa_4_0/rac27/control_source_composition_intervals.csv": {
+      "bytes": 822,
+      "sha256": "993f23a65749a08fe26ce33ac0014bc04a9a384449e02e5f9230da52ca174cd3"
+    },
+    "results/cc_by_nc_sa_4_0/rac27/control_source_jackknife_summary.csv": {
+      "bytes": 571,
+      "sha256": "90b457894543e0c01003482916c7eda7aa17192c197f99a9410113ef185fe315"
+    },
+    "results/cc_by_nc_sa_4_0/rac27/evaluation_bootstrap_summary.csv": {
+      "bytes": 3582,
+      "sha256": "c6138f01aad61d9ab43470fbf0e6330c27f429d6de3d174f7863bae9208088b5"
+    },
+    "results/cc_by_nc_sa_4_0/rac27/evaluation_external_metrics.csv": {
+      "bytes": 687,
+      "sha256": "39eb0bf7817a5cd0625904f192e4085312534e118a841fc729bf8c017422f0d8"
+    },
+    "results/cc_by_nc_sa_4_0/rac27/evaluation_model_selection.csv": {
+      "bytes": 325,
+      "sha256": "76da132a5e94fdc90fe9347a7c319fcf148f356847db12cfd3069e2850de45ca"
+    },
+    "results/cc_by_nc_sa_4_0/rac27/evaluation_risk_estimation.csv": {
+      "bytes": 4555,
+      "sha256": "f3cb304a0a182b41303653fcbc2b9f004c42020a52fa4bbe2584b0cce32bb17a"
+    },
+    "results/cc_by_nc_sa_4_0/rac27/evaluation_support_shift.csv": {
+      "bytes": 477,
+      "sha256": "9df42e4fc3b16ef2a6eb2d27313600a4c54a90c774e3ce653006e94936d6016d"
+    },
+    "results/contract_statuses.json": {
+      "bytes": 7476,
+      "sha256": "55b6d458d7dae09f47c849fe567cc5c7ffdccfe6f36fadd41a2033fbc5045226"
+    }
+  },
+  "schema_version": "headed-stud-public-projection-receipt-v1",
+  "self_check": {
+    "errors": [],
+    "raw_or_row_level_files_included": false,
+    "status": "PASS"
+  },
+  "source_mappings": [
+    {
+      "destination": "results/cc_by_4_0/deck464/evaluation_bootstrap_summary.csv",
+      "license": "CC-BY-4.0",
+      "source": "r/bootstrap_summary.csv"
+    },
+    {
+      "destination": "results/cc_by_4_0/lwc90/evaluation_bootstrap_summary.csv",
+      "license": "CC-BY-4.0",
+      "source": "r/bootstrap_summary.csv"
+    },
+    {
+      "destination": "results/cc_by_nc_sa_4_0/rac27/evaluation_bootstrap_summary.csv",
+      "license": "CC-BY-NC-SA-4.0",
+      "source": "r/bootstrap_summary.csv"
+    },
+    {
+      "destination": "results/cc_by_4_0/deck464/evaluation_external_metrics.csv",
+      "license": "CC-BY-4.0",
+      "source": "r/external_metrics.csv"
+    },
+    {
+      "destination": "results/cc_by_4_0/lwc90/evaluation_external_metrics.csv",
+      "license": "CC-BY-4.0",
+      "source": "r/external_metrics.csv"
+    },
+    {
+      "destination": "results/cc_by_nc_sa_4_0/rac27/evaluation_external_metrics.csv",
+      "license": "CC-BY-NC-SA-4.0",
+      "source": "r/external_metrics.csv"
+    },
+    {
+      "destination": "results/cc_by_4_0/deck464/evaluation_model_selection.csv",
+      "license": "CC-BY-4.0",
+      "source": "r/model_selection.csv"
+    },
+    {
+      "destination": "results/cc_by_4_0/lwc90/evaluation_model_selection.csv",
+      "license": "CC-BY-4.0",
+      "source": "r/model_selection.csv"
+    },
+    {
+      "destination": "results/cc_by_nc_sa_4_0/rac27/evaluation_model_selection.csv",
+      "license": "CC-BY-NC-SA-4.0",
+      "source": "r/model_selection.csv"
+    },
+    {
+      "destination": "results/cc_by_4_0/deck464/evaluation_risk_estimation.csv",
+      "license": "CC-BY-4.0",
+      "source": "r/risk_estimation.csv"
+    },
+    {
+      "destination": "results/cc_by_4_0/lwc90/evaluation_risk_estimation.csv",
+      "license": "CC-BY-4.0",
+      "source": "r/risk_estimation.csv"
+    },
+    {
+      "destination": "results/cc_by_nc_sa_4_0/rac27/evaluation_risk_estimation.csv",
+      "license": "CC-BY-NC-SA-4.0",
+      "source": "r/risk_estimation.csv"
+    },
+    {
+      "destination": "results/cc_by_4_0/deck464/evaluation_support_shift.csv",
+      "license": "CC-BY-4.0",
+      "source": "r/support_shift.csv"
+    },
+    {
+      "destination": "results/cc_by_4_0/lwc90/evaluation_support_shift.csv",
+      "license": "CC-BY-4.0",
+      "source": "r/support_shift.csv"
+    },
+    {
+      "destination": "results/cc_by_nc_sa_4_0/rac27/evaluation_support_shift.csv",
+      "license": "CC-BY-NC-SA-4.0",
+      "source": "r/support_shift.csv"
+    },
+    {
+      "destination": "results/cc_by_4_0/deck464/control_multivariate_support.csv",
+      "license": "CC-BY-4.0",
+      "source": "p1_controls/multivariate_support.csv"
+    },
+    {
+      "destination": "results/cc_by_4_0/lwc90/control_multivariate_support.csv",
+      "license": "CC-BY-4.0",
+      "source": "p1_controls/multivariate_support.csv"
+    },
+    {
+      "destination": "results/cc_by_nc_sa_4_0/rac27/control_multivariate_support.csv",
+      "license": "CC-BY-NC-SA-4.0",
+      "source": "p1_controls/multivariate_support.csv"
+    },
+    {
+      "destination": "results/cc_by_4_0/deck464/control_prediction_ratio_metrics.csv",
+      "license": "CC-BY-4.0",
+      "source": "p1_controls/prediction_ratio_metrics.csv"
+    },
+    {
+      "destination": "results/cc_by_4_0/lwc90/control_prediction_ratio_metrics.csv",
+      "license": "CC-BY-4.0",
+      "source": "p1_controls/prediction_ratio_metrics.csv"
+    },
+    {
+      "destination": "results/cc_by_nc_sa_4_0/rac27/control_prediction_ratio_metrics.csv",
+      "license": "CC-BY-NC-SA-4.0",
+      "source": "p1_controls/prediction_ratio_metrics.csv"
+    },
+    {
+      "destination": "results/cc_by_4_0/deck464/control_source_composition_intervals.csv",
+      "license": "CC-BY-4.0",
+      "source": "p1_controls/source_composition_intervals.csv"
+    },
+    {
+      "destination": "results/cc_by_4_0/lwc90/control_source_composition_intervals.csv",
+      "license": "CC-BY-4.0",
+      "source": "p1_controls/source_composition_intervals.csv"
+    },
+    {
+      "destination": "results/cc_by_nc_sa_4_0/rac27/control_source_composition_intervals.csv",
+      "license": "CC-BY-NC-SA-4.0",
+      "source": "p1_controls/source_composition_intervals.csv"
+    },
+    {
+      "destination": "results/cc_by_4_0/deck464/control_source_jackknife_summary.csv",
+      "license": "CC-BY-4.0",
+      "source": "p1_controls/source_jackknife_summary.csv"
+    },
+    {
+      "destination": "results/cc_by_4_0/lwc90/control_source_jackknife_summary.csv",
+      "license": "CC-BY-4.0",
+      "source": "p1_controls/source_jackknife_summary.csv"
+    },
+    {
+      "destination": "results/cc_by_nc_sa_4_0/rac27/control_source_jackknife_summary.csv",
+      "license": "CC-BY-NC-SA-4.0",
+      "source": "p1_controls/source_jackknife_summary.csv"
+    },
+    {
+      "destination": "results/cc_by_4_0/cross_parent/control_cross_parent_duplicate_summary.csv",
+      "license": "CC-BY-4.0",
+      "source": "p1_controls/cross_parent_duplicate_summary.csv"
+    },
+    {
+      "destination": "results/cc_by_nc_sa_4_0/cross_parent_with_rac/control_cross_parent_duplicate_summary.csv",
+      "license": "CC-BY-NC-SA-4.0",
+      "source": "p1_controls/cross_parent_duplicate_summary.csv"
+    },
+    {
+      "destination": "results/cc_by_4_0/nwc242/evaluation_cv_metrics.csv",
+      "license": "CC-BY-4.0",
+      "source": "r/cv_metrics.csv"
+    },
+    {
+      "destination": "results/cc_by_4_0/deck464/control_deck_positive_control.csv",
+      "license": "CC-BY-4.0",
+      "source": "p1_controls/deck_positive_control_comparison.csv"
+    },
+    {
+      "destination": "results/cc_by_4_0/deck464/control_unresolved_source_sensitivity.csv",
+      "license": "CC-BY-4.0",
+      "source": "p1_controls/unresolved_source_sensitivity.csv"
+    },
+    {
+      "destination": "methods/cross_parent_duplicate_method.json",
+      "license": "project-output-license-pending",
+      "source": "p1_controls/cross_parent_duplicate_method.json"
+    },
+    {
+      "destination": "methods/multivariate_support_method.json",
+      "license": "project-output-license-pending",
+      "source": "p1_controls/multivariate_support_method.json"
+    },
+    {
+      "destination": "methods/deck_positive_control_verification.json",
+      "license": "project-output-license-pending",
+      "source": "p1_controls/deck_positive_control_verification.json"
+    },
+    {
+      "destination": "methods/split_audits.json",
+      "license": "project-output-license-pending",
+      "source": "r/split_audits.json"
+    },
+    {
+      "destination": "methods/fixed_model_reproduction.json",
+      "license": "project-output-license-pending",
+      "source": "p1_controls/fixed_model_reproduction.json"
+    },
+    {
+      "destination": "results/cc_by_nc_sa_4_0/combined/data_quality_summary.json",
+      "license": "CC-BY-NC-SA-4.0",
+      "source": "p1_controls/data_quality_summary.json"
+    }
+  ]
+}

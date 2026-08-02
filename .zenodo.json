@@ -1,28 +1,35 @@
 {
-  "title": "Structural ML-Bench v1.0: Source-aware validation suite for structural performance prediction",
+  "title": "Typed deployment-contract compiler for engineering AI",
   "upload_type": "software",
-  "description": "Reproducibility package for the manuscript 'Validation-target mismatch in structural machine learning: A reproducible source-aware evaluation framework for structural performance prediction'.",
+  "description": "Public reproducibility package for a typed deployment-estimand and validation-contract compiler, independent conformance checks, aggregate-only Attempt-T evidence and a bounded headed-stud application. Repository release 2.0.0 preserves compiler 0.4.0.",
   "creators": [
     {
       "name": "REN, Lijian",
-      "affiliation": "TODO_AFFILIATION_VERIFY"
+      "affiliation": "Inner Mongolia University of Technology",
+      "orcid": "0000-0003-1629-4368"
     }
   ],
   "keywords": [
-    "structural machine learning",
-    "source-aware validation",
-    "grouped cross-validation",
-    "validation-target mismatch",
-    "reproducibility",
-    "Computer-Aided Civil and Infrastructure Engineering"
+    "engineering artificial intelligence",
+    "deployment estimand",
+    "validation contract",
+    "structural engineering",
+    "machine learning",
+    "data leakage",
+    "reproducibility"
   ],
   "license": "MIT",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "related_identifiers": [
     {
       "identifier": "https://github.com/Johnsonlijian/structural-ml-validation-target-mismatch",
       "relation": "isSupplementTo",
       "scheme": "url"
+    },
+    {
+      "identifier": "https://doi.org/10.5281/zenodo.20006918",
+      "relation": "isNewVersionOf",
+      "scheme": "doi"
     }
   ],
   "access_right": "open"

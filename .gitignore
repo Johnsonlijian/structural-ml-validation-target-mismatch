@@ -1,0 +1,69 @@
+# Secrets and local environments
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+*.p12
+credentials*
+secrets*
+.venv/
+venv/
+r30ds/
+
+# Python/build caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+build/
+dist/
+*.egg-info/
+
+# Third-party/raw data and downloads
+raw/
+data/raw/
+derived_private/
+**/derived_private/
+downloads/
+archives/
+*.zip
+*.7z
+*.rar
+*.tar
+*.tar.gz
+
+# Locally reconstructed headed-stud row/source artifacts
+source_audit*.csv
+overlap.json
+overlap_adjudicated.json
+download_manifest.json
+adapter_manifest.json
+evaluation_status.json
+
+# Private paper workflow material
+manuscript/
+manuscripts/
+submission*/
+cover_letter*/
+reviewer*/
+responses*/
+rounds/
+logs/
+pipeline_logs_v32/
+confirmatory_v32/
+
+# Partial/staging products
+a32/
+.__*/
+*.tmp
+*.partial
+*.bak
+*~
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

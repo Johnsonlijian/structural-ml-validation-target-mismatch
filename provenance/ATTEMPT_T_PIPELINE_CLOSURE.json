@@ -1,0 +1,2179 @@
+{
+  "canonical_attempt": "T",
+  "evidence_set_sha256": "8f83ca6fd07ae7c25cf254705b22c8a5bb07192bab81397a5ee9e0fe6ed122f9",
+  "execution_identity": {
+    "controller_exited": true,
+    "controller_pid": 19784,
+    "host": "MONSTERW",
+    "related_scientific_processes_exited": true,
+    "run_id": "83d1f4b68a334676bfc715e0e32b4dbf"
+  },
+  "expected_stage_order": [
+    "COMPILER_SEMANTIC",
+    "S8",
+    "S10",
+    "S4",
+    "S0",
+    "S3",
+    "S1",
+    "S2",
+    "S5",
+    "S6",
+    "S7",
+    "S9_missing10",
+    "S9_missing30",
+    "S9_corrupt5",
+    "CORE_0_0_0.35",
+    "CORE_0_0_1.0",
+    "CORE_0_0.9_0.35",
+    "CORE_0_0.9_1.0",
+    "CORE_0_1.8_0.35",
+    "CORE_0_1.8_1.0",
+    "CORE_0.6_0_0.35",
+    "CORE_0.6_0_1.0",
+    "CORE_0.6_0.9_0.35",
+    "CORE_0.6_0.9_1.0",
+    "CORE_0.6_1.8_0.35",
+    "CORE_0.6_1.8_1.0",
+    "CORE_1.2_0_0.35",
+    "CORE_1.2_0_1.0",
+    "CORE_1.2_0.9_0.35",
+    "CORE_1.2_0.9_1.0",
+    "CORE_1.2_1.8_0.35",
+    "CORE_1.2_1.8_1.0",
+    "CORE_2.4_0_0.35",
+    "CORE_2.4_0_1.0",
+    "CORE_2.4_0.9_0.35",
+    "CORE_2.4_0.9_1.0",
+    "CORE_2.4_1.8_0.35",
+    "CORE_2.4_1.8_1.0"
+  ],
+  "expected_stage_order_sha256": "8eba227f51e8bdeacc06a56c91839b5a3e89d8f65b8f077cf7bbb593d156720b",
+  "generated_utc": "2026-08-02T04:58:46.919978+00:00",
+  "lifecycle_evidence": {
+    "boot_identity_reconciliation": {
+      "attempt_start_utc": "2026-07-28T08:22:35.3382237+00:00",
+      "authorized_to_kernel_event_drift_seconds": 0.938504,
+      "authorized_wmi_boot_utc": "2026-07-26T02:03:55.1022870+00:00",
+      "current_wmi_boot_utc": "2026-08-02T03:06:17.5000000+00:00",
+      "eventlog_6005_during_attempt": 0,
+      "execution_kernel_general_event12_system_time": "2026-07-26T02:03:53.500000000Z",
+      "execution_kernel_general_event12_time_created_utc": "2026-07-26T02:03:54.1637825+00:00",
+      "interpretation": "The closure audit is bounded to the prespecified execution window from verified start through PIPELINE_COMPLETE. The approximately seven-second pre-reboot WMI reread difference and the execution-session Kernel-General boot event are within the 30-second clock-normalization envelope. No OS-start event occurred during Attempt T and the crash/restart baseline was unchanged. A later host boot is recorded as post-completion and does not alter the sealed execution window.",
+      "kernel_general_event12_during_attempt": 0,
+      "pipeline_complete_utc": "2026-07-30T01:30:19.9985461+00:00",
+      "post_completion_boot_event_count": 1,
+      "post_completion_reboot_observed": true,
+      "pre_reboot_wmi_drift_seconds": 7.079827,
+      "pre_reboot_wmi_reread_utc": "2026-07-26T02:04:02.1821140+00:00",
+      "reconciled": true,
+      "tolerance_seconds": 30
+    },
+    "bytes": 3472,
+    "event_baseline_observed": {
+      "bugcheck_count": 0,
+      "kernel_power_41_count": 0,
+      "unexpected_shutdown_6008_count": 0,
+      "whea_count": 0
+    },
+    "path": "ATTEMPT_T_LIFECYCLE_EVIDENCE_20260802.json",
+    "sha256": "0f5a9e2143385269d7908e5e20ad1bf8f6f4f212a25896e77617ead48b66066a",
+    "status": "PASS_WITH_EXECUTION_WINDOW_RECONCILIATION"
+  },
+  "pipeline_log": {
+    "aggregator_exit_count": 38,
+    "bytes": 32972,
+    "failure_event_count": 0,
+    "first_timestamp": "2026-07-28T08:15:30.8517535Z",
+    "last_timestamp": "2026-07-30T01:30:19.9985461Z",
+    "nonzero_exit_count": 0,
+    "path": "pipeline_logs_v32/pipeline.log",
+    "pipeline_complete_count": 1,
+    "pipeline_start_count": 1,
+    "sha256": "878e4a51b3e69f321b3349cc71f3feffe3f663e295c83bf828e4fb2c6e511ac1",
+    "stage_complete_count": 38,
+    "stage_start_count": 38,
+    "worker_exit_count": 76
+  },
+  "protocol_id": "SAVP-CONFIRMATORY-V3.2",
+  "schema_version": "attempt-t-pipeline-closure-v1",
+  "stage_count": 38,
+  "stages": [
+    {
+      "admitted_wrapper_manifest": {
+        "bytes": 23276,
+        "path": "a32/compiler_semantic/v32_aggregate_manifest.json",
+        "sha256": "a8304f4430099da087f05334ec35404c030e6bb1cb396a3f12e14c917ad4c3d1"
+      },
+      "aggregate_schema": "v32-compiler-aggregate-v1",
+      "base_manifest_sha256": null,
+      "directory": "compiler_semantic",
+      "input_record_registry_sha256": "631166d5bd487a2529a7512897a57c4072738d46a536f2aa617615cc74d1543d",
+      "stage": "COMPILER_SEMANTIC",
+      "stage_complete_event_line": 9,
+      "summary_files": [
+        {
+          "bytes": 119,
+          "path": "a32/compiler_semantic/compiler_gate.json",
+          "sha256": "e82bd22bf1de8c20cc60f36ff240d9abc875a6f27d304b085bf99d1a5abae419"
+        },
+        {
+          "bytes": 447,
+          "path": "a32/compiler_semantic/compiler_conformance_counts.csv",
+          "sha256": "33481b0f1f3deba32e647d1112d64d577c7700b30d5a8aa39e3e7ec524a2401c"
+        }
+      ]
+    },
+    {
+      "admitted_wrapper_manifest": {
+        "bytes": 23192,
+        "path": "a32/S8/v32_aggregate_manifest.json",
+        "sha256": "a7a08d7641bfcb9ff9690ffeaad5f29bb9f2b052be858190dc358b15f065d51d"
+      },
+      "aggregate_schema": "v32-predictive-aggregate-v1",
+      "base_manifest_sha256": "cce050f1b46b752d884d18eb567235c23bfe948c2489db512fee0700655d255d",
+      "directory": "S8",
+      "input_record_registry_sha256": "fc84509df68a384f2ab9ef6d712d61524e75e0826eb912828ba4fee212f80701",
+      "stage": "S8",
+      "stage_complete_event_line": 17,
+      "summary_files": [
+        {
+          "bytes": 4146,
+          "path": "a32/S8/aggregation_manifest.json",
+          "sha256": "cce050f1b46b752d884d18eb567235c23bfe948c2489db512fee0700655d255d"
+        },
+        {
+          "bytes": 43,
+          "path": "a32/S8/method_aggregate_summary.csv",
+          "sha256": "8690d98c3d2980fc0bfd79973ef7bbafd8895532602eaad9760ad00b61be5f60"
+        },
+        {
+          "bytes": 2,
+          "path": "a32/S8/paired_cluster_bootstrap.csv",
+          "sha256": "7eb70257593da06f682a3ddda54a9d260d4fc514f645237f5ca74b08f8da61a6"
+        },
+        {
+          "bytes": 111,
+          "path": "a32/S8/replicate_outcome_summary.csv",
+          "sha256": "23542bda20ab73691770a37ad1fcb0bea91f88efe313e237afdf4db59b556ed6"
+        },
+        {
+          "bytes": 128,
+          "path": "a32/S8/claimcut_outcome_summary.csv",
+          "sha256": "0bdb5b2b4bc8899a0c8421ff736aea942211566bd751847d1d434a35f663ff5d"
+        },
+        {
+          "bytes": 139,
+          "path": "a32/S8/datasail_solver_status_summary.csv",
+          "sha256": "83960daab0120a51e5b9df436efc32ec5bff273a4fd4b79ea01f7fc136db69a4"
+        },
+        {
+          "bytes": 2,
+          "path": "a32/S8/comparator_pairing_coverage.csv",
+          "sha256": "7eb70257593da06f682a3ddda54a9d260d4fc514f645237f5ca74b08f8da61a6"
+        },
+        {
+          "bytes": 597,
+          "path": "a32/S8/metric_field_availability.csv",
+          "sha256": "d42941aae6e040d8b642ff18d022dbc7801b8168b115274e375ae2bce79ef85e"
+        }
+      ]
+    },
+    {
+      "admitted_wrapper_manifest": {
+        "bytes": 23194,
+        "path": "a32/S10/v32_aggregate_manifest.json",
+        "sha256": "4157b0e503efa0174b480c83062958ff394069577cf265953bc0c19bc611db66"
+      },
+      "aggregate_schema": "v32-predictive-aggregate-v1",
+      "base_manifest_sha256": "176e269d5d61ba7b199f28394d2e148fcff9f92e6d3dec764bc328b9698c156b",
+      "directory": "S10",
+      "input_record_registry_sha256": "b94af8a95d792dac4d8df4b9d15dd6d23b82dd8a4a00470fd8f7b033038a47e2",
+      "stage": "S10",
+      "stage_complete_event_line": 25,
+      "summary_files": [
+        {
+          "bytes": 4149,
+          "path": "a32/S10/aggregation_manifest.json",
+          "sha256": "176e269d5d61ba7b199f28394d2e148fcff9f92e6d3dec764bc328b9698c156b"
+        },
+        {
+          "bytes": 43,
+          "path": "a32/S10/method_aggregate_summary.csv",
+          "sha256": "8690d98c3d2980fc0bfd79973ef7bbafd8895532602eaad9760ad00b61be5f60"
+        },
+        {
+          "bytes": 2,
+          "path": "a32/S10/paired_cluster_bootstrap.csv",
+          "sha256": "7eb70257593da06f682a3ddda54a9d260d4fc514f645237f5ca74b08f8da61a6"
+        },
+        {
+          "bytes": 112,
+          "path": "a32/S10/replicate_outcome_summary.csv",
+          "sha256": "77c8b39d837040d0f0f3e0f113b2d8c93d5aca5e74ed29211fd4894eb7b7cdf9"
+        },
+        {
+          "bytes": 129,
+          "path": "a32/S10/claimcut_outcome_summary.csv",
+          "sha256": "e21beed5e5172d8d29f0285d0d36428ff7bb808dd826ad920b4c32dfc21f38c2"
+        },
+        {
+          "bytes": 140,
+          "path": "a32/S10/datasail_solver_status_summary.csv",
+          "sha256": "ec9d38ddb101349ba36373ad92a706995b8278ee9cf1355929d3d6f982a723eb"
+        },
+        {
+          "bytes": 2,
+          "path": "a32/S10/comparator_pairing_coverage.csv",
+          "sha256": "7eb70257593da06f682a3ddda54a9d260d4fc514f645237f5ca74b08f8da61a6"
+        },
+        {
+          "bytes": 597,
+          "path": "a32/S10/metric_field_availability.csv",
+          "sha256": "d42941aae6e040d8b642ff18d022dbc7801b8168b115274e375ae2bce79ef85e"
+        }
+      ]
+    },
+    {
+      "admitted_wrapper_manifest": {
+        "bytes": 23191,
+        "path": "a32/S4/v32_aggregate_manifest.json",
+        "sha256": "1f62d5eb4f748c610a01e2c200f35df840cc9f78a33b0235ae77f12549d99e9c"
+      },
+      "aggregate_schema": "v32-predictive-aggregate-v1",
+      "base_manifest_sha256": "e794223b98c8cb59f7c15323f4596fbd78ef0073ecac56635e0ba5f8b3e0a517",
+      "directory": "S4",
+      "input_record_registry_sha256": "c6e069d8c5095c00976bc8c260a8289934b01600804a5ebf31f3d14f501b9f66",
+      "stage": "S4",
+      "stage_complete_event_line": 33,
+      "summary_files": [
+        {
+          "bytes": 4146,
+          "path": "a32/S4/aggregation_manifest.json",
+          "sha256": "e794223b98c8cb59f7c15323f4596fbd78ef0073ecac56635e0ba5f8b3e0a517"
+        },
+        {
+          "bytes": 43,
+          "path": "a32/S4/method_aggregate_summary.csv",
+          "sha256": "8690d98c3d2980fc0bfd79973ef7bbafd8895532602eaad9760ad00b61be5f60"
+        },
+        {
+          "bytes": 2,
+          "path": "a32/S4/paired_cluster_bootstrap.csv",
+          "sha256": "7eb70257593da06f682a3ddda54a9d260d4fc514f645237f5ca74b08f8da61a6"
+        },
+        {
+          "bytes": 111,
+          "path": "a32/S4/replicate_outcome_summary.csv",
+          "sha256": "d2428a7e41300d96f63c2c3f9f2e38d4b9866efc4568749b840e55fdf651927e"
+        },
+        {
+          "bytes": 128,
+          "path": "a32/S4/claimcut_outcome_summary.csv",
+          "sha256": "1ef8b734cc116147714ae48d4d821a3b62db927bd625f91125608721ad4fc8ca"
+        },
+        {
+          "bytes": 139,
+          "path": "a32/S4/datasail_solver_status_summary.csv",
+          "sha256": "c81f18aeed7ee8765d1d944c673a9b33752e599844a12e2a4a69b88a45dc9fe0"
+        },
+        {
+          "bytes": 2,
+          "path": "a32/S4/comparator_pairing_coverage.csv",
+          "sha256": "7eb70257593da06f682a3ddda54a9d260d4fc514f645237f5ca74b08f8da61a6"
+        },
+        {
+          "bytes": 597,
+          "path": "a32/S4/metric_field_availability.csv",
+          "sha256": "d42941aae6e040d8b642ff18d022dbc7801b8168b115274e375ae2bce79ef85e"
+        }
+      ]
+    },
+    {
+      "admitted_wrapper_manifest": {
+        "bytes": 23192,
+        "path": "a32/S0/v32_aggregate_manifest.json",
+        "sha256": "66c4dffd62b3c717a82da25115bcf68e6b908b4647444e20d72afa699c582b2a"
+      },
+      "aggregate_schema": "v32-predictive-aggregate-v1",
+      "base_manifest_sha256": "ae3e45d0f49970347e17507d9f3a4352c9d92b48866f4e41f6c404720ded01a6",
+      "directory": "S0",
+      "input_record_registry_sha256": "bb2ce02e4f9eea4105c812b33c6ca9938e47386b29dfd29b6bd13cd0725a5678",
+      "stage": "S0",
+      "stage_complete_event_line": 41,
+      "summary_files": [
+        {
+          "bytes": 4251,
+          "path": "a32/S0/aggregation_manifest.json",
+          "sha256": "ae3e45d0f49970347e17507d9f3a4352c9d92b48866f4e41f6c404720ded01a6"
+        },
+        {
+          "bytes": 3283,
+          "path": "a32/S0/method_aggregate_summary.csv",
+          "sha256": "0be76bffcf2ad8cb7c8bf4f30c4586fae0e06e731685ce913ede5f88ea5d9ea2"
+        },
+        {
+          "bytes": 2378,
+          "path": "a32/S0/paired_cluster_bootstrap.csv",
+          "sha256": "0e5b0574ebd2a3a0042a1317c373db8e4c3d352959af62b8877bc2181549cdb3"
+        },
+        {
+          "bytes": 111,
+          "path": "a32/S0/replicate_outcome_summary.csv",
+          "sha256": "d5d1d7e8e85d4d54a0a4d6772ce0c07692bc7ffa2ef03b5f296b257ef5ea2090"
+        },
+        {
+          "bytes": 128,
+          "path": "a32/S0/claimcut_outcome_summary.csv",
+          "sha256": "f6890ce014b76a2c7677ab62fb5b0aabe5fb3623c73faf3d1d84cfac14ac8ec2"
+        },
+        {
+          "bytes": 148,
+          "path": "a32/S0/datasail_solver_status_summary.csv",
+          "sha256": "56a7b16bfed39cdd94ba491f61f08767707deb888ea0d8a59bf6609e6be5023c"
+        },
+        {
+          "bytes": 761,
+          "path": "a32/S0/comparator_pairing_coverage.csv",
+          "sha256": "46ab9347a6d980fe0bbf0d743f0acb6ec8c62110228009ce2f51e9164e46982a"
+        },
+        {
+          "bytes": 729,
+          "path": "a32/S0/metric_field_availability.csv",
+          "sha256": "e1cb45504ce34afd86c8882d96f2e4125629fa3285f3750ac852d717e85a80dc"
+        }
+      ]
+    },
+    {
+      "admitted_wrapper_manifest": {
+        "bytes": 23192,
+        "path": "a32/S3/v32_aggregate_manifest.json",
+        "sha256": "b51b108ed3e0595c08a47c0568bd58546c4fbe9ff6a43710c4e128da1163b611"
+      },
+      "aggregate_schema": "v32-predictive-aggregate-v1",
+      "base_manifest_sha256": "ec044f7e7f364fc2336b2db5161b2bc80885aabffda3eaaa8969f8f71dae3b34",
+      "directory": "S3",
+      "input_record_registry_sha256": "1e474fe6909f6a9dbcd5446bed055385d806a203086d7c6aa759b62c140c599e",
+      "stage": "S3",
+      "stage_complete_event_line": 49,
+      "summary_files": [
+        {
+          "bytes": 4251,
+          "path": "a32/S3/aggregation_manifest.json",
+          "sha256": "ec044f7e7f364fc2336b2db5161b2bc80885aabffda3eaaa8969f8f71dae3b34"
+        },
+        {
+          "bytes": 3220,
+          "path": "a32/S3/method_aggregate_summary.csv",
+          "sha256": "9de0e18c5f94a9a524e305ef5730cc4e01afe9f762e73471d0ab7fa76d594332"
+        },
+        {
+          "bytes": 2362,
+          "path": "a32/S3/paired_cluster_bootstrap.csv",
+          "sha256": "0ddfc27c0c4fab0373297a3f13165d4737019eef0ac34c7c0b852e84454af6fb"
+        },
+        {
+          "bytes": 111,
+          "path": "a32/S3/replicate_outcome_summary.csv",
+          "sha256": "97136944d15753fcd733368fd710e93fbb4954c91b71e2c456f6b288f8be931b"
+        },
+        {
+          "bytes": 128,
+          "path": "a32/S3/claimcut_outcome_summary.csv",
+          "sha256": "a408ae4cd18cb8ea8eb8175bfebca9a89f21271f87c1aeafc12e97038bb9acc9"
+        },
+        {
+          "bytes": 148,
+          "path": "a32/S3/datasail_solver_status_summary.csv",
+          "sha256": "a171de417f4276a452750eb80cc23f1f87a5f4bb6938d449f183df6664f9b20b"
+        },
+        {
+          "bytes": 761,
+          "path": "a32/S3/comparator_pairing_coverage.csv",
+          "sha256": "1b596fbb41c38ad6f5e59cf7e75e71308eb8d6e0831ddaf5323a598fb683eeb1"
+        },
+        {
+          "bytes": 729,
+          "path": "a32/S3/metric_field_availability.csv",
+          "sha256": "e1cb45504ce34afd86c8882d96f2e4125629fa3285f3750ac852d717e85a80dc"
+        }
+      ]
+    },
+    {
+      "admitted_wrapper_manifest": {
+        "bytes": 23192,
+        "path": "a32/S1/v32_aggregate_manifest.json",
+        "sha256": "6a4867cef6733c90fc7405929d80a7e1861446f367139d33bb1cf4a522e317f3"
+      },
+      "aggregate_schema": "v32-predictive-aggregate-v1",
+      "base_manifest_sha256": "0cafde44db83ee48f4be34f3ce96713af0fbd6cc6ce788e3349688b7c58942a2",
+      "directory": "S1",
+      "input_record_registry_sha256": "fbeff20432264f3e0ea1ebdbd980d168487fe676ec30e27d49fbfff9bb96e7a8",
+      "stage": "S1",
+      "stage_complete_event_line": 57,
+      "summary_files": [
+        {
+          "bytes": 4251,
+          "path": "a32/S1/aggregation_manifest.json",
+          "sha256": "0cafde44db83ee48f4be34f3ce96713af0fbd6cc6ce788e3349688b7c58942a2"
+        },
+        {
+          "bytes": 3231,
+          "path": "a32/S1/method_aggregate_summary.csv",
+          "sha256": "b69a632b4ee51e0dff1950cd56c94f10c104544106c946af338f4280410db2c1"
+        },
+        {
+          "bytes": 2359,
+          "path": "a32/S1/paired_cluster_bootstrap.csv",
+          "sha256": "be31974a5857d835607cb342190072c283cd1d086e0967ae7aa0faf595fdfe74"
+        },
+        {
+          "bytes": 111,
+          "path": "a32/S1/replicate_outcome_summary.csv",
+          "sha256": "4dcf4da8c64035554a33e47a9f658116f67dc72c3bb1f81c539127831b1dd0d3"
+        },
+        {
+          "bytes": 128,
+          "path": "a32/S1/claimcut_outcome_summary.csv",
+          "sha256": "13b55f030a99332dc5b3f02b66c08463723a8a02351edaee3e284d1e46bba9a0"
+        },
+        {
+          "bytes": 148,
+          "path": "a32/S1/datasail_solver_status_summary.csv",
+          "sha256": "003e5e471b1a90ad3e937223f45c97d3c40d5a99c31df8be4bd521c87a487b50"
+        },
+        {
+          "bytes": 761,
+          "path": "a32/S1/comparator_pairing_coverage.csv",
+          "sha256": "e92188f6c2e08ad2f66530056ff1207f8cf43dfc4e76cb8ce794a00b2960ce56"
+        },
+        {
+          "bytes": 729,
+          "path": "a32/S1/metric_field_availability.csv",
+          "sha256": "e1cb45504ce34afd86c8882d96f2e4125629fa3285f3750ac852d717e85a80dc"
+        }
+      ]
+    },
+    {
+      "admitted_wrapper_manifest": {
+        "bytes": 23192,
+        "path": "a32/S2/v32_aggregate_manifest.json",
+        "sha256": "2c937976b32d4f540ee768e0d64eea5eb9b9329a341268751847c834594379f5"
+      },
+      "aggregate_schema": "v32-predictive-aggregate-v1",
+      "base_manifest_sha256": "2eb1513b829a9e91d590ff0c0ade0f9cf63b388d8e44aa0b6bb59249f6911b1e",
+      "directory": "S2",
+      "input_record_registry_sha256": "88405c5aa0e7a3cf295da10e7528ac6d157bfcbf30090fc572b7955aa63bd2b3",
+      "stage": "S2",
+      "stage_complete_event_line": 65,
+      "summary_files": [
+        {
+          "bytes": 4251,
+          "path": "a32/S2/aggregation_manifest.json",
+          "sha256": "2eb1513b829a9e91d590ff0c0ade0f9cf63b388d8e44aa0b6bb59249f6911b1e"
+        },
+        {
+          "bytes": 3221,
+          "path": "a32/S2/method_aggregate_summary.csv",
+          "sha256": "31946da045d727e3168af897883f599c6c349f6c6f9849853d3c271db29ee405"
+        },
+        {
+          "bytes": 2354,
+          "path": "a32/S2/paired_cluster_bootstrap.csv",
+          "sha256": "edeffb2cce1d11cc2592312f1c48950eda33f9bf52728624b6ad88cc7d7783bb"
+        },
+        {
+          "bytes": 111,
+          "path": "a32/S2/replicate_outcome_summary.csv",
+          "sha256": "d4d45131a68c8e36959ce6fb847fcbc77c474f3d0e8a0428b7914ea6ad7ef1cd"
+        },
+        {
+          "bytes": 128,
+          "path": "a32/S2/claimcut_outcome_summary.csv",
+          "sha256": "64d3bd52a08e09ba9809a5c549fa46c57d87d3b2b733fbf21af1ebbb6fade2ed"
+        },
+        {
+          "bytes": 148,
+          "path": "a32/S2/datasail_solver_status_summary.csv",
+          "sha256": "a40f795184dd680d6070413bd3ff61f771f7c92f864759fad90b595a65a28a04"
+        },
+        {
+          "bytes": 761,
+          "path": "a32/S2/comparator_pairing_coverage.csv",
+          "sha256": "17dcd0d09c53b5b3a74747898f73dbbfca99b10c6bf605db9d8641d578ca4f42"
+        },
+        {
+          "bytes": 729,
+          "path": "a32/S2/metric_field_availability.csv",
+          "sha256": "e1cb45504ce34afd86c8882d96f2e4125629fa3285f3750ac852d717e85a80dc"
+        }
+      ]
+    },
+    {
+      "admitted_wrapper_manifest": {
+        "bytes": 23192,
+        "path": "a32/S5/v32_aggregate_manifest.json",
+        "sha256": "7737c5a9ae4af76ab4c5cb6532b1668518b1e3309e56f66fc92a041f2d518bae"
+      },
+      "aggregate_schema": "v32-predictive-aggregate-v1",
+      "base_manifest_sha256": "d781529b50f15bb1b3e1e7ea8cc3f0fa61c8e8315366282e92b3af00fb968364",
+      "directory": "S5",
+      "input_record_registry_sha256": "b9722541f9ca526a5cdd0ee3828690a095d28b7abf7770a5f310cda44d0de95a",
+      "stage": "S5",
+      "stage_complete_event_line": 73,
+      "summary_files": [
+        {
+          "bytes": 4251,
+          "path": "a32/S5/aggregation_manifest.json",
+          "sha256": "d781529b50f15bb1b3e1e7ea8cc3f0fa61c8e8315366282e92b3af00fb968364"
+        },
+        {
+          "bytes": 3155,
+          "path": "a32/S5/method_aggregate_summary.csv",
+          "sha256": "50f1855db1644703683413a51ea58dd1329a856146f2efe8dfd2d1495ba6571d"
+        },
+        {
+          "bytes": 2355,
+          "path": "a32/S5/paired_cluster_bootstrap.csv",
+          "sha256": "be4b095694a347fe9f14bdb090c4155d8639f2b4257866da7dbe41262f535089"
+        },
+        {
+          "bytes": 111,
+          "path": "a32/S5/replicate_outcome_summary.csv",
+          "sha256": "130ac89583515f112500426900be8fc3fe44ad63da05148b8a6e67f57f5cb9fe"
+        },
+        {
+          "bytes": 128,
+          "path": "a32/S5/claimcut_outcome_summary.csv",
+          "sha256": "cc5d6ddc15fba906539e87099c9e605ec35b6972e300b3068dfc04c32c5c2c46"
+        },
+        {
+          "bytes": 148,
+          "path": "a32/S5/datasail_solver_status_summary.csv",
+          "sha256": "f15b4be664a7ac05a23e49d770a835dda1ed348eda70ffc652f575af12a1b1d2"
+        },
+        {
+          "bytes": 761,
+          "path": "a32/S5/comparator_pairing_coverage.csv",
+          "sha256": "09f5dd8b3f7997859ae885d01ed299b701dcc4d514e8e4aa921d796d54b0f7d4"
+        },
+        {
+          "bytes": 729,
+          "path": "a32/S5/metric_field_availability.csv",
+          "sha256": "e1cb45504ce34afd86c8882d96f2e4125629fa3285f3750ac852d717e85a80dc"
+        }
+      ]
+    },
+    {
+      "admitted_wrapper_manifest": {
+        "bytes": 23192,
+        "path": "a32/S6/v32_aggregate_manifest.json",
+        "sha256": "6b5358c8ea18e69a6867108ab88fe3b071dab549b2b954e18c3b0c82ce1b05cd"
+      },
+      "aggregate_schema": "v32-predictive-aggregate-v1",
+      "base_manifest_sha256": "a624f16d1e9e580904bbc167211eb67f9cfe061518a93dcd9dd5c212c2b44441",
+      "directory": "S6",
+      "input_record_registry_sha256": "4b6d724b1cf74ba5efb8570a029e79e60d28023b8c0de56d665e0031ce6859a6",
+      "stage": "S6",
+      "stage_complete_event_line": 81,
+      "summary_files": [
+        {
+          "bytes": 4251,
+          "path": "a32/S6/aggregation_manifest.json",
+          "sha256": "a624f16d1e9e580904bbc167211eb67f9cfe061518a93dcd9dd5c212c2b44441"
+        },
+        {
+          "bytes": 3134,
+          "path": "a32/S6/method_aggregate_summary.csv",
+          "sha256": "679ec6719eb974bd4a7dcf5927f360840941906d5888baadd389a217f4f414e5"
+        },
+        {
+          "bytes": 2361,
+          "path": "a32/S6/paired_cluster_bootstrap.csv",
+          "sha256": "11672e229c6c07853495ec4b829d8e1f3965c773d2a56cdd9d381922aef1cd8d"
+        },
+        {
+          "bytes": 111,
+          "path": "a32/S6/replicate_outcome_summary.csv",
+          "sha256": "5c0645c48744414f3888b028b69fd495acd916e71eb5f3cad6779144530ebc1e"
+        },
+        {
+          "bytes": 128,
+          "path": "a32/S6/claimcut_outcome_summary.csv",
+          "sha256": "94ff38ffe9ef0844a318178dae49e0f76fb1d9ba513b554d49fedd090cf53d54"
+        },
+        {
+          "bytes": 148,
+          "path": "a32/S6/datasail_solver_status_summary.csv",
+          "sha256": "ec6532ed050bff58ce4dfa9874f3f56a053a4e22e5f677de0320dd90743b4798"
+        },
+        {
+          "bytes": 761,
+          "path": "a32/S6/comparator_pairing_coverage.csv",
+          "sha256": "40acc337178e898b8b2ead4c00c2cbc811e59052a78bf681b1e6ad8320ad3452"
+        },
+        {
+          "bytes": 729,
+          "path": "a32/S6/metric_field_availability.csv",
+          "sha256": "e1cb45504ce34afd86c8882d96f2e4125629fa3285f3750ac852d717e85a80dc"
+        }
+      ]
+    },
+    {
+      "admitted_wrapper_manifest": {
+        "bytes": 23192,
+        "path": "a32/S7/v32_aggregate_manifest.json",
+        "sha256": "9b04df56a5ee1322edb374ff8aeea50fe56f22159211dd31df2dc1969da3fff4"
+      },
+      "aggregate_schema": "v32-predictive-aggregate-v1",
+      "base_manifest_sha256": "4b5f57be670239112b5a00995aaf7cfbedcac61009ef2bb0a865e001ca237af7",
+      "directory": "S7",
+      "input_record_registry_sha256": "14b1a3aeb6584da01de392975187cfec3a9bb8aa8678a4bb7e5a8929635d139b",
+      "stage": "S7",
+      "stage_complete_event_line": 89,
+      "summary_files": [
+        {
+          "bytes": 4251,
+          "path": "a32/S7/aggregation_manifest.json",
+          "sha256": "4b5f57be670239112b5a00995aaf7cfbedcac61009ef2bb0a865e001ca237af7"
+        },
+        {
+          "bytes": 3195,
+          "path": "a32/S7/method_aggregate_summary.csv",
+          "sha256": "4557ab0f5ccfc3fea56b0bfa7feaca6e2d3f7108030b3d70d31a5fd207d5e188"
+        },
+        {
+          "bytes": 2353,
+          "path": "a32/S7/paired_cluster_bootstrap.csv",
+          "sha256": "d4cd01e037694f41a9e03435dfb86542e6311f034c509a476af36cbe2470e5e9"
+        },
+        {
+          "bytes": 111,
+          "path": "a32/S7/replicate_outcome_summary.csv",
+          "sha256": "32c3f847d15ac3238760244c30e286f7952347a88b6cc6240495e4a9f76bbd16"
+        },
+        {
+          "bytes": 128,
+          "path": "a32/S7/claimcut_outcome_summary.csv",
+          "sha256": "e32522ca56b29e5d87d8d5e6a096d7fc2d202cf280bff8d233a78341dd3d8f65"
+        },
+        {
+          "bytes": 148,
+          "path": "a32/S7/datasail_solver_status_summary.csv",
+          "sha256": "d2d68c9d9e8bc939c3315dd19020eed88796f112713d703ac9232b778d7f8620"
+        },
+        {
+          "bytes": 761,
+          "path": "a32/S7/comparator_pairing_coverage.csv",
+          "sha256": "ad80c7faa261a057c8536415745b4cfed97affcc99ef1fa93beff0acf46d325c"
+        },
+        {
+          "bytes": 729,
+          "path": "a32/S7/metric_field_availability.csv",
+          "sha256": "e1cb45504ce34afd86c8882d96f2e4125629fa3285f3750ac852d717e85a80dc"
+        }
+      ]
+    },
+    {
+      "admitted_wrapper_manifest": {
+        "bytes": 23212,
+        "path": "a32/S9_missing10/v32_aggregate_manifest.json",
+        "sha256": "38652578a692f04ee1c9e6cd4f2a0d84875f4eee33930776a4f7b37e987cdafa"
+      },
+      "aggregate_schema": "v32-predictive-aggregate-v1",
+      "base_manifest_sha256": "b083285c3a2aedab5bca92e9b6c737039f35d9dd40d16209fc42ed45656aa418",
+      "directory": "S9_missing10",
+      "input_record_registry_sha256": "693b1d6835221fa28bdcce789f75b8e7a797a24af0f6bb150b359d7136d9e4cb",
+      "stage": "S9_missing10",
+      "stage_complete_event_line": 97,
+      "summary_files": [
+        {
+          "bytes": 4533,
+          "path": "a32/S9_missing10/aggregation_manifest.json",
+          "sha256": "b083285c3a2aedab5bca92e9b6c737039f35d9dd40d16209fc42ed45656aa418"
+        },
+        {
+          "bytes": 3022,
+          "path": "a32/S9_missing10/method_aggregate_summary.csv",
+          "sha256": "ba013633f95f86c0d12b0aff372221ae84dd99b4e465837724ee7ae606878c3a"
+        },
+        {
+          "bytes": 1624,
+          "path": "a32/S9_missing10/paired_cluster_bootstrap.csv",
+          "sha256": "123461a3cab081a66abf87998cee183a2ae768fe1a18583268b1f7418a74601b"
+        },
+        {
+          "bytes": 121,
+          "path": "a32/S9_missing10/replicate_outcome_summary.csv",
+          "sha256": "f2b0cba0805457214b3fdb29b83b1e97dd9a86cd66b62b4b3c2c89aab33b8efd"
+        },
+        {
+          "bytes": 138,
+          "path": "a32/S9_missing10/claimcut_outcome_summary.csv",
+          "sha256": "6447971d29210bea66ee38fc0be94ef46460908aafcb5e3426e3c47c8c6fc28e"
+        },
+        {
+          "bytes": 219,
+          "path": "a32/S9_missing10/datasail_solver_status_summary.csv",
+          "sha256": "9aa88780c057eeed246f756f6a74cd7f5ee3e6a07a7f7dd9a1278bfeac5dba92"
+        },
+        {
+          "bytes": 802,
+          "path": "a32/S9_missing10/comparator_pairing_coverage.csv",
+          "sha256": "2d145638f6d9c737231cbcbaf371516f44b52c610844b6f95af40d768ea9b763"
+        },
+        {
+          "bytes": 731,
+          "path": "a32/S9_missing10/metric_field_availability.csv",
+          "sha256": "e927dd45401fff9a4f4b43bceb872419af096ef4734563234b5343b2fcb2fe22"
+        }
+      ]
+    },
+    {
+      "admitted_wrapper_manifest": {
+        "bytes": 23212,
+        "path": "a32/S9_missing30/v32_aggregate_manifest.json",
+        "sha256": "01ed514f624b797ce86b60d7a11b3264fcf4833b7d779a6d98e59970c36925cf"
+      },
+      "aggregate_schema": "v32-predictive-aggregate-v1",
+      "base_manifest_sha256": "d2c796b2775a321831df7ca76d35dffaedfeee519a5139a398aaa08e9f598a52",
+      "directory": "S9_missing30",
+      "input_record_registry_sha256": "8bfd73808906675e7fccba296f91d28321ba6389eb0816678d890074617b6950",
+      "stage": "S9_missing30",
+      "stage_complete_event_line": 105,
+      "summary_files": [
+        {
+          "bytes": 4533,
+          "path": "a32/S9_missing30/aggregation_manifest.json",
+          "sha256": "d2c796b2775a321831df7ca76d35dffaedfeee519a5139a398aaa08e9f598a52"
+        },
+        {
+          "bytes": 2999,
+          "path": "a32/S9_missing30/method_aggregate_summary.csv",
+          "sha256": "ea917c2ea9eb7999d1f3b421e39bb10fd1c0249c61b41ff30094baaa2dd52ede"
+        },
+        {
+          "bytes": 1624,
+          "path": "a32/S9_missing30/paired_cluster_bootstrap.csv",
+          "sha256": "f08a04afc866309fc4d9d0d0af16fd298f6cc5e538389cc1eeb56298c634b6f3"
+        },
+        {
+          "bytes": 121,
+          "path": "a32/S9_missing30/replicate_outcome_summary.csv",
+          "sha256": "3ae02cb0ab499c8a327724bbec34d3f475b401cb57a9798d4c79bfc5876b2299"
+        },
+        {
+          "bytes": 138,
+          "path": "a32/S9_missing30/claimcut_outcome_summary.csv",
+          "sha256": "800f7151eb3f0cfc977174c1d1688d8d4c01ac255454eae71caf41567f0045ab"
+        },
+        {
+          "bytes": 219,
+          "path": "a32/S9_missing30/datasail_solver_status_summary.csv",
+          "sha256": "c9b4848bbae2fedb48fd411c9d074cd1202c4f707b9b8e4c3c82eb82aa4d570d"
+        },
+        {
+          "bytes": 802,
+          "path": "a32/S9_missing30/comparator_pairing_coverage.csv",
+          "sha256": "62c5838ca3886091ccf4ddcbeeff8f36f7a912e07580d95ff5276ceea69feca5"
+        },
+        {
+          "bytes": 731,
+          "path": "a32/S9_missing30/metric_field_availability.csv",
+          "sha256": "e927dd45401fff9a4f4b43bceb872419af096ef4734563234b5343b2fcb2fe22"
+        }
+      ]
+    },
+    {
+      "admitted_wrapper_manifest": {
+        "bytes": 23210,
+        "path": "a32/S9_corrupt5/v32_aggregate_manifest.json",
+        "sha256": "cfafbaefbaa31e2e23ea380bc976560c5e5ed219a9a055f550abd19cb2d52f97"
+      },
+      "aggregate_schema": "v32-predictive-aggregate-v1",
+      "base_manifest_sha256": "dc7681a839fc305e3efbfdfdf0f279be17160dae970629a7f53a8b89578636e3",
+      "directory": "S9_corrupt5",
+      "input_record_registry_sha256": "500e9c918d40d49121a24d046c0932b7572a834c42cb1261cbceb0ee546035e7",
+      "stage": "S9_corrupt5",
+      "stage_complete_event_line": 113,
+      "summary_files": [
+        {
+          "bytes": 4529,
+          "path": "a32/S9_corrupt5/aggregation_manifest.json",
+          "sha256": "dc7681a839fc305e3efbfdfdf0f279be17160dae970629a7f53a8b89578636e3"
+        },
+        {
+          "bytes": 2983,
+          "path": "a32/S9_corrupt5/method_aggregate_summary.csv",
+          "sha256": "0b0c61c2f281f7f820df2597010473c6ecd9ac7d39560395184c52281daca962"
+        },
+        {
+          "bytes": 1617,
+          "path": "a32/S9_corrupt5/paired_cluster_bootstrap.csv",
+          "sha256": "db756f27086f62d1186d5e51f4061e1b5c10794de0c3f898d1a5bce94e02913d"
+        },
+        {
+          "bytes": 120,
+          "path": "a32/S9_corrupt5/replicate_outcome_summary.csv",
+          "sha256": "e48c979d16e9fc9b851d7d6d172c3e2937521c052fbc43ff46670055861d9fdd"
+        },
+        {
+          "bytes": 137,
+          "path": "a32/S9_corrupt5/claimcut_outcome_summary.csv",
+          "sha256": "38e3ff6f96833110f86e328127d629ef27f19a8df2a525357551de91e4e0f279"
+        },
+        {
+          "bytes": 217,
+          "path": "a32/S9_corrupt5/datasail_solver_status_summary.csv",
+          "sha256": "7fc1f9d8e006f2df6f010ae899f4c486fd9b4f520aa00f05a93911669e5dccd4"
+        },
+        {
+          "bytes": 795,
+          "path": "a32/S9_corrupt5/comparator_pairing_coverage.csv",
+          "sha256": "c69254f09cf667a7ed637b2944c6dd49bbed80ed64db403115f9242afb95f36d"
+        },
+        {
+          "bytes": 731,
+          "path": "a32/S9_corrupt5/metric_field_availability.csv",
+          "sha256": "e927dd45401fff9a4f4b43bceb872419af096ef4734563234b5343b2fcb2fe22"
+        }
+      ]
+    },
+    {
+      "admitted_wrapper_manifest": {
+        "bytes": 23214,
+        "path": "a32/CORE_0_0_0.35/v32_aggregate_manifest.json",
+        "sha256": "f1a9e8d4cb5daf8129d71a8a78ea540725002738ad3943d37680afc8f5e89046"
+      },
+      "aggregate_schema": "v32-predictive-aggregate-v1",
+      "base_manifest_sha256": "663e369c48551f99c8d019f6f24f41aa247bea53455f38f5f02c9f8a19511d22",
+      "directory": "CORE_0_0_0.35",
+      "input_record_registry_sha256": "ff885a3e7a7022fff53da22d8a65c77b8bb0c99884c9d43394137eda904c929f",
+      "stage": "CORE_0_0_0.35",
+      "stage_complete_event_line": 121,
+      "summary_files": [
+        {
+          "bytes": 4284,
+          "path": "a32/CORE_0_0_0.35/aggregation_manifest.json",
+          "sha256": "663e369c48551f99c8d019f6f24f41aa247bea53455f38f5f02c9f8a19511d22"
+        },
+        {
+          "bytes": 3365,
+          "path": "a32/CORE_0_0_0.35/method_aggregate_summary.csv",
+          "sha256": "76303daa45d85b45c3cac95e850d25602edb8a5616b7768af2bd1194b0e0c7d1"
+        },
+        {
+          "bytes": 2459,
+          "path": "a32/CORE_0_0_0.35/paired_cluster_bootstrap.csv",
+          "sha256": "fea4334f85ffae29f05c399e564fa1c34734007c92eacb1912a82c6009f47333"
+        },
+        {
+          "bytes": 122,
+          "path": "a32/CORE_0_0_0.35/replicate_outcome_summary.csv",
+          "sha256": "b01d9f906f610686e0802c1fb88bb3affc116f89ba3926fc8d0984a3f02675bd"
+        },
+        {
+          "bytes": 139,
+          "path": "a32/CORE_0_0_0.35/claimcut_outcome_summary.csv",
+          "sha256": "853fcab633cdfbb3f6f6c3ef0444079a595f8571c8ced52b001d697391153778"
+        },
+        {
+          "bytes": 159,
+          "path": "a32/CORE_0_0_0.35/datasail_solver_status_summary.csv",
+          "sha256": "12d913369826c6400e8fc66afd22215a92c465aa97c17828c42e6883fca37dec"
+        },
+        {
+          "bytes": 838,
+          "path": "a32/CORE_0_0_0.35/comparator_pairing_coverage.csv",
+          "sha256": "6e969b1a7aa8c19a301b9b26717c9c3bb22ad9088af8b63726efd2a01939408c"
+        },
+        {
+          "bytes": 729,
+          "path": "a32/CORE_0_0_0.35/metric_field_availability.csv",
+          "sha256": "e1cb45504ce34afd86c8882d96f2e4125629fa3285f3750ac852d717e85a80dc"
+        }
+      ]
+    },
+    {
+      "admitted_wrapper_manifest": {
+        "bytes": 23212,
+        "path": "a32/CORE_0_0_1.0/v32_aggregate_manifest.json",
+        "sha256": "9b8ef24ac5f4b9036adc3453c96ce6b4a83fccee1d1a583cc744300a5fb2ddf9"
+      },
+      "aggregate_schema": "v32-predictive-aggregate-v1",
+      "base_manifest_sha256": "2b60e3e592b96e6c7eff97a4ffd6208cba4a15ee444805a188b2c0787ac4bb90",
+      "directory": "CORE_0_0_1.0",
+      "input_record_registry_sha256": "4c946f00a1044da528562862a9631b64e1da12a21574bc89e5173c8ae23da57e",
+      "stage": "CORE_0_0_1.0",
+      "stage_complete_event_line": 129,
+      "summary_files": [
+        {
+          "bytes": 4281,
+          "path": "a32/CORE_0_0_1.0/aggregation_manifest.json",
+          "sha256": "2b60e3e592b96e6c7eff97a4ffd6208cba4a15ee444805a188b2c0787ac4bb90"
+        },
+        {
+          "bytes": 3345,
+          "path": "a32/CORE_0_0_1.0/method_aggregate_summary.csv",
+          "sha256": "5f627c666123e9086ebc8796ffa18484d1530fef62037740dc1e675e0099a337"
+        },
+        {
+          "bytes": 2442,
+          "path": "a32/CORE_0_0_1.0/paired_cluster_bootstrap.csv",
+          "sha256": "714e1f8d0f242b9245d7ed4d80de26bb43bbdadb58fb78dfb82a73d4d268b639"
+        },
+        {
+          "bytes": 121,
+          "path": "a32/CORE_0_0_1.0/replicate_outcome_summary.csv",
+          "sha256": "5df0de89304e0080d403c1bb2f557f333def0d40734d19aa0b787c79e520984f"
+        },
+        {
+          "bytes": 138,
+          "path": "a32/CORE_0_0_1.0/claimcut_outcome_summary.csv",
+          "sha256": "008d35fdc9edffcaed3706024f0d6a71a611e6ded47a18a2f7038c767c0d933d"
+        },
+        {
+          "bytes": 158,
+          "path": "a32/CORE_0_0_1.0/datasail_solver_status_summary.csv",
+          "sha256": "4bd20c5b857a95fd5736c4719851ebe023d6a9d23b87b1d8efdd025fc3007cc8"
+        },
+        {
+          "bytes": 831,
+          "path": "a32/CORE_0_0_1.0/comparator_pairing_coverage.csv",
+          "sha256": "e079eb3d00f3e4f91d06295ab01e3fda377a63e2da4671c1ee56dca1bf1ef089"
+        },
+        {
+          "bytes": 729,
+          "path": "a32/CORE_0_0_1.0/metric_field_availability.csv",
+          "sha256": "e1cb45504ce34afd86c8882d96f2e4125629fa3285f3750ac852d717e85a80dc"
+        }
+      ]
+    },
+    {
+      "admitted_wrapper_manifest": {
+        "bytes": 23218,
+        "path": "a32/CORE_0_0.9_0.35/v32_aggregate_manifest.json",
+        "sha256": "912ea9b33ba7be7054194cfa7f726aafb072552f0ce3dae53c24019705391750"
+      },
+      "aggregate_schema": "v32-predictive-aggregate-v1",
+      "base_manifest_sha256": "7f9794d516b6c6c93d058607278b272a7dda4d9f4b1fb7e26e391502af531bb8",
+      "directory": "CORE_0_0.9_0.35",
+      "input_record_registry_sha256": "4977ea251476ccec2b52329ce3372f3ff14070747c895e7c502ebd60f1c49325",
+      "stage": "CORE_0_0.9_0.35",
+      "stage_complete_event_line": 137,
+      "summary_files": [
+        {
+          "bytes": 4290,
+          "path": "a32/CORE_0_0.9_0.35/aggregation_manifest.json",
+          "sha256": "7f9794d516b6c6c93d058607278b272a7dda4d9f4b1fb7e26e391502af531bb8"
+        },
+        {
+          "bytes": 3328,
+          "path": "a32/CORE_0_0.9_0.35/method_aggregate_summary.csv",
+          "sha256": "6f9c0d5726ff2333d96959a466440674aff54905f97a275d4ad1f36c5e2f3306"
+        },
+        {
+          "bytes": 2448,
+          "path": "a32/CORE_0_0.9_0.35/paired_cluster_bootstrap.csv",
+          "sha256": "b6a224a7cd1263e833f0d4b7c0cf59ea6bb5a7f15a1385a4be7df49394c87c08"
+        },
+        {
+          "bytes": 124,
+          "path": "a32/CORE_0_0.9_0.35/replicate_outcome_summary.csv",
+          "sha256": "05e0ba57233e0261e110612fa266d77484be16e0a1c7ab95e3d9b4bd15fb7fc6"
+        },
+        {
+          "bytes": 141,
+          "path": "a32/CORE_0_0.9_0.35/claimcut_outcome_summary.csv",
+          "sha256": "66eb8a2bbaf4587d78099e15deecea18a5eed0f1a20d4ce078417bb9e3b9041a"
+        },
+        {
+          "bytes": 161,
+          "path": "a32/CORE_0_0.9_0.35/datasail_solver_status_summary.csv",
+          "sha256": "928d3c8ce8004a4391167e0336e1cee8e3cbb64023753a3c5098c5ab97569b47"
+        },
+        {
+          "bytes": 852,
+          "path": "a32/CORE_0_0.9_0.35/comparator_pairing_coverage.csv",
+          "sha256": "ca19ba9e741976a506a30e967a209095b0360a7ffaddd5747ebf99d762fc705e"
+        },
+        {
+          "bytes": 729,
+          "path": "a32/CORE_0_0.9_0.35/metric_field_availability.csv",
+          "sha256": "e1cb45504ce34afd86c8882d96f2e4125629fa3285f3750ac852d717e85a80dc"
+        }
+      ]
+    },
+    {
+      "admitted_wrapper_manifest": {
+        "bytes": 23216,
+        "path": "a32/CORE_0_0.9_1.0/v32_aggregate_manifest.json",
+        "sha256": "563bdb3b96b6e443e091f2c38ad77bdab76520f5d1175dd094d4be9206751c4c"
+      },
+      "aggregate_schema": "v32-predictive-aggregate-v1",
+      "base_manifest_sha256": "1ee6bb233e8cfcf3c368eacef563e1604a01e44909f4c73c37d8757c4313e0e0",
+      "directory": "CORE_0_0.9_1.0",
+      "input_record_registry_sha256": "825d44484fc68112e9ad297e337280934237ccb2bdd3fb337e0a12c97a05a999",
+      "stage": "CORE_0_0.9_1.0",
+      "stage_complete_event_line": 145,
+      "summary_files": [
+        {
+          "bytes": 4287,
+          "path": "a32/CORE_0_0.9_1.0/aggregation_manifest.json",
+          "sha256": "1ee6bb233e8cfcf3c368eacef563e1604a01e44909f4c73c37d8757c4313e0e0"
+        },
+        {
+          "bytes": 3325,
+          "path": "a32/CORE_0_0.9_1.0/method_aggregate_summary.csv",
+          "sha256": "d749b17e9c3f60f8ba29becac33e9a8011faea866b9effe30a9801fe9810108b"
+        },
+        {
+          "bytes": 2437,
+          "path": "a32/CORE_0_0.9_1.0/paired_cluster_bootstrap.csv",
+          "sha256": "1e4bad039ebd53a626de8170a18c7dc27b3631b556e543dc6723fccaaf02cbc0"
+        },
+        {
+          "bytes": 123,
+          "path": "a32/CORE_0_0.9_1.0/replicate_outcome_summary.csv",
+          "sha256": "ec08a712fb0e022cb45db41c5027ba66d3f3b84134c71226608d71c2b5e248e6"
+        },
+        {
+          "bytes": 140,
+          "path": "a32/CORE_0_0.9_1.0/claimcut_outcome_summary.csv",
+          "sha256": "2d564b9add856d2fc01a0715b5cedc2d6e32e44c71108e85ae47c51d8b37c513"
+        },
+        {
+          "bytes": 160,
+          "path": "a32/CORE_0_0.9_1.0/datasail_solver_status_summary.csv",
+          "sha256": "c7b517c6662dbf081feda580c3cb7440f2ce5659ed97f07cd7fef0266d79db62"
+        },
+        {
+          "bytes": 845,
+          "path": "a32/CORE_0_0.9_1.0/comparator_pairing_coverage.csv",
+          "sha256": "bbf4d4f96db4b888931379066ae396ec65d3ffa8c9c21b5bb69acd83056aa3b0"
+        },
+        {
+          "bytes": 729,
+          "path": "a32/CORE_0_0.9_1.0/metric_field_availability.csv",
+          "sha256": "e1cb45504ce34afd86c8882d96f2e4125629fa3285f3750ac852d717e85a80dc"
+        }
+      ]
+    },
+    {
+      "admitted_wrapper_manifest": {
+        "bytes": 23218,
+        "path": "a32/CORE_0_1.8_0.35/v32_aggregate_manifest.json",
+        "sha256": "1a02e83cfe8e4be0ecb609b1202c032859ab8e976b70b7b0c4af05686903b614"
+      },
+      "aggregate_schema": "v32-predictive-aggregate-v1",
+      "base_manifest_sha256": "c3dd0799931546c33b8f8b727c0bd4701acc9de3893703f9392d0be8d2bf80b3",
+      "directory": "CORE_0_1.8_0.35",
+      "input_record_registry_sha256": "8470132d13651624adb0834f84e1e76da6bfc557bef2041931cee489dc97a8ef",
+      "stage": "CORE_0_1.8_0.35",
+      "stage_complete_event_line": 153,
+      "summary_files": [
+        {
+          "bytes": 4290,
+          "path": "a32/CORE_0_1.8_0.35/aggregation_manifest.json",
+          "sha256": "c3dd0799931546c33b8f8b727c0bd4701acc9de3893703f9392d0be8d2bf80b3"
+        },
+        {
+          "bytes": 3290,
+          "path": "a32/CORE_0_1.8_0.35/method_aggregate_summary.csv",
+          "sha256": "20e4d1875bff966de11cb8241e4426bdd2443c78813ece874f9b19bcb7d33684"
+        },
+        {
+          "bytes": 2445,
+          "path": "a32/CORE_0_1.8_0.35/paired_cluster_bootstrap.csv",
+          "sha256": "1bf83bf3ee3ddf9ab1fb259634f793dfba7dbfe72075f25750f0dd596357d12a"
+        },
+        {
+          "bytes": 124,
+          "path": "a32/CORE_0_1.8_0.35/replicate_outcome_summary.csv",
+          "sha256": "5e95aded03b18154835a679c7fa97eb2c754c2a3b955809eb42f3a7118915bac"
+        },
+        {
+          "bytes": 141,
+          "path": "a32/CORE_0_1.8_0.35/claimcut_outcome_summary.csv",
+          "sha256": "6849094f1fd51db687fe5abdf159f323cf979e8eb87048cd88f7f3cde1e48315"
+        },
+        {
+          "bytes": 161,
+          "path": "a32/CORE_0_1.8_0.35/datasail_solver_status_summary.csv",
+          "sha256": "e50b6767bd3eae4fc012dc5deb1f78f2375c795d3f712709ea1bc7906f5cc92a"
+        },
+        {
+          "bytes": 852,
+          "path": "a32/CORE_0_1.8_0.35/comparator_pairing_coverage.csv",
+          "sha256": "abcc247899f2190d7c3b3ec433101f47b7ed61351950babea2176015eb955336"
+        },
+        {
+          "bytes": 729,
+          "path": "a32/CORE_0_1.8_0.35/metric_field_availability.csv",
+          "sha256": "e1cb45504ce34afd86c8882d96f2e4125629fa3285f3750ac852d717e85a80dc"
+        }
+      ]
+    },
+    {
+      "admitted_wrapper_manifest": {
+        "bytes": 23215,
+        "path": "a32/CORE_0_1.8_1.0/v32_aggregate_manifest.json",
+        "sha256": "81c73f189dc39d7fc0126316540b3e5380b243b5b66ecc2871a56908c8b823a9"
+      },
+      "aggregate_schema": "v32-predictive-aggregate-v1",
+      "base_manifest_sha256": "915a4823dfc900d5d33d91e42a04bc6c6e22f4ea2bd3d5af5e1111b07f74bf2a",
+      "directory": "CORE_0_1.8_1.0",
+      "input_record_registry_sha256": "c930b0d7143fe66824aa0e892b00ccdf3b286313be6f648bfdce7dceb6047638",
+      "stage": "CORE_0_1.8_1.0",
+      "stage_complete_event_line": 161,
+      "summary_files": [
+        {
+          "bytes": 4287,
+          "path": "a32/CORE_0_1.8_1.0/aggregation_manifest.json",
+          "sha256": "915a4823dfc900d5d33d91e42a04bc6c6e22f4ea2bd3d5af5e1111b07f74bf2a"
+        },
+        {
+          "bytes": 3265,
+          "path": "a32/CORE_0_1.8_1.0/method_aggregate_summary.csv",
+          "sha256": "5d47cdc2213634c307e8efc66d5cc427d8317eade62345f18fa325330545d554"
+        },
+        {
+          "bytes": 2425,
+          "path": "a32/CORE_0_1.8_1.0/paired_cluster_bootstrap.csv",
+          "sha256": "993b03f9c3daed9b09d7d8aaaf13408dd70ae44d3c478827d79dd1d22b9c92c9"
+        },
+        {
+          "bytes": 123,
+          "path": "a32/CORE_0_1.8_1.0/replicate_outcome_summary.csv",
+          "sha256": "c59f0c97aa2bc259453b44507a319dc1511337ec4a726e2565eda23387e1510a"
+        },
+        {
+          "bytes": 140,
+          "path": "a32/CORE_0_1.8_1.0/claimcut_outcome_summary.csv",
+          "sha256": "1081dd057817321d96bd2777144ad1c8fc7388db7563a08aa4884d0e2cfe4b64"
+        },
+        {
+          "bytes": 160,
+          "path": "a32/CORE_0_1.8_1.0/datasail_solver_status_summary.csv",
+          "sha256": "a2d33fa5cb5edf8569a756415bcec12dd18e45190fcfe85340d08f23b59fae20"
+        },
+        {
+          "bytes": 845,
+          "path": "a32/CORE_0_1.8_1.0/comparator_pairing_coverage.csv",
+          "sha256": "f3345529ac89876de75228a7cf0bac698c4e2f0e952f57f45db3cc12e0039207"
+        },
+        {
+          "bytes": 729,
+          "path": "a32/CORE_0_1.8_1.0/metric_field_availability.csv",
+          "sha256": "e1cb45504ce34afd86c8882d96f2e4125629fa3285f3750ac852d717e85a80dc"
+        }
+      ]
+    },
+    {
+      "admitted_wrapper_manifest": {
+        "bytes": 23217,
+        "path": "a32/CORE_0.6_0_0.35/v32_aggregate_manifest.json",
+        "sha256": "40ae0eb5232bd955ebebcf8a33b2d2f890e6cbe868e3f1792f3ab6c9753ff9fc"
+      },
+      "aggregate_schema": "v32-predictive-aggregate-v1",
+      "base_manifest_sha256": "4beab5fb16d068f4e65ea5718cbf5e192bfa77e744fbdc18b8488244ba891f7a",
+      "directory": "CORE_0.6_0_0.35",
+      "input_record_registry_sha256": "3ea30170c99b7c5be20de552e3c2f5272dd4c20ba99160ec2c066fe8d7eb270a",
+      "stage": "CORE_0.6_0_0.35",
+      "stage_complete_event_line": 169,
+      "summary_files": [
+        {
+          "bytes": 4290,
+          "path": "a32/CORE_0.6_0_0.35/aggregation_manifest.json",
+          "sha256": "4beab5fb16d068f4e65ea5718cbf5e192bfa77e744fbdc18b8488244ba891f7a"
+        },
+        {
+          "bytes": 3360,
+          "path": "a32/CORE_0.6_0_0.35/method_aggregate_summary.csv",
+          "sha256": "34553b4134f8870657e003e8ab87860d5113ac173c79fcbd9d9dcc188a17f95c"
+        },
+        {
+          "bytes": 2470,
+          "path": "a32/CORE_0.6_0_0.35/paired_cluster_bootstrap.csv",
+          "sha256": "f797bbcf0f57c0ba106152dafa629012963ca6784de22f0c03df17b375519625"
+        },
+        {
+          "bytes": 124,
+          "path": "a32/CORE_0.6_0_0.35/replicate_outcome_summary.csv",
+          "sha256": "c461746f24cd058c719fc327f4a1b6ba262cd4e464f4f5aff09dd5ae86b9fe92"
+        },
+        {
+          "bytes": 141,
+          "path": "a32/CORE_0.6_0_0.35/claimcut_outcome_summary.csv",
+          "sha256": "48a2b3f4c98a323962aa4df07c850672090b79815ee07e8887f5a2b4b7415984"
+        },
+        {
+          "bytes": 161,
+          "path": "a32/CORE_0.6_0_0.35/datasail_solver_status_summary.csv",
+          "sha256": "dda111539aff2b80c71359e0e773c4cdf15c89377b40176e330d6145f3c1578b"
+        },
+        {
+          "bytes": 852,
+          "path": "a32/CORE_0.6_0_0.35/comparator_pairing_coverage.csv",
+          "sha256": "8cf0731450fb7288761aeee3d93012386438c1cb3f74fd79ffcb45d9f255db4c"
+        },
+        {
+          "bytes": 729,
+          "path": "a32/CORE_0.6_0_0.35/metric_field_availability.csv",
+          "sha256": "e1cb45504ce34afd86c8882d96f2e4125629fa3285f3750ac852d717e85a80dc"
+        }
+      ]
+    },
+    {
+      "admitted_wrapper_manifest": {
+        "bytes": 23216,
+        "path": "a32/CORE_0.6_0_1.0/v32_aggregate_manifest.json",
+        "sha256": "da9f5fd7ab5284728ac6fdb9ddf47f7c9312079b337b63d7e3632b91d93a3ee9"
+      },
+      "aggregate_schema": "v32-predictive-aggregate-v1",
+      "base_manifest_sha256": "c3a00b3a34630f4492ec80beba7a2b982af4a420c1d941a8e447e2e8fd934053",
+      "directory": "CORE_0.6_0_1.0",
+      "input_record_registry_sha256": "5980f9c757aa2b7f0add021048b2e460772f03c705cf1f89f7d1b02d25dff92c",
+      "stage": "CORE_0.6_0_1.0",
+      "stage_complete_event_line": 177,
+      "summary_files": [
+        {
+          "bytes": 4287,
+          "path": "a32/CORE_0.6_0_1.0/aggregation_manifest.json",
+          "sha256": "c3a00b3a34630f4492ec80beba7a2b982af4a420c1d941a8e447e2e8fd934053"
+        },
+        {
+          "bytes": 3355,
+          "path": "a32/CORE_0.6_0_1.0/method_aggregate_summary.csv",
+          "sha256": "e61fe8ebdb55f12cc9c394c564ed72e28b4ca492107db07c4fa9a9ac920f352b"
+        },
+        {
+          "bytes": 2440,
+          "path": "a32/CORE_0.6_0_1.0/paired_cluster_bootstrap.csv",
+          "sha256": "03c1b6a9e9fe53a68a3e17eab3e67f1dfa9d19e8587be705b97520f8f4e87932"
+        },
+        {
+          "bytes": 123,
+          "path": "a32/CORE_0.6_0_1.0/replicate_outcome_summary.csv",
+          "sha256": "6a6979c760c1d2c3125d192a1b3bb686aa2e94e7b859de4727459b537c5af62a"
+        },
+        {
+          "bytes": 140,
+          "path": "a32/CORE_0.6_0_1.0/claimcut_outcome_summary.csv",
+          "sha256": "a8203c6071091e11e0f436395d100430a5f0cca442025a6baebcacf2496ed3d0"
+        },
+        {
+          "bytes": 160,
+          "path": "a32/CORE_0.6_0_1.0/datasail_solver_status_summary.csv",
+          "sha256": "39cce8dbdb4629ff350134ec048ce952e4ecaa01957b46f574a5582b066b8b40"
+        },
+        {
+          "bytes": 845,
+          "path": "a32/CORE_0.6_0_1.0/comparator_pairing_coverage.csv",
+          "sha256": "acffe8d80d9c18ca96ff8e5b1fa1396b677fe4a929ef3a285222122f221bc20e"
+        },
+        {
+          "bytes": 729,
+          "path": "a32/CORE_0.6_0_1.0/metric_field_availability.csv",
+          "sha256": "e1cb45504ce34afd86c8882d96f2e4125629fa3285f3750ac852d717e85a80dc"
+        }
+      ]
+    },
+    {
+      "admitted_wrapper_manifest": {
+        "bytes": 23222,
+        "path": "a32/CORE_0.6_0.9_0.35/v32_aggregate_manifest.json",
+        "sha256": "0ae3db51004189a99a962f4ffdbb17bff0f572d0a9ad3af6b9793e22005fd2e4"
+      },
+      "aggregate_schema": "v32-predictive-aggregate-v1",
+      "base_manifest_sha256": "be07455bb441adac59a2538f92eb8681c4bdf7500138d411dafa574486b82da5",
+      "directory": "CORE_0.6_0.9_0.35",
+      "input_record_registry_sha256": "82a05ad2b5fc5a124a40abd87625abc35256720cf958f9dbf67e18756e232d45",
+      "stage": "CORE_0.6_0.9_0.35",
+      "stage_complete_event_line": 185,
+      "summary_files": [
+        {
+          "bytes": 4296,
+          "path": "a32/CORE_0.6_0.9_0.35/aggregation_manifest.json",
+          "sha256": "be07455bb441adac59a2538f92eb8681c4bdf7500138d411dafa574486b82da5"
+        },
+        {
+          "bytes": 3338,
+          "path": "a32/CORE_0.6_0.9_0.35/method_aggregate_summary.csv",
+          "sha256": "01b8c54618c1a2e83d79983136561b7550da87dbbf944a6ee8a832e57924d7b2"
+        },
+        {
+          "bytes": 2475,
+          "path": "a32/CORE_0.6_0.9_0.35/paired_cluster_bootstrap.csv",
+          "sha256": "f5ca0375862c0e0f382afbb4de0f0ec44bcd73915f6a197d8f60f27f19bbd9ca"
+        },
+        {
+          "bytes": 126,
+          "path": "a32/CORE_0.6_0.9_0.35/replicate_outcome_summary.csv",
+          "sha256": "a3d63f3e7d7701a2239bbcab3cdd0a202d627ba8531607c566013fe75e495863"
+        },
+        {
+          "bytes": 143,
+          "path": "a32/CORE_0.6_0.9_0.35/claimcut_outcome_summary.csv",
+          "sha256": "72b7c7f37e9d8f530a6c7eac9941eb394fffefe02c7d2d116d99a5cc732b4e87"
+        },
+        {
+          "bytes": 163,
+          "path": "a32/CORE_0.6_0.9_0.35/datasail_solver_status_summary.csv",
+          "sha256": "e6bba8295a38fafd878ef7555677975025e56d9350d850ec6e30425a9e87c4cc"
+        },
+        {
+          "bytes": 866,
+          "path": "a32/CORE_0.6_0.9_0.35/comparator_pairing_coverage.csv",
+          "sha256": "e8b40fae9289d363daa314d1d2c57bc4745d3bb4cffd4ab583ae6a18b5ad8458"
+        },
+        {
+          "bytes": 729,
+          "path": "a32/CORE_0.6_0.9_0.35/metric_field_availability.csv",
+          "sha256": "e1cb45504ce34afd86c8882d96f2e4125629fa3285f3750ac852d717e85a80dc"
+        }
+      ]
+    },
+    {
+      "admitted_wrapper_manifest": {
+        "bytes": 23220,
+        "path": "a32/CORE_0.6_0.9_1.0/v32_aggregate_manifest.json",
+        "sha256": "8da4f2057a8d69ef58a1f3451edca94ac5950595cc110aa504dd1700af626182"
+      },
+      "aggregate_schema": "v32-predictive-aggregate-v1",
+      "base_manifest_sha256": "d4b5436225f5ef98c797d2a7473b29441b1b7e0de03f650b8fa4db7dd36810f2",
+      "directory": "CORE_0.6_0.9_1.0",
+      "input_record_registry_sha256": "2654e5e1e9d73336791088be21d9e2894296933f5197b637a3bc7977f1cc67df",
+      "stage": "CORE_0.6_0.9_1.0",
+      "stage_complete_event_line": 193,
+      "summary_files": [
+        {
+          "bytes": 4293,
+          "path": "a32/CORE_0.6_0.9_1.0/aggregation_manifest.json",
+          "sha256": "d4b5436225f5ef98c797d2a7473b29441b1b7e0de03f650b8fa4db7dd36810f2"
+        },
+        {
+          "bytes": 3332,
+          "path": "a32/CORE_0.6_0.9_1.0/method_aggregate_summary.csv",
+          "sha256": "a30ce97be7289b51442fb1fc70080e4903f2d31ccfeb581bd88a690b91179295"
+        },
+        {
+          "bytes": 2458,
+          "path": "a32/CORE_0.6_0.9_1.0/paired_cluster_bootstrap.csv",
+          "sha256": "919faa3b8b08f4d95a6971ca76d6c2229c8bf9d5d5c59b4d8b433dc570c2768d"
+        },
+        {
+          "bytes": 125,
+          "path": "a32/CORE_0.6_0.9_1.0/replicate_outcome_summary.csv",
+          "sha256": "bc6df43900ad15a005272dc22c20b0a8368b843b8fb43508c389fe6e15ccf810"
+        },
+        {
+          "bytes": 142,
+          "path": "a32/CORE_0.6_0.9_1.0/claimcut_outcome_summary.csv",
+          "sha256": "dc6cfccf6eb02e3cb9498889e2a7c261602e3c906854ede743931d60bf8f1d43"
+        },
+        {
+          "bytes": 162,
+          "path": "a32/CORE_0.6_0.9_1.0/datasail_solver_status_summary.csv",
+          "sha256": "f3e276743e824094a3a7ed162f70675aab8bb377c2ec82b2a4194899e1bded38"
+        },
+        {
+          "bytes": 859,
+          "path": "a32/CORE_0.6_0.9_1.0/comparator_pairing_coverage.csv",
+          "sha256": "d38ba8d84c304800e3b77f55ce496970274a6d60b4224cc2c36eabd5f016befa"
+        },
+        {
+          "bytes": 729,
+          "path": "a32/CORE_0.6_0.9_1.0/metric_field_availability.csv",
+          "sha256": "e1cb45504ce34afd86c8882d96f2e4125629fa3285f3750ac852d717e85a80dc"
+        }
+      ]
+    },
+    {
+      "admitted_wrapper_manifest": {
+        "bytes": 23222,
+        "path": "a32/CORE_0.6_1.8_0.35/v32_aggregate_manifest.json",
+        "sha256": "3ec63d7922dc45a3149d037a619434641ddc4b246d9b3db565a667ce4730ca7c"
+      },
+      "aggregate_schema": "v32-predictive-aggregate-v1",
+      "base_manifest_sha256": "431d69e2f1dbc6a003d5f745adc991d258d5848f9f83970f5469dfef3fd6422b",
+      "directory": "CORE_0.6_1.8_0.35",
+      "input_record_registry_sha256": "918b95a294a867d825f24d90b4db5e4420aafda0a08231d8162a9b2506ee8e16",
+      "stage": "CORE_0.6_1.8_0.35",
+      "stage_complete_event_line": 201,
+      "summary_files": [
+        {
+          "bytes": 4296,
+          "path": "a32/CORE_0.6_1.8_0.35/aggregation_manifest.json",
+          "sha256": "431d69e2f1dbc6a003d5f745adc991d258d5848f9f83970f5469dfef3fd6422b"
+        },
+        {
+          "bytes": 3290,
+          "path": "a32/CORE_0.6_1.8_0.35/method_aggregate_summary.csv",
+          "sha256": "9b4f38f109176d53c20a9e656067e060cd20cba0e57c15ab29197c484809e8da"
+        },
+        {
+          "bytes": 2452,
+          "path": "a32/CORE_0.6_1.8_0.35/paired_cluster_bootstrap.csv",
+          "sha256": "a64b803cd529cd57e65ea3445294e0791df620bdef1937814f9fc27c6dac384b"
+        },
+        {
+          "bytes": 126,
+          "path": "a32/CORE_0.6_1.8_0.35/replicate_outcome_summary.csv",
+          "sha256": "e28f2b0b959fff9d9493f8585e3d9f29ae10ee9d758181b6874e01d4c7b11278"
+        },
+        {
+          "bytes": 143,
+          "path": "a32/CORE_0.6_1.8_0.35/claimcut_outcome_summary.csv",
+          "sha256": "526214adbb01b71faa4ef8a870044ca8e8d8a6f7c7ac7139fc12eaf0442ef05b"
+        },
+        {
+          "bytes": 163,
+          "path": "a32/CORE_0.6_1.8_0.35/datasail_solver_status_summary.csv",
+          "sha256": "4f6d6a58619a4ea05602cbde97e98b7e21308e35cd9e0fdfb8e196114d9dea3d"
+        },
+        {
+          "bytes": 866,
+          "path": "a32/CORE_0.6_1.8_0.35/comparator_pairing_coverage.csv",
+          "sha256": "5e17544aed5e8633aa3c4573313d985343587cbee1be9f88b58cc29f6e077e1d"
+        },
+        {
+          "bytes": 729,
+          "path": "a32/CORE_0.6_1.8_0.35/metric_field_availability.csv",
+          "sha256": "e1cb45504ce34afd86c8882d96f2e4125629fa3285f3750ac852d717e85a80dc"
+        }
+      ]
+    },
+    {
+      "admitted_wrapper_manifest": {
+        "bytes": 23220,
+        "path": "a32/CORE_0.6_1.8_1.0/v32_aggregate_manifest.json",
+        "sha256": "54e586388ff5387343dc45638f20809bd3ef4d2cc4769b822cb212b5c84d2473"
+      },
+      "aggregate_schema": "v32-predictive-aggregate-v1",
+      "base_manifest_sha256": "fce7cc7a3c0370e98e992451fd9f853b484cab88d50707d81be01710135e32e0",
+      "directory": "CORE_0.6_1.8_1.0",
+      "input_record_registry_sha256": "f59d7523feadf2af42b10fc37f699453cb1b6256693b90e7276407f87b2f01b4",
+      "stage": "CORE_0.6_1.8_1.0",
+      "stage_complete_event_line": 209,
+      "summary_files": [
+        {
+          "bytes": 4293,
+          "path": "a32/CORE_0.6_1.8_1.0/aggregation_manifest.json",
+          "sha256": "fce7cc7a3c0370e98e992451fd9f853b484cab88d50707d81be01710135e32e0"
+        },
+        {
+          "bytes": 3291,
+          "path": "a32/CORE_0.6_1.8_1.0/method_aggregate_summary.csv",
+          "sha256": "d24d0e12b55d4a0144df9f41a542ed74a561a44e047d156c042657db38c8fd58"
+        },
+        {
+          "bytes": 2447,
+          "path": "a32/CORE_0.6_1.8_1.0/paired_cluster_bootstrap.csv",
+          "sha256": "1ea2d3da02389db5026b08c84c3172b0e13fe32bd20bc0a0290fa83fa95e01fd"
+        },
+        {
+          "bytes": 125,
+          "path": "a32/CORE_0.6_1.8_1.0/replicate_outcome_summary.csv",
+          "sha256": "566e1da151d6d6b540a586de77c025cca21464e2747fb571c5adf0668f05a00d"
+        },
+        {
+          "bytes": 142,
+          "path": "a32/CORE_0.6_1.8_1.0/claimcut_outcome_summary.csv",
+          "sha256": "6a3867aadfb3f1e93c012d042638723f5f6b6f364fecdd547d8a326e413ea916"
+        },
+        {
+          "bytes": 162,
+          "path": "a32/CORE_0.6_1.8_1.0/datasail_solver_status_summary.csv",
+          "sha256": "5aed7038674400e3597c32f3f46411c8ad0617e34db7ec8d236703403a7e4a8d"
+        },
+        {
+          "bytes": 859,
+          "path": "a32/CORE_0.6_1.8_1.0/comparator_pairing_coverage.csv",
+          "sha256": "6c60e47189ddf00ebfc32bb9eb64c40af8ed484e146eabe3ec27a3e024a8539e"
+        },
+        {
+          "bytes": 729,
+          "path": "a32/CORE_0.6_1.8_1.0/metric_field_availability.csv",
+          "sha256": "e1cb45504ce34afd86c8882d96f2e4125629fa3285f3750ac852d717e85a80dc"
+        }
+      ]
+    },
+    {
+      "admitted_wrapper_manifest": {
+        "bytes": 23218,
+        "path": "a32/CORE_1.2_0_0.35/v32_aggregate_manifest.json",
+        "sha256": "ba89aa1829b92e9f42a6281346a70314ba3a333cad2f5c282b3fdc536b99ac65"
+      },
+      "aggregate_schema": "v32-predictive-aggregate-v1",
+      "base_manifest_sha256": "bf92522122c8b0f4f7775c4867ea65bf645c85a7122155ff4c0145bcd6c2516d",
+      "directory": "CORE_1.2_0_0.35",
+      "input_record_registry_sha256": "950a9bdcbc06894b845e5fc8f9e82ba0f3aa7c0dc14ec79e6f140d2c26ecfbdd",
+      "stage": "CORE_1.2_0_0.35",
+      "stage_complete_event_line": 217,
+      "summary_files": [
+        {
+          "bytes": 4289,
+          "path": "a32/CORE_1.2_0_0.35/aggregation_manifest.json",
+          "sha256": "bf92522122c8b0f4f7775c4867ea65bf645c85a7122155ff4c0145bcd6c2516d"
+        },
+        {
+          "bytes": 3349,
+          "path": "a32/CORE_1.2_0_0.35/method_aggregate_summary.csv",
+          "sha256": "4b1e1bf31a18c7fb1fa9cff401472747bb61e410cef2ea117664d29295565e0d"
+        },
+        {
+          "bytes": 2471,
+          "path": "a32/CORE_1.2_0_0.35/paired_cluster_bootstrap.csv",
+          "sha256": "35ceb46fb5039cd390cc75505bbe270b48f14c6f279ae3e372b6e530db56b019"
+        },
+        {
+          "bytes": 124,
+          "path": "a32/CORE_1.2_0_0.35/replicate_outcome_summary.csv",
+          "sha256": "b1481d7a36d38047ab0dcfeb7ac95bc8d142aa114551931613215180afe508e4"
+        },
+        {
+          "bytes": 141,
+          "path": "a32/CORE_1.2_0_0.35/claimcut_outcome_summary.csv",
+          "sha256": "6b19f89604a1a71824894327c97ae569f0d08409755e4811e8b611c7bd3f16fc"
+        },
+        {
+          "bytes": 160,
+          "path": "a32/CORE_1.2_0_0.35/datasail_solver_status_summary.csv",
+          "sha256": "61133cd6e06cbb99e371fc3248cc5c54c04fdf106433b0ff672cb98a3775247f"
+        },
+        {
+          "bytes": 852,
+          "path": "a32/CORE_1.2_0_0.35/comparator_pairing_coverage.csv",
+          "sha256": "467b14ac8bea005bc9de223c2e17724f1b03b01919b1401474ab37c9dfd31bec"
+        },
+        {
+          "bytes": 729,
+          "path": "a32/CORE_1.2_0_0.35/metric_field_availability.csv",
+          "sha256": "e1cb45504ce34afd86c8882d96f2e4125629fa3285f3750ac852d717e85a80dc"
+        }
+      ]
+    },
+    {
+      "admitted_wrapper_manifest": {
+        "bytes": 23216,
+        "path": "a32/CORE_1.2_0_1.0/v32_aggregate_manifest.json",
+        "sha256": "cf85ffcd2895c6a961fe956aa5770abe268be020b95937b1c021e7db34ef687f"
+      },
+      "aggregate_schema": "v32-predictive-aggregate-v1",
+      "base_manifest_sha256": "26570948504fd1c0c2b5353eef585ee3b693644185e34a4586e44380d1f73a2d",
+      "directory": "CORE_1.2_0_1.0",
+      "input_record_registry_sha256": "d4cfabe3d74d1880fe8cba0ddb9845b091b81bd47c4eff218ae63081ceb05409",
+      "stage": "CORE_1.2_0_1.0",
+      "stage_complete_event_line": 225,
+      "summary_files": [
+        {
+          "bytes": 4287,
+          "path": "a32/CORE_1.2_0_1.0/aggregation_manifest.json",
+          "sha256": "26570948504fd1c0c2b5353eef585ee3b693644185e34a4586e44380d1f73a2d"
+        },
+        {
+          "bytes": 3351,
+          "path": "a32/CORE_1.2_0_1.0/method_aggregate_summary.csv",
+          "sha256": "1c60d9f351add6de94642512c64656670b01fa240c108b6cfc91d9fd170d0279"
+        },
+        {
+          "bytes": 2454,
+          "path": "a32/CORE_1.2_0_1.0/paired_cluster_bootstrap.csv",
+          "sha256": "0ffc151836dcc077613b34a83ab4e79228915046aae3fa19e5197860db71f8a3"
+        },
+        {
+          "bytes": 123,
+          "path": "a32/CORE_1.2_0_1.0/replicate_outcome_summary.csv",
+          "sha256": "2f0e41e3d4d02fd5e6932bf51f4d74a8ba6d2709fb951c3e9b8cb7520fc751e2"
+        },
+        {
+          "bytes": 140,
+          "path": "a32/CORE_1.2_0_1.0/claimcut_outcome_summary.csv",
+          "sha256": "8a3a74496a06a3aa0dcd1df0b06be2dac0ab7f888312d8617e8d76d114ecf856"
+        },
+        {
+          "bytes": 160,
+          "path": "a32/CORE_1.2_0_1.0/datasail_solver_status_summary.csv",
+          "sha256": "bcb1ace6fac1b16894a75bf8e31fde6b442a5658e471b63afa7b35308ff6620c"
+        },
+        {
+          "bytes": 845,
+          "path": "a32/CORE_1.2_0_1.0/comparator_pairing_coverage.csv",
+          "sha256": "d9087faefaa1dc6b143c0b39f9ec315b194c1b0f26e1365c1e71ede911be0769"
+        },
+        {
+          "bytes": 729,
+          "path": "a32/CORE_1.2_0_1.0/metric_field_availability.csv",
+          "sha256": "e1cb45504ce34afd86c8882d96f2e4125629fa3285f3750ac852d717e85a80dc"
+        }
+      ]
+    },
+    {
+      "admitted_wrapper_manifest": {
+        "bytes": 23222,
+        "path": "a32/CORE_1.2_0.9_0.35/v32_aggregate_manifest.json",
+        "sha256": "86deecf8b956f7d1cd454eb462456b60179b474a3e1d3dbca069478f559bb730"
+      },
+      "aggregate_schema": "v32-predictive-aggregate-v1",
+      "base_manifest_sha256": "59ec05e977dc3ec3839ebafba5544f5542672e8d98eb6f677077b7a307bc3a4e",
+      "directory": "CORE_1.2_0.9_0.35",
+      "input_record_registry_sha256": "de875fb3bd9fa16b71ad323f76a7c3113ec48c28524a092be433eab1e5ddf5ff",
+      "stage": "CORE_1.2_0.9_0.35",
+      "stage_complete_event_line": 233,
+      "summary_files": [
+        {
+          "bytes": 4296,
+          "path": "a32/CORE_1.2_0.9_0.35/aggregation_manifest.json",
+          "sha256": "59ec05e977dc3ec3839ebafba5544f5542672e8d98eb6f677077b7a307bc3a4e"
+        },
+        {
+          "bytes": 3332,
+          "path": "a32/CORE_1.2_0.9_0.35/method_aggregate_summary.csv",
+          "sha256": "17d9866202ef2085cec8adf45e174aa7eb7f3846454f9d0a73ecfff385f7638f"
+        },
+        {
+          "bytes": 2464,
+          "path": "a32/CORE_1.2_0.9_0.35/paired_cluster_bootstrap.csv",
+          "sha256": "9dd0720bf6908b7294c2ec1a488e789ea2e4ac622b57179d80e681dc167f555a"
+        },
+        {
+          "bytes": 126,
+          "path": "a32/CORE_1.2_0.9_0.35/replicate_outcome_summary.csv",
+          "sha256": "78f7d3f718e26d361684310aecf36383730a0d86616fb346356618961effbc0d"
+        },
+        {
+          "bytes": 143,
+          "path": "a32/CORE_1.2_0.9_0.35/claimcut_outcome_summary.csv",
+          "sha256": "27ccaae9d716de1cf07e891b12016fc3a02d34bbd813f4472d46ac74215fae1c"
+        },
+        {
+          "bytes": 163,
+          "path": "a32/CORE_1.2_0.9_0.35/datasail_solver_status_summary.csv",
+          "sha256": "0e2af240eb98860b0a3201b490a09664a66724e1892640b3376fe631b98a546e"
+        },
+        {
+          "bytes": 866,
+          "path": "a32/CORE_1.2_0.9_0.35/comparator_pairing_coverage.csv",
+          "sha256": "311bce543a916c58f80a16ac47934a40c0bf5c2a0da7c0532bed22aad2defff1"
+        },
+        {
+          "bytes": 729,
+          "path": "a32/CORE_1.2_0.9_0.35/metric_field_availability.csv",
+          "sha256": "e1cb45504ce34afd86c8882d96f2e4125629fa3285f3750ac852d717e85a80dc"
+        }
+      ]
+    },
+    {
+      "admitted_wrapper_manifest": {
+        "bytes": 23220,
+        "path": "a32/CORE_1.2_0.9_1.0/v32_aggregate_manifest.json",
+        "sha256": "f0860ccaa1ffcaabff832e28459b3ebda5bd4a10a4305bc805533ab4a20b7f6a"
+      },
+      "aggregate_schema": "v32-predictive-aggregate-v1",
+      "base_manifest_sha256": "56f9c422e33541e8a7f30ee6495bf3bc3abe846eb343e20524b5c7c73338c189",
+      "directory": "CORE_1.2_0.9_1.0",
+      "input_record_registry_sha256": "62a62a468e1fd046874aef8f61b02177c9834c1b068aaade22253d8356b86cab",
+      "stage": "CORE_1.2_0.9_1.0",
+      "stage_complete_event_line": 241,
+      "summary_files": [
+        {
+          "bytes": 4293,
+          "path": "a32/CORE_1.2_0.9_1.0/aggregation_manifest.json",
+          "sha256": "56f9c422e33541e8a7f30ee6495bf3bc3abe846eb343e20524b5c7c73338c189"
+        },
+        {
+          "bytes": 3321,
+          "path": "a32/CORE_1.2_0.9_1.0/method_aggregate_summary.csv",
+          "sha256": "6f71a169e73903bd86fb3a81d8d8ab5432dcd17b8e67330beaebe11a149dae24"
+        },
+        {
+          "bytes": 2452,
+          "path": "a32/CORE_1.2_0.9_1.0/paired_cluster_bootstrap.csv",
+          "sha256": "82b86da7e69deecf9d8c18bd9fb3b4b5a911879fcc721a8a35506143224bdcc7"
+        },
+        {
+          "bytes": 125,
+          "path": "a32/CORE_1.2_0.9_1.0/replicate_outcome_summary.csv",
+          "sha256": "f244260fde1b20bd6ff815925f1ecd99c822cebf59553d5b1e2ecd1785937cc1"
+        },
+        {
+          "bytes": 142,
+          "path": "a32/CORE_1.2_0.9_1.0/claimcut_outcome_summary.csv",
+          "sha256": "e241285fd2feada86ffe6c41ca7b43bb6298eebac15c3aa795e1e904200bb62a"
+        },
+        {
+          "bytes": 162,
+          "path": "a32/CORE_1.2_0.9_1.0/datasail_solver_status_summary.csv",
+          "sha256": "aac8791f669e4f5c44e04c5592870de6e3860f0761521e84c6ed2776afd91974"
+        },
+        {
+          "bytes": 859,
+          "path": "a32/CORE_1.2_0.9_1.0/comparator_pairing_coverage.csv",
+          "sha256": "cd17f70187a2eaab1b869dacdd3641a8f6ac8aacbf3675809dec3194d3bf80ad"
+        },
+        {
+          "bytes": 729,
+          "path": "a32/CORE_1.2_0.9_1.0/metric_field_availability.csv",
+          "sha256": "e1cb45504ce34afd86c8882d96f2e4125629fa3285f3750ac852d717e85a80dc"
+        }
+      ]
+    },
+    {
+      "admitted_wrapper_manifest": {
+        "bytes": 23222,
+        "path": "a32/CORE_1.2_1.8_0.35/v32_aggregate_manifest.json",
+        "sha256": "430925c905ee26a0372923b09de9354b5a106542e456f39e3f97319eb7ccb6fe"
+      },
+      "aggregate_schema": "v32-predictive-aggregate-v1",
+      "base_manifest_sha256": "7f9922f559b3c21c3ac705c65db5b21add3740545ff08eb20a0df3ad73095c15",
+      "directory": "CORE_1.2_1.8_0.35",
+      "input_record_registry_sha256": "4295f16d5ac450ac22ee356aeb71222d5ce5d0bb9b3934e0b6dbfd483ec0f2fd",
+      "stage": "CORE_1.2_1.8_0.35",
+      "stage_complete_event_line": 249,
+      "summary_files": [
+        {
+          "bytes": 4296,
+          "path": "a32/CORE_1.2_1.8_0.35/aggregation_manifest.json",
+          "sha256": "7f9922f559b3c21c3ac705c65db5b21add3740545ff08eb20a0df3ad73095c15"
+        },
+        {
+          "bytes": 3302,
+          "path": "a32/CORE_1.2_1.8_0.35/method_aggregate_summary.csv",
+          "sha256": "dc3b42ced982f677acd1604b752efb346a5575c69a944ee0cfaec25fac2ff6c7"
+        },
+        {
+          "bytes": 2455,
+          "path": "a32/CORE_1.2_1.8_0.35/paired_cluster_bootstrap.csv",
+          "sha256": "9700369b5f33d64da811f3f361c22494a82aa5cfa72793b6447e367ca026ee86"
+        },
+        {
+          "bytes": 126,
+          "path": "a32/CORE_1.2_1.8_0.35/replicate_outcome_summary.csv",
+          "sha256": "a52c5ca755ad7743e69113b22ce31d12d75411fd861c547902aa5359189f6a72"
+        },
+        {
+          "bytes": 143,
+          "path": "a32/CORE_1.2_1.8_0.35/claimcut_outcome_summary.csv",
+          "sha256": "faa900d00d341929a4ad0cc647cc11bb0ecab0ca47ff84f46046e967d21bcf56"
+        },
+        {
+          "bytes": 163,
+          "path": "a32/CORE_1.2_1.8_0.35/datasail_solver_status_summary.csv",
+          "sha256": "d0c79a70cf8d2fa85fa9b21c903ffcb1cccd4fe4309eca3477b4b80eb9863343"
+        },
+        {
+          "bytes": 866,
+          "path": "a32/CORE_1.2_1.8_0.35/comparator_pairing_coverage.csv",
+          "sha256": "d3b412c9dec4386ba55b1ca7f97cb4fc78c9a95ae307fb82e623c3f88440aa94"
+        },
+        {
+          "bytes": 729,
+          "path": "a32/CORE_1.2_1.8_0.35/metric_field_availability.csv",
+          "sha256": "e1cb45504ce34afd86c8882d96f2e4125629fa3285f3750ac852d717e85a80dc"
+        }
+      ]
+    },
+    {
+      "admitted_wrapper_manifest": {
+        "bytes": 23220,
+        "path": "a32/CORE_1.2_1.8_1.0/v32_aggregate_manifest.json",
+        "sha256": "9c22948dcf7ccef3a13d81dd7dfe50d3bb4b1089e24b5ba3e081ffd4d4664163"
+      },
+      "aggregate_schema": "v32-predictive-aggregate-v1",
+      "base_manifest_sha256": "822cec28b4e5040e1f211b2140f38db844de9b86637ef67ec365d8cb79a6ed64",
+      "directory": "CORE_1.2_1.8_1.0",
+      "input_record_registry_sha256": "495edc8c4153f320968691871f90728e1b6924d6f8c2c2c2e531d6a19ed9c610",
+      "stage": "CORE_1.2_1.8_1.0",
+      "stage_complete_event_line": 257,
+      "summary_files": [
+        {
+          "bytes": 4293,
+          "path": "a32/CORE_1.2_1.8_1.0/aggregation_manifest.json",
+          "sha256": "822cec28b4e5040e1f211b2140f38db844de9b86637ef67ec365d8cb79a6ed64"
+        },
+        {
+          "bytes": 3287,
+          "path": "a32/CORE_1.2_1.8_1.0/method_aggregate_summary.csv",
+          "sha256": "fc704fb6b915fdc9872167df2400d9c279f930061933432de5732ddb3f68a422"
+        },
+        {
+          "bytes": 2437,
+          "path": "a32/CORE_1.2_1.8_1.0/paired_cluster_bootstrap.csv",
+          "sha256": "e6123c6fa36dfba60c50207b0297ede02940baed5f7a0975fe56324762d1a4a5"
+        },
+        {
+          "bytes": 125,
+          "path": "a32/CORE_1.2_1.8_1.0/replicate_outcome_summary.csv",
+          "sha256": "30a8ad0afd267af236ab5279a9468a41777ccb8a8786926727d5a7b205cbd4bc"
+        },
+        {
+          "bytes": 142,
+          "path": "a32/CORE_1.2_1.8_1.0/claimcut_outcome_summary.csv",
+          "sha256": "dfde8ac358e7bf6736fa25d1f24c1e2c0ce403afbbf6ab203de76c71dd385518"
+        },
+        {
+          "bytes": 162,
+          "path": "a32/CORE_1.2_1.8_1.0/datasail_solver_status_summary.csv",
+          "sha256": "2070ca23f564bef51c5f83586316d751dd303604874276cf5af0e70177c9774d"
+        },
+        {
+          "bytes": 859,
+          "path": "a32/CORE_1.2_1.8_1.0/comparator_pairing_coverage.csv",
+          "sha256": "064e1f0cfd6cef5d6c27a05e13d493c9f6267b782e2c7cdff248fb920bb133f7"
+        },
+        {
+          "bytes": 729,
+          "path": "a32/CORE_1.2_1.8_1.0/metric_field_availability.csv",
+          "sha256": "e1cb45504ce34afd86c8882d96f2e4125629fa3285f3750ac852d717e85a80dc"
+        }
+      ]
+    },
+    {
+      "admitted_wrapper_manifest": {
+        "bytes": 23218,
+        "path": "a32/CORE_2.4_0_0.35/v32_aggregate_manifest.json",
+        "sha256": "f846a1801091b3c39cca7f4b53cafac52460bbda8a91529e65e0ca5af7e2687a"
+      },
+      "aggregate_schema": "v32-predictive-aggregate-v1",
+      "base_manifest_sha256": "cdb6c76f03e116fcc3921d729289706addfb687f7e7c9b065641129e1a925159",
+      "directory": "CORE_2.4_0_0.35",
+      "input_record_registry_sha256": "7ad0420cb5998273d51574261e8dbfcf806888a33ee2c8787f9393476c6737de",
+      "stage": "CORE_2.4_0_0.35",
+      "stage_complete_event_line": 265,
+      "summary_files": [
+        {
+          "bytes": 4290,
+          "path": "a32/CORE_2.4_0_0.35/aggregation_manifest.json",
+          "sha256": "cdb6c76f03e116fcc3921d729289706addfb687f7e7c9b065641129e1a925159"
+        },
+        {
+          "bytes": 3318,
+          "path": "a32/CORE_2.4_0_0.35/method_aggregate_summary.csv",
+          "sha256": "e123cbff504ad9e9e0be4e12ac4a755719551ec6a61ba665bd17092595f958cc"
+        },
+        {
+          "bytes": 2442,
+          "path": "a32/CORE_2.4_0_0.35/paired_cluster_bootstrap.csv",
+          "sha256": "e3ad5d5ae6bd8541aec954ce31ed48679e89efb6d5689118668e37bd58de7b5b"
+        },
+        {
+          "bytes": 124,
+          "path": "a32/CORE_2.4_0_0.35/replicate_outcome_summary.csv",
+          "sha256": "7936b8db88fc77468b856d7e5879de5237a5f7eff3983ac624a3ca4c88097d50"
+        },
+        {
+          "bytes": 141,
+          "path": "a32/CORE_2.4_0_0.35/claimcut_outcome_summary.csv",
+          "sha256": "54d86f78cadf4cb0da664c3f72dcee5d7ca426e4516f246dd35f1c4709a1c0ae"
+        },
+        {
+          "bytes": 161,
+          "path": "a32/CORE_2.4_0_0.35/datasail_solver_status_summary.csv",
+          "sha256": "24b5cd64ce387fa74056115dc7b6d11ee7ae316364707a8624bc00518a5538f2"
+        },
+        {
+          "bytes": 852,
+          "path": "a32/CORE_2.4_0_0.35/comparator_pairing_coverage.csv",
+          "sha256": "9d73a925c30362e11c2b3682e2f6b255c0c72147c24bedd2a03864141592e52d"
+        },
+        {
+          "bytes": 729,
+          "path": "a32/CORE_2.4_0_0.35/metric_field_availability.csv",
+          "sha256": "e1cb45504ce34afd86c8882d96f2e4125629fa3285f3750ac852d717e85a80dc"
+        }
+      ]
+    },
+    {
+      "admitted_wrapper_manifest": {
+        "bytes": 23216,
+        "path": "a32/CORE_2.4_0_1.0/v32_aggregate_manifest.json",
+        "sha256": "a87891e2b762282b6413fcf3f51b7625cf878a4d46cd77da36f972490ec8b992"
+      },
+      "aggregate_schema": "v32-predictive-aggregate-v1",
+      "base_manifest_sha256": "cefe2c176bf7a4c3b52714b9498e3962cdc97f5cda0fac983676aef1776a16cb",
+      "directory": "CORE_2.4_0_1.0",
+      "input_record_registry_sha256": "98d1cae11394132137e7073157280ba844b01a5788ec0ad9da3caa9936026e69",
+      "stage": "CORE_2.4_0_1.0",
+      "stage_complete_event_line": 273,
+      "summary_files": [
+        {
+          "bytes": 4287,
+          "path": "a32/CORE_2.4_0_1.0/aggregation_manifest.json",
+          "sha256": "cefe2c176bf7a4c3b52714b9498e3962cdc97f5cda0fac983676aef1776a16cb"
+        },
+        {
+          "bytes": 3320,
+          "path": "a32/CORE_2.4_0_1.0/method_aggregate_summary.csv",
+          "sha256": "53393955dedea41a79cb4a627fee24879b30efc3994973436b1a810569cbebc7"
+        },
+        {
+          "bytes": 2449,
+          "path": "a32/CORE_2.4_0_1.0/paired_cluster_bootstrap.csv",
+          "sha256": "f5d977239f2fa038454691fe2cd977b5056a89b40ad65cdbb9d305e123d22243"
+        },
+        {
+          "bytes": 123,
+          "path": "a32/CORE_2.4_0_1.0/replicate_outcome_summary.csv",
+          "sha256": "720dbb8a7f6b697943e64ef10ccf7f4578ae35ca84f1edc7a45e16a6ce3360c3"
+        },
+        {
+          "bytes": 140,
+          "path": "a32/CORE_2.4_0_1.0/claimcut_outcome_summary.csv",
+          "sha256": "2d3111e20cd8d0b701efd0702e50c8bb25554893fc4f0946778e7bda0424860d"
+        },
+        {
+          "bytes": 160,
+          "path": "a32/CORE_2.4_0_1.0/datasail_solver_status_summary.csv",
+          "sha256": "2ffc2221245f7d89f7b406935c69cb88edbd41520730f9ddaab355fb0a342c2f"
+        },
+        {
+          "bytes": 845,
+          "path": "a32/CORE_2.4_0_1.0/comparator_pairing_coverage.csv",
+          "sha256": "c3e0fc592bbb9ec91d0a95f8f58b8cb53a35480391a205bcbdd4cadc510e7ef7"
+        },
+        {
+          "bytes": 729,
+          "path": "a32/CORE_2.4_0_1.0/metric_field_availability.csv",
+          "sha256": "e1cb45504ce34afd86c8882d96f2e4125629fa3285f3750ac852d717e85a80dc"
+        }
+      ]
+    },
+    {
+      "admitted_wrapper_manifest": {
+        "bytes": 23222,
+        "path": "a32/CORE_2.4_0.9_0.35/v32_aggregate_manifest.json",
+        "sha256": "b094b886a52f2203a7bf5e052dbac6146e7d4a81500d4aa616c134a1cc48b850"
+      },
+      "aggregate_schema": "v32-predictive-aggregate-v1",
+      "base_manifest_sha256": "6ba8aa4f70b0cb85158d7368f383f9da7ef2562192921c2f2a3b4f5fdb4dbc58",
+      "directory": "CORE_2.4_0.9_0.35",
+      "input_record_registry_sha256": "f3bf56c83c639375f4f133983fd284985df70adf7b9114bf34cff9e3bac273fa",
+      "stage": "CORE_2.4_0.9_0.35",
+      "stage_complete_event_line": 281,
+      "summary_files": [
+        {
+          "bytes": 4296,
+          "path": "a32/CORE_2.4_0.9_0.35/aggregation_manifest.json",
+          "sha256": "6ba8aa4f70b0cb85158d7368f383f9da7ef2562192921c2f2a3b4f5fdb4dbc58"
+        },
+        {
+          "bytes": 3336,
+          "path": "a32/CORE_2.4_0.9_0.35/method_aggregate_summary.csv",
+          "sha256": "6458bc92e0361dd762698bb2d06ed0122b983cbcaa8d2f3c001baf8ba7b86d55"
+        },
+        {
+          "bytes": 2454,
+          "path": "a32/CORE_2.4_0.9_0.35/paired_cluster_bootstrap.csv",
+          "sha256": "00d7fde88cc27aaca4fd59a91341ff914650cf6d3d39acb1f0e0cc87d69a874d"
+        },
+        {
+          "bytes": 126,
+          "path": "a32/CORE_2.4_0.9_0.35/replicate_outcome_summary.csv",
+          "sha256": "671b30b2d83c6fc4fe2172d1f96de6615b7a5771a24e68b4b69f213b76755fe8"
+        },
+        {
+          "bytes": 143,
+          "path": "a32/CORE_2.4_0.9_0.35/claimcut_outcome_summary.csv",
+          "sha256": "02b22765b7771ef54a6088bea2d286c9e05adad80bad662fb22ee48fb31ff11c"
+        },
+        {
+          "bytes": 163,
+          "path": "a32/CORE_2.4_0.9_0.35/datasail_solver_status_summary.csv",
+          "sha256": "959a609b569e0fad4640464fea71f13bd7f3eea473ed69821393ed2d0bc7d543"
+        },
+        {
+          "bytes": 866,
+          "path": "a32/CORE_2.4_0.9_0.35/comparator_pairing_coverage.csv",
+          "sha256": "d2ba140badb4047d5c510feba862c92bf0038cc2c9827fcb2369ae94f0dfbf05"
+        },
+        {
+          "bytes": 729,
+          "path": "a32/CORE_2.4_0.9_0.35/metric_field_availability.csv",
+          "sha256": "e1cb45504ce34afd86c8882d96f2e4125629fa3285f3750ac852d717e85a80dc"
+        }
+      ]
+    },
+    {
+      "admitted_wrapper_manifest": {
+        "bytes": 23220,
+        "path": "a32/CORE_2.4_0.9_1.0/v32_aggregate_manifest.json",
+        "sha256": "cd53cd827885b76c442297d5931e21545ffdd38132df98fc5d61a2141827657a"
+      },
+      "aggregate_schema": "v32-predictive-aggregate-v1",
+      "base_manifest_sha256": "caaf9f820e9ee85fa2fbd8fd20da44f8826d8f8ec10b72dee5f2142dfa0ff42a",
+      "directory": "CORE_2.4_0.9_1.0",
+      "input_record_registry_sha256": "1b974c6bf75377ef65de52f2db4d326715af1f24af7da51074f3fc6e64a90645",
+      "stage": "CORE_2.4_0.9_1.0",
+      "stage_complete_event_line": 289,
+      "summary_files": [
+        {
+          "bytes": 4293,
+          "path": "a32/CORE_2.4_0.9_1.0/aggregation_manifest.json",
+          "sha256": "caaf9f820e9ee85fa2fbd8fd20da44f8826d8f8ec10b72dee5f2142dfa0ff42a"
+        },
+        {
+          "bytes": 3322,
+          "path": "a32/CORE_2.4_0.9_1.0/method_aggregate_summary.csv",
+          "sha256": "cfdfbba76c7e54e75188fee5a63d46ed25103d32f1da907693a1ef7ee2b2bc7a"
+        },
+        {
+          "bytes": 2452,
+          "path": "a32/CORE_2.4_0.9_1.0/paired_cluster_bootstrap.csv",
+          "sha256": "4ed327a0447defa4dc8438bbb220db751fcc92e4de7130acff6afc143b8a630d"
+        },
+        {
+          "bytes": 125,
+          "path": "a32/CORE_2.4_0.9_1.0/replicate_outcome_summary.csv",
+          "sha256": "bf66cac50e2b024fed89ab03d4aff0f2ef46f76f2fa968e2220a9a7b342dfe68"
+        },
+        {
+          "bytes": 142,
+          "path": "a32/CORE_2.4_0.9_1.0/claimcut_outcome_summary.csv",
+          "sha256": "c5dede74f20ca1093953fcb5b4f093a2666674a4fc83131f813e18fb068c80f4"
+        },
+        {
+          "bytes": 162,
+          "path": "a32/CORE_2.4_0.9_1.0/datasail_solver_status_summary.csv",
+          "sha256": "fdd1d529207d7e409de225679b6f5dd403b0dc0d1f2a97a84abd8c2d83a3a36a"
+        },
+        {
+          "bytes": 859,
+          "path": "a32/CORE_2.4_0.9_1.0/comparator_pairing_coverage.csv",
+          "sha256": "322da5a91111184ab060cf274a6b9cf63a96781f0c765490b2a1ba17d6bba2a4"
+        },
+        {
+          "bytes": 729,
+          "path": "a32/CORE_2.4_0.9_1.0/metric_field_availability.csv",
+          "sha256": "e1cb45504ce34afd86c8882d96f2e4125629fa3285f3750ac852d717e85a80dc"
+        }
+      ]
+    },
+    {
+      "admitted_wrapper_manifest": {
+        "bytes": 23222,
+        "path": "a32/CORE_2.4_1.8_0.35/v32_aggregate_manifest.json",
+        "sha256": "bb1b70ff4ead9f60a7c9da19753d15b43e67a3052b1b2583fc56676ecaca55cb"
+      },
+      "aggregate_schema": "v32-predictive-aggregate-v1",
+      "base_manifest_sha256": "522981910c4dced638a6b5d0300f2b4dd0bce0f2583e1179a08ba07ef7ab5cf8",
+      "directory": "CORE_2.4_1.8_0.35",
+      "input_record_registry_sha256": "5b7f13c6868122b3277a409fb2f2057d4cc4e92c3bf10a7e5fb65ad65c671296",
+      "stage": "CORE_2.4_1.8_0.35",
+      "stage_complete_event_line": 297,
+      "summary_files": [
+        {
+          "bytes": 4296,
+          "path": "a32/CORE_2.4_1.8_0.35/aggregation_manifest.json",
+          "sha256": "522981910c4dced638a6b5d0300f2b4dd0bce0f2583e1179a08ba07ef7ab5cf8"
+        },
+        {
+          "bytes": 3291,
+          "path": "a32/CORE_2.4_1.8_0.35/method_aggregate_summary.csv",
+          "sha256": "3660c59c810fbc730f94cffcfcddf854051c56c981f8e8dd50c808d36c2da43f"
+        },
+        {
+          "bytes": 2444,
+          "path": "a32/CORE_2.4_1.8_0.35/paired_cluster_bootstrap.csv",
+          "sha256": "7078e84c2cb7112eeea0a222151ae2bd673dd7e549f43e46d3f7d04092fb7820"
+        },
+        {
+          "bytes": 126,
+          "path": "a32/CORE_2.4_1.8_0.35/replicate_outcome_summary.csv",
+          "sha256": "e52210f11f33ad7ff4a7186d1f85fdb380eee527fa8dfe3bfdcb3d26e6512363"
+        },
+        {
+          "bytes": 143,
+          "path": "a32/CORE_2.4_1.8_0.35/claimcut_outcome_summary.csv",
+          "sha256": "c5d7fb5a6f442f6dd6e7f044ef1459c128d4cba6a0a7507cae5af27a334d7bbb"
+        },
+        {
+          "bytes": 163,
+          "path": "a32/CORE_2.4_1.8_0.35/datasail_solver_status_summary.csv",
+          "sha256": "cdffe9524a4e11b863871844dbd69d60c2455733a2d6a368d87b5716c88a54f5"
+        },
+        {
+          "bytes": 866,
+          "path": "a32/CORE_2.4_1.8_0.35/comparator_pairing_coverage.csv",
+          "sha256": "bfc559e88b613c5da55aa13dd45b46f0b215ffce30ab9a6cd2d8ce8189a1bca8"
+        },
+        {
+          "bytes": 729,
+          "path": "a32/CORE_2.4_1.8_0.35/metric_field_availability.csv",
+          "sha256": "e1cb45504ce34afd86c8882d96f2e4125629fa3285f3750ac852d717e85a80dc"
+        }
+      ]
+    },
+    {
+      "admitted_wrapper_manifest": {
+        "bytes": 23220,
+        "path": "a32/CORE_2.4_1.8_1.0/v32_aggregate_manifest.json",
+        "sha256": "b161936b6e93e3991c564455fd507154981d359f79da67a93a447ed12dfb2852"
+      },
+      "aggregate_schema": "v32-predictive-aggregate-v1",
+      "base_manifest_sha256": "a0e74ac58f1314ffeeef8f2f90b68b134e7f11d33cef463622717711ce387972",
+      "directory": "CORE_2.4_1.8_1.0",
+      "input_record_registry_sha256": "72124c593061944d430b360b2957805d80c8588162c1270499512eaeb1f11bcc",
+      "stage": "CORE_2.4_1.8_1.0",
+      "stage_complete_event_line": 305,
+      "summary_files": [
+        {
+          "bytes": 4293,
+          "path": "a32/CORE_2.4_1.8_1.0/aggregation_manifest.json",
+          "sha256": "a0e74ac58f1314ffeeef8f2f90b68b134e7f11d33cef463622717711ce387972"
+        },
+        {
+          "bytes": 3289,
+          "path": "a32/CORE_2.4_1.8_1.0/method_aggregate_summary.csv",
+          "sha256": "e667dff7ad58cab68bc06fc4c328c38523b2a758f2c52d83ea511bde3ae4fd5f"
+        },
+        {
+          "bytes": 2429,
+          "path": "a32/CORE_2.4_1.8_1.0/paired_cluster_bootstrap.csv",
+          "sha256": "e8a0945ef553d14f7eb18a38ad2b9aeb153d9b5322d411463fed38ec000c0487"
+        },
+        {
+          "bytes": 125,
+          "path": "a32/CORE_2.4_1.8_1.0/replicate_outcome_summary.csv",
+          "sha256": "b2338de8a744c1dabc03557f2e5b724c3c8217df5b67c3a6943654fa91ce3017"
+        },
+        {
+          "bytes": 142,
+          "path": "a32/CORE_2.4_1.8_1.0/claimcut_outcome_summary.csv",
+          "sha256": "cba2144c4667fdd05318c59157da21b4e720d90cb802a5a234f7425ffee35364"
+        },
+        {
+          "bytes": 162,
+          "path": "a32/CORE_2.4_1.8_1.0/datasail_solver_status_summary.csv",
+          "sha256": "0b960737832d30efbc60236b1614247cd4864446895ea2a2cfcdf260aeb695a2"
+        },
+        {
+          "bytes": 859,
+          "path": "a32/CORE_2.4_1.8_1.0/comparator_pairing_coverage.csv",
+          "sha256": "3241f00477c8b09e7a55a6d8859d31948473fe5150091181b65c93e6951265e6"
+        },
+        {
+          "bytes": 729,
+          "path": "a32/CORE_2.4_1.8_1.0/metric_field_availability.csv",
+          "sha256": "e1cb45504ce34afd86c8882d96f2e4125629fa3285f3750ac852d717e85a80dc"
+        }
+      ]
+    }
+  ],
+  "status": "PASS",
+  "verification": {
+    "boot_identity_reconciled": true,
+    "confirmatory_root_opened": false,
+    "controller_and_workers_exited": true,
+    "event_baseline_unchanged": true,
+    "finalizer": {
+      "aggregate_verifier": "verify_aggregates",
+      "path": "repro_package_AEI_public_draft/finalize_package_attempt_t.py",
+      "sha256": "8cab6d28ac1bf2f5197607b33a451f4f10f5f83f2f9e9ac3fa8f6df5bcb8a2c1"
+    },
+    "lock_absent_after_aggregate_verification": true,
+    "lock_absent_before_aggregate_verification": true,
+    "post_verification_stability": "PASS",
+    "scientific_interpretation_performed": false
+  }
+}

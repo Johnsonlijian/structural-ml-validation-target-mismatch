@@ -1,1 +1,0 @@
-See root `README.md` and `manuscript/CODE_AVAILABILITY_AFTER_ZENODO_PARAGRAPH.txt`.
