@@ -47,12 +47,12 @@ licences; see `LICENSE`, `THIRD_PARTY_NOTICES.md` and
 - public repository: <https://github.com/Johnsonlijian/structural-ml-validation-target-mismatch>
 - current repository release: `2.0.0`
 - frozen compiler package: `0.4.0`
-- Zenodo concept DOI: <https://doi.org/10.5281/zenodo.20006917>
-- previous archive version: <https://doi.org/10.5281/zenodo.20006918>
+- archival record: a new independent Zenodo record will be cited only after
+  its authenticated deposit is published and verified
 
-Use `CITATION.cff` for software citation.  The exact current commit and new
-version DOI are added to the manuscript only after the remote release and
-archive version are verified.
+Use `CITATION.cff` for software citation. The exact current commit is retained
+in the manuscript. A Zenodo DOI is added only after an independent deposit is
+published and verified.
 
 ## Scope boundary
 

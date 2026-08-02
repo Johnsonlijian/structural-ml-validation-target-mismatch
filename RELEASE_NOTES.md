@@ -5,8 +5,9 @@ Release date: 2026-08-02
 
 This major repository release replaces the earlier source-aware-validation
 archive on the default branch with the typed deployment-contract compiler and
-the fully closed Attempt-T evidence capsule.  Git history and the earlier
-Zenodo version remain available for provenance.
+the fully closed Attempt-T evidence capsule. Git history preserves the earlier
+repository state for provenance; no unrelated archival DOI is reused for this
+release.
 
 ## Added
 

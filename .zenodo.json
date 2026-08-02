@@ -25,11 +25,6 @@
       "identifier": "https://github.com/Johnsonlijian/structural-ml-validation-target-mismatch",
       "relation": "isSupplementTo",
       "scheme": "url"
-    },
-    {
-      "identifier": "https://doi.org/10.5281/zenodo.20006918",
-      "relation": "isNewVersionOf",
-      "scheme": "doi"
     }
   ],
   "access_right": "open"
