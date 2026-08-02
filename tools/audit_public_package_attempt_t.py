@@ -61,6 +61,7 @@ FORBIDDEN_PARTS = {
     "cover_letter",
     "reviewer_response",
 }
+IGNORED_LOCAL_PARTS = {".git"}
 PRIVATE_PATHS = (
     re.compile(r"(?<![A-Za-z0-9])[A-Za-z]:(?:\\|/)(?!/)[^\s'\"<>]+"),
     re.compile(r"(?<![\\A-Za-z0-9])\\\\[A-Za-z0-9_.-]+\\[A-Za-z0-9$_.-]+"),
@@ -123,6 +124,8 @@ def scan_public_tree(root: Path) -> int:
     count = 0
     for path in sorted(root.rglob("*")):
         relative = path.relative_to(root)
+        if any(part.lower() in IGNORED_LOCAL_PARTS for part in relative.parts):
+            continue
         if path.is_symlink():
             raise RuntimeError(f"symlink is forbidden: {relative}")
         if any(part.lower() in FORBIDDEN_PARTS for part in relative.parts):
@@ -369,7 +372,12 @@ def audit(root: Path) -> dict[str, Any]:
     actual = {
         path.relative_to(root).as_posix(): (sha256(path), path.stat().st_size)
         for path in root.rglob("*")
-        if path.is_file() and path != ledger_path
+        if path.is_file()
+        and path != ledger_path
+        and not any(
+            part.lower() in IGNORED_LOCAL_PARTS
+            for part in path.relative_to(root).parts
+        )
     }
     if recorded != actual:
         raise RuntimeError("public file ledger does not match the exact file set")
