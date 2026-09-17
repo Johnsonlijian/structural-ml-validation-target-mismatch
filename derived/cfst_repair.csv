@@ -1,0 +1,17 @@
+variant,model,K,pooled_r2,rmse,mae,fold_mean_r2
+random5,Ridge,5,0.8428,5398.96,2225.91,0.8425
+random5,RandomForest,5,0.9388,3367.83,588.72,0.9414
+random5,ExtraTrees,5,0.9864,1588.14,315.56,0.9878
+random5,GradientBoosting,5,0.972,2279.38,473.24,0.9733
+family_holdout_small2,Ridge,2,-1.8796,6210.08,2216.26,-1.6494
+family_holdout_small2,RandomForest,2,0.8172,1564.61,587.37,0.8511
+family_holdout_small2,ExtraTrees,2,0.8699,1319.87,461.36,0.8998
+family_holdout_small2,GradientBoosting,2,0.8942,1190.52,588.76,0.8705
+sizematch_family_small2,Ridge,2,0.8051,5809.09,2233.24,0.8067
+sizematch_family_small2,RandomForest,2,0.9644,2483.5,490.66,0.9642
+sizematch_family_small2,ExtraTrees,2,0.9922,1161.87,264.2,0.9923
+sizematch_family_small2,GradientBoosting,2,0.9576,2708.72,494.32,0.9614
+family_holdout_K3_inadmissible,Ridge,3,0.4819,9800.01,2602.83,-0.9137
+family_holdout_K3_inadmissible,RandomForest,3,0.5757,8869.09,1896.4,0.7528
+family_holdout_K3_inadmissible,ExtraTrees,3,0.6043,8564.86,1645.81,0.7948
+family_holdout_K3_inadmissible,GradientBoosting,3,0.644,8123.44,1713.46,0.789

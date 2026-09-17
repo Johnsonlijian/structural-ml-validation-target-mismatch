@@ -1,0 +1,42 @@
+# R38 numeric and consistency self-check
+
+checks: 38 | passed: 38 | failed: 0
+
+- PASS — registry: 11 entries, 5,035 records, 6 in analysis (3,745), 5 inventory-only (1,290)  (`{'assets_total': 11, 'assets_in_analysis': 6, 'assets_inventory_only': 5, 'records_total': 5035, 'records_in_analysis': 3745, 'records_inventory_only': 1290, 'regression_assets': 5, 'regression_configurations': 6}`)
+- PASS — main text states 5{,}035
+- PASS — main text states 3{,}745
+- PASS — main text states 1{,}290
+- PASS — main text states eleven
+- PASS — no residue of the nine-asset / 4,933 claim
+- PASS — classification called the seventh task configuration, not a seventh dataset
+- PASS — 32 distinct admissible entries  (`32`)
+- PASS — source stratum 16/16 below the size-matched control, median -0.1654
+- PASS — extremes quoted as differences: -3.722 vs random, -3.306 vs size-matched
+- PASS — pooled '32 of 36' sentence removed
+- PASS — per-stratum '4 of 4' claim removed
+- PASS — contrast table prints 'not evaluated' instead of nan
+- PASS — contrast table has no duplicate alias row
+- PASS — contrast table strata are exactly the four relation kinds  (`['combination-unseen', 'duplication (7-ingredient key)', 'duplication (8-input key)', 'source-level']`)
+- PASS — no wall row is mislabelled as a duplication relation  (`16 wall rows`)
+- PASS — no data row is labelled as a proxy stratum
+- PASS — beam: source better at all three targets  (`0.0499/0.0199`)
+- PASS — failure mode: source better at alpha=0.05 only  (`0.05 0.0767->0.0538; 0.10 0.0741->0.0873`)
+- PASS — text states the reversal
+- PASS — failure-mode reversal quantified in the text
+- PASS — pooled conditional risk reported beside the fold mean
+- PASS — pooled counts beam/random = (804, 416, 40)  (`(804, 416, 40)`)
+- PASS — pooled counts beam/source = (804, 396, 16)  (`(804, 396, 16)`)
+- PASS — figure 1 carries no run-specific numbers
+- PASS — feasibility map treats K>m as structurally impossible
+- PASS — Mendeley licences as verified
+- PASS — Mendeley years and creators corrected in the bibliography
+- PASS — designated family replaces the brittle-family wording
+- PASS — SI carries the failure-mode mapping table
+- PASS — no claim that the designated family is a physical mechanism
+- PASS — code availability tense is consistent
+- PASS — abstract at or below 245 words  (`242 words`)
+- PASS — every highlight at or below 85 characters  (`[67, 71, 64, 71, 71]`)
+- PASS — five highlights  (`5`)
+- PASS — final PDFs pass the rendered-geometry check  (`[('main.pdf', True), ('si.pdf', True)]`)
+- PASS — main tables 1-6 and figures 1-5 all present
+- PASS — SI carries seven numbered tables  (`7`)

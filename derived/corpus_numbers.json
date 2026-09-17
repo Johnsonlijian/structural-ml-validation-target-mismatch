@@ -1,0 +1,10 @@
+{
+  "assets_total": 11,
+  "assets_in_analysis": 6,
+  "assets_inventory_only": 5,
+  "records_total": 5035,
+  "records_in_analysis": 3745,
+  "records_inventory_only": 1290,
+  "regression_assets": 5,
+  "regression_configurations": 6
+}

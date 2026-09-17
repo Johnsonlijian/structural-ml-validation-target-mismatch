@@ -1,6 +1,0 @@
-parent,model,identifiable,n_source_clusters,base_nrmse,delete_one_nrmse_min,delete_one_nrmse_max,maximum_absolute_nrmse_change,interpretation
-deck464,Ridge,True,22,1.0199447775924826,0.957008360397638,1.0470270488986375,0.0629364171948444,leave-one-source composition sensitivity
-deck464,RBF_SVR,True,22,1.088642120920054,1.0399407719246352,1.1200774563194278,0.0487013489954186,leave-one-source composition sensitivity
-deck464,ExtraTrees,True,22,1.0472805922341604,0.9827344745407802,1.0949186523440058,0.0645461176933801,leave-one-source composition sensitivity
-deck464,HistGradientBoosting,True,22,0.945950484920674,0.8597561925189807,1.0158942295224116,0.0861942924016931,leave-one-source composition sensitivity
-deck464,DeckSpecific_Eq11_positive_control,True,22,0.2176617686799419,0.2002336384195241,0.2263350090420166,0.0174281302604177,leave-one-source composition sensitivity; positive control is non-independent

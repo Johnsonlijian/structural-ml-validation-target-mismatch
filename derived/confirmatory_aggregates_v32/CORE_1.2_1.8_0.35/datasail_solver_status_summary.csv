@@ -1,2 +1,0 @@
-scenario,datasail_outcome,datasail_solver_status,n_replicates,n_assignment_returned,n_time_limit_likely
-CORE_1.2_1.8_0.35,success,optimal_inaccurate,100,100,100

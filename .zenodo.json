@@ -1,31 +1,10 @@
 {
-  "title": "Typed deployment-contract compiler for engineering AI",
+  "title": "Provenance-aware validation audit of public structural-engineering datasets",
   "upload_type": "software",
-  "description": "Public reproducibility package for a typed deployment-estimand and validation-contract compiler, independent conformance checks, aggregate-only Attempt-T evidence and a bounded headed-stud application. Repository release 2.0.0 preserves compiler 0.4.0.",
-  "creators": [
-    {
-      "name": "REN, Lijian",
-      "affiliation": "Inner Mongolia University of Technology",
-      "orcid": "0000-0003-1629-4368"
-    }
-  ],
-  "keywords": [
-    "engineering artificial intelligence",
-    "deployment estimand",
-    "validation contract",
-    "structural engineering",
-    "machine learning",
-    "data leakage",
-    "reproducibility"
-  ],
+  "description": "Audit and experiment code with aggregate results. No third-party data redistributed.",
+  "creators": [{"name": "REN, Lijian", "orcid": "0000-0003-1629-4368"}],
   "license": "MIT",
-  "version": "2.0.0",
-  "related_identifiers": [
-    {
-      "identifier": "https://github.com/Johnsonlijian/structural-ml-validation-target-mismatch",
-      "relation": "isSupplementTo",
-      "scheme": "url"
-    }
-  ],
-  "access_right": "open"
+  "keywords": ["validation protocol", "provenance", "cross-validation", "structural engineering"],
+  "related_identifiers": [],
+  "notes": "DOI placeholder: complete before publishing this record."
 }

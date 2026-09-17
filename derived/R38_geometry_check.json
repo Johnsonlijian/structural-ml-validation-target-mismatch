@@ -1,0 +1,17 @@
+{
+  "edge_pt": 20.0,
+  "body_floor_pt": 7.0,
+  "hard_floor_pt": 5.5,
+  "documents": [
+    {
+      "file": "main.pdf",
+      "ok": true,
+      "pages": []
+    },
+    {
+      "file": "si.pdf",
+      "ok": true,
+      "pages": []
+    }
+  ]
+}

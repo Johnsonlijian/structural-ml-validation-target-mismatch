@@ -1,89 +1,48 @@
+# Reproducible runbook (v3.1.0)
 
-# Reproducible runbook
+## 1. Environment
 
-## 1. Evidence level
+Python 3.11 with `numpy`, `pandas`, `scikit-learn`, `matplotlib`, `pyarrow` (see `requirements.txt`).
+No GPU, no paid service and no network access is required for the reported numbers.
 
-Release 2.0.0 is a path-neutral, aggregate-only capsule.  It preserves the
-frozen compiler package 0.4.0, the complete 38-stage Attempt-T execution,
-independent conformance checks and the separately audited headed-stud
-application projection.  Attempts A--S are excluded in full.
+## 2. Inputs
 
-## 2. Environment
+Download each dataset from `DATASETS_AND_LINKS.csv` into the layout that the scripts expect under a
+sibling project checkout:
 
-Python 3.12 is the frozen development interpreter family.  Install the
-synthetic/compiler environment with:
-
-```bash
-python -m venv .venv
-python -m pip install --upgrade pip
-python -m pip install -r requirements/requirements-v32-lock.txt
-python -m pip install -r requirements/requirements-test.txt
+```
+<project>/data/raw/...                    third-party tables (not redistributed here)
+<project>/code/outputs/datasets/...       provider workbooks
+<project>/code/outputs/reproductions/...  released reproduction artefacts
 ```
 
-DataSAIL 1.3.0 and a working SCIP backend are required only for its comparator
-route.  The headed-stud adapter, evaluator and figure environments have
-separate locks and should not be silently collapsed into one environment.
+`analysis/legacy_r35/01_corpus_inventory.py` prints the expected paths and fails loudly when a file
+is missing.
 
-## 3. Verify the released methods and receipts
+## 3. Reproducing the reported results
 
-```bash
-python -m pytest tests -q
-python tools/audit_public_package_attempt_t.py .
-```
+| Step | Command | Output |
+|---|---|---|
+| Review verification | `python analysis/01_verify_review_findings.py` | `derived/R36_INDEPENDENT_VERIFICATION.json` |
+| Controls | `python analysis/02_missing_controls.py` | `derived/control_metrics.csv`, `derived/fold_structure.csv` |
+| Fold admissibility and contrasts | `python analysis/03_control_summary.py` | `derived/R36_fold_admissibility.csv`, `derived/R36_control_pairs.csv` |
+| CFST boundary and repair | `python analysis/04_cfst_repair.py` | `derived/cfst_feasibility_map.csv`, `derived/cfst_repair.csv` |
+| Registry | `python analysis/05_configuration_registry.py` | `derived/configuration_registry.csv` |
+| Classification and weighting | `python analysis/06_b_controls.py` | `derived/classification_controls.csv`, `derived/weighting_controls.csv` |
+| Decision experiment | `python analysis/07_d_decision_experiment.py` | `derived/D_outer_results.csv`, `derived/D_inner_grid.csv` |
+| Data figures | `python analysis/09_rebuild_figures.py` | `figures/*.pdf`, `figures/*.png` |
+| Numeric self-check | `python analysis/12_selfcheck_r36.py` | `derived/R36_MANUSCRIPT_SELFCHECK.md` (expects 34/34) |
 
-The final command validates and syntax-parses the full public file set, checks
-the SHA-256 ledger, Attempt-T
-closure and retention receipts, all 38 stage projections, the primary-evidence
-lock and the headed-stud projection.
+## 4. Determinism
 
-The tests archived under `src/round_snapshot/method/tests/` are frozen source
-from the controlled execution tree and retain its original directory contract.
-They are provenance evidence, not the path-neutral public test entry point, and
-must not be edited merely to make a relocated snapshot pass.
+All learners use fixed seeds; `KFold(shuffle=True, random_state=0)`, `GroupKFold(min(5, n_groups))`
+and the size-matched control (one permutation, cut to the honoured fold sizes) are fixed in the code.
+Learners run serially (`n_jobs=1`) so the audit reproduces in constrained environments.
 
-## 4. External headed-stud data
+## 5. Boundaries
 
-Download data only from the official records in `DATASETS_AND_LINKS.csv` and
-keep archives and reconstructed rows outside the repository.  The verified
-reconstruction route is:
-
-```bash
-cd src/headed_stud_adapter
-python fetch_frozen_stud_parents.py
-python overlap_audit.py
-python apply_overlap_review.py
-python build_adapters_public.py
-python ../application_evaluator/run_public_evaluation.py \
-  --adapter-root . \
-  --method-root ../round_snapshot/method \
-  --output-root ../../derived/headed_stud_evaluator \
-  --reference-external-metrics ../../app
-```
-
-Generated rows, identifiers and fold assignments remain local and ignored.
-The frozen audit matched all 48 external metric cells to a maximum absolute
-difference of `7.105427357601002e-15`.
-
-## 5. Frozen bindings
-
-- protocol: `SAVP-CONFIRMATORY-V3.2`;
-- compiler package: `0.4.0`;
-- repository release: `2.0.0`;
-- master seed: `2026071204`;
-- stages: `38`;
-- replicates per stage: `100`;
-- seed-table SHA-256:
-  `bcc4ec1c43f780bb64e417fce81f21df52db1202db8e7fdbe79104295c18d4ad`;
-- freeze-manifest SHA-256:
-  `0b6e3498b425b5cddb725bdc7b8cf3477ce8461f3677c3283de667c1a4464760`.
-
-## 6. Interpretation boundaries
-
-- Aggregate tables support only the prespecified compiler/synthetic claims.
-- The headed-stud application retains its source-overlap quarantine and scope
-  limits.
-- Source-composition intervals are not population confidence intervals.
-- A contract can diagnose unsupported deployment; it cannot create missing
-  evidence.
-- Semantic exactness is not claimed to guarantee lower predictive error.
-- The prespecified negative model-selection result remains reported.
+- The audit characterises the data asset and the evaluated claim, not the original studies' splits
+  or intent; no source paper's deployment-claim wording was extracted verbatim.
+- Fold-fraction bounds `[0.05, 0.50]` are a convention of this audit, and the CFST boundary is
+  reported as a boundary rather than as an absolute limitation.
+- Proxy relations are labelled as proxies and are never upgraded to source claims.

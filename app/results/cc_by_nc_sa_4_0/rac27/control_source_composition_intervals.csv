@@ -1,5 +1,0 @@
-parent,model,interval_interpretation,status,n_source_clusters,resamples,nrmse_composition_q025,nrmse_composition_q975,prediction_to_measurement_mean_q025,prediction_to_measurement_mean_q975,overprediction_rate_q025,overprediction_rate_q975
-rac27,Ridge,source-composition resampling interval; not a population confidence interval,not_identifiable_single_source_programme,1,0,,,,,,
-rac27,RBF_SVR,source-composition resampling interval; not a population confidence interval,not_identifiable_single_source_programme,1,0,,,,,,
-rac27,ExtraTrees,source-composition resampling interval; not a population confidence interval,not_identifiable_single_source_programme,1,0,,,,,,
-rac27,HistGradientBoosting,source-composition resampling interval; not a population confidence interval,not_identifiable_single_source_programme,1,0,,,,,,

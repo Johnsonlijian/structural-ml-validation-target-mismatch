@@ -1,3 +1,3 @@
-
-# Preserve the exact receipt-bound bytes. Do not apply line-ending filters.
-* -text
+* text=auto eol=lf
+*.pdf binary
+*.png binary

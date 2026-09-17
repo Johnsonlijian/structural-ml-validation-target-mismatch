@@ -1,5 +1,0 @@
-parent,model,identifiable,n_source_clusters,base_nrmse,delete_one_nrmse_min,delete_one_nrmse_max,maximum_absolute_nrmse_change,interpretation
-lwc90,Ridge,True,5,0.3280580222765339,0.3079674407273567,0.363834426226051,0.035776403949517,leave-one-source composition sensitivity
-lwc90,RBF_SVR,True,5,1.1571658547260213,1.0195021439136278,1.3004255962427624,0.1432597415167411,leave-one-source composition sensitivity
-lwc90,ExtraTrees,True,5,0.527939201592585,0.449024960893863,0.6120167781805399,0.0840775765879549,leave-one-source composition sensitivity
-lwc90,HistGradientBoosting,True,5,0.6571657339685342,0.6085112296400859,0.7785881677096914,0.1214224337411572,leave-one-source composition sensitivity

@@ -1,9 +1,0 @@
-{
-  "development_target_sample_sd_kN": 55.87569126741148,
-  "historical_fixed_model_source_sha256": "1cde8e80793025ddb8ed8d531d21f683de71764769b126358e99860a993fa314",
-  "maximum_absolute_difference": 7.105427357601002e-15,
-  "metric_cells_checked": 48,
-  "path_neutral_note": "The public evaluator must define the four frozen learners locally; the historical implementation is bound by hash without an internal path.",
-  "status": "pass",
-  "supplemental_execution_control": "ExtraTrees n_jobs=1 to remove parallel reduction jitter; all statistical hyperparameters and random_state remain frozen"
-}

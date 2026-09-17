@@ -1,0 +1,12 @@
+asset_id,asset,relation_role,identifier,repository,licence,records,in_analysis,participation,ref
+uci_concrete,"UCI concrete compressive strength","duplication (mix proportions)",10.24432/C5PK67,"UCI ML Repository","see repository terms",1030,true,"regression (1 target) + duplication control",data_uci_concrete
+lantsoght_sfrc,"SFRC beam shear database","source-level (inventory only)",10.5281/zenodo.2578061,"Zenodo","see record",488,false,"inventory and metadata audit only",data_lantsoght_sfrc
+cfst_stub,"Stub CFST axial capacity","proxy (section family)",10.1038/s41598-024-53352-1,"Sci. Rep. + supplementary","article licence",1316,true,"regression (1 target) + feasibility boundary + narrowed holdout",data_cfst_stub
+corroded_beam,"Corroded RC beam flexure","source-level",10.5281/zenodo.8062007,"Zenodo","see record",804,true,"regression (1 target) + decision experiment",data_corroded_beam
+shear_wall_mode,"RC shear-wall failure mode","source-level",10.1016/j.engstruct.2020.110331,"Eng. Struct. + author database","article licence",393,true,"classification + decision experiment",data_shear_wall_mode
+wall_prj2430,"UoA-UW RC wall database","two relations (source + wall type)",10.17603/ds2-r12q-t415,"DesignSafe-CI","published project terms",142,true,"regression (2 targets) + joint-claim case",data_wall_prj2430
+coupling_prj3053,"Coupling-beam database","source-level",10.17603/ds2-46wc-n185,"DesignSafe-CI","published project (PRJ-3053)",60,true,"regression (1 target)",data_coupling_prj3053
+columns_circular,"Circular RC columns","inventory only",10.17603/ds2-52bz-0n63,"DesignSafe-CI","published project terms",174,false,"inventory and metadata audit only",data_rc_columns_circ
+columns_rectangular,"Rectangular RC columns","inventory only",10.17603/ds2-7qg0-4303,"DesignSafe-CI","published project terms",327,false,"inventory and metadata audit only",data_rc_columns_rect
+joints_8ndgpm7zw7,"Exterior beam-column joints","inventory only",10.17632/8ndgpm7zw7.1,"Mendeley Data","CC BY-NC 4.0 (DataCite)",203,false,"inventory and metadata audit only",data_joints_mendeley
+joints_rbhfnz32sy,"Beam-column joints, cyclic","inventory only",10.17632/rbhfnz32sy.1,"Mendeley Data","CC BY 4.0 (DataCite)",98,false,"inventory and metadata audit only",data_joints_cyclic

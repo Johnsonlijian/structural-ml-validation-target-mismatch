@@ -1,4 +1,0 @@
-left_parent,right_parent,n_left,n_right,retained_source_group_overlap_count,exact_feature_pair_count,exact_left_row_count,exact_right_row_count,minimum_robust_scaled_chebyshev_distance,minimum_robust_scaled_euclidean_distance,near_pair_count_at_0.01_iqr,near_left_row_count_at_0.01_iqr,near_right_row_count_at_0.01_iqr,near_pair_count_at_0.025_iqr,near_left_row_count_at_0.025_iqr,near_right_row_count_at_0.025_iqr,near_pair_count_at_0.05_iqr,near_left_row_count_at_0.05_iqr,near_right_row_count_at_0.05_iqr
-nwc242,deck464,242,413,0,0,0,0,0.0449510710493936,0.0503770908692916,0,0,0,0,0,0,2,2,2
-nwc242,lwc90,242,60,0,0,0,0,0.547537356521297,0.5617424491331631,0,0,0,0,0,0,0,0,0
-deck464,lwc90,413,60,0,0,0,0,0.357221057579272,0.5252877962620794,0,0,0,0,0,0,0,0,0

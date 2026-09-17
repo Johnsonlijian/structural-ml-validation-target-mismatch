@@ -1,0 +1,4 @@
+dataset,variant,model,n,n_groups,accuracy_mean,accuracy_sd,balanced_accuracy_mean,balanced_accuracy_sd,K
+shear_wall_failure_mode,random5,RandomForest,393,75,0.8472,0.041,0.8265,0.0751,5
+shear_wall_failure_mode,honoured,RandomForest,393,75,0.4907,0.2002,0.4437,0.1701,5
+shear_wall_failure_mode,sizematch,RandomForest,393,75,0.8443,0.0592,0.8002,0.0857,5

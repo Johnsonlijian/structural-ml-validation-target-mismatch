@@ -1,3 +1,0 @@
-scenario,datasail_outcome,datasail_solver_status,n_replicates,n_assignment_returned,n_time_limit_likely
-S9_missing30,success,solution_returned_status_unparsed,84,84,0
-S9_missing30,success,optimal_inaccurate,16,16,16

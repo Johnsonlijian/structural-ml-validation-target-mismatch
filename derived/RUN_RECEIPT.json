@@ -1,0 +1,228 @@
+{
+  "seed": 0,
+  "k_max": 5,
+  "inputs": {
+    "stub_cfst": {
+      "path": "code/outputs/reproductions/10-1038-s41598-024-53352-1/combined_stub_cfst_data.csv",
+      "sha256": "944a3d2a93fffeac5c0a664434848d9b7a8a84e8e3ea3c974dac2d5d5f7559ef"
+    },
+    "corroded_rc_beam": {
+      "path": "code/outputs/reproductions/10-5281-zenodo-8062007/analysis_data.csv",
+      "sha256": "4ed7cbb1f779e6e55d4965a6ad77c6592023347f66d51eff2fc3fbc5f3059534"
+    },
+    "wall_prj2430_Vmax": {
+      "path": "code/outputs/reproductions/designsafe_prj2430_wall/extracted_wall_data.csv",
+      "sha256": "d24f7cba250c28081670c8428156e6fa783ddd9b0d4ef86516f457b9a48c8f02"
+    },
+    "wall_prj2430_drift": {
+      "path": "code/outputs/reproductions/designsafe_prj2430_wall/extracted_wall_data.csv",
+      "sha256": "d24f7cba250c28081670c8428156e6fa783ddd9b0d4ef86516f457b9a48c8f02"
+    },
+    "coupling_beams_prj3053": {
+      "path": "code/outputs/reproductions/designsafe_prj3053_coupling_beams/extracted_coupling_beam_data.csv",
+      "sha256": "df5452ad1194197ec382278c433813dca7feaf0c641c4e5e21201813eef3137f"
+    },
+    "concrete_strength": {
+      "path": "code/outputs/datasets/uci_concrete_compressive_strength/Concrete_Data.xls",
+      "sha256": "710076c66b9ca3f8050e7942f3dcbdbe04013534daeb0077ffd3079a52d8e0c4"
+    }
+  },
+  "cases": {
+    "stub_cfst": {
+      "honoured": {
+        "n_groups": 3,
+        "K": 3,
+        "fold_sizes": [
+          674,
+          396,
+          246
+        ],
+        "train_fractions": [
+          0.4878,
+          0.6991,
+          0.8131
+        ]
+      }
+    },
+    "corroded_rc_beam": {
+      "honoured": {
+        "n_groups": 54,
+        "K": 5,
+        "fold_sizes": [
+          162,
+          162,
+          160,
+          160,
+          160
+        ],
+        "train_fractions": [
+          0.7985,
+          0.7985,
+          0.801,
+          0.801,
+          0.801
+        ]
+      }
+    },
+    "wall_prj2430_Vmax": {
+      "honoured": {
+        "n_groups": 28,
+        "K": 5,
+        "fold_sizes": [
+          29,
+          29,
+          28,
+          28,
+          28
+        ],
+        "train_fractions": [
+          0.7958,
+          0.7958,
+          0.8028,
+          0.8028,
+          0.8028
+        ]
+      },
+      "honoured_proxy": {
+        "n_groups": 5,
+        "K": 5,
+        "fold_sizes": [
+          111,
+          11,
+          10,
+          8,
+          2
+        ],
+        "train_fractions": [
+          0.2183,
+          0.9225,
+          0.9296,
+          0.9437,
+          0.9859
+        ]
+      },
+      "wall_combo": {
+        "n_combinations": 35,
+        "K": 5,
+        "fold_sizes": [
+          29,
+          29,
+          28,
+          28,
+          28
+        ]
+      }
+    },
+    "wall_prj2430_drift": {
+      "honoured": {
+        "n_groups": 28,
+        "K": 5,
+        "fold_sizes": [
+          29,
+          29,
+          28,
+          28,
+          28
+        ],
+        "train_fractions": [
+          0.7958,
+          0.7958,
+          0.8028,
+          0.8028,
+          0.8028
+        ]
+      },
+      "honoured_proxy": {
+        "n_groups": 5,
+        "K": 5,
+        "fold_sizes": [
+          111,
+          11,
+          10,
+          8,
+          2
+        ],
+        "train_fractions": [
+          0.2183,
+          0.9225,
+          0.9296,
+          0.9437,
+          0.9859
+        ]
+      },
+      "wall_combo": {
+        "n_combinations": 35,
+        "K": 5,
+        "fold_sizes": [
+          29,
+          29,
+          28,
+          28,
+          28
+        ]
+      }
+    },
+    "coupling_beams_prj3053": {
+      "honoured": {
+        "n_groups": 21,
+        "K": 5,
+        "fold_sizes": [
+          12,
+          12,
+          12,
+          12,
+          12
+        ],
+        "train_fractions": [
+          0.8,
+          0.8,
+          0.8,
+          0.8,
+          0.8
+        ]
+      }
+    },
+    "concrete_strength": {
+      "honoured_proxy": {
+        "n_groups": 996,
+        "K": 5,
+        "fold_sizes": [
+          206,
+          206,
+          206,
+          206,
+          206
+        ],
+        "train_fractions": [
+          0.8,
+          0.8,
+          0.8,
+          0.8,
+          0.8
+        ]
+      },
+      "uci_428_ingredients": {
+        "n_groups": 428,
+        "K": 5,
+        "fold_sizes": [
+          206,
+          206,
+          206,
+          206,
+          206
+        ]
+      },
+      "uci_996_allinputs": {
+        "n_groups": 996,
+        "K": 5,
+        "fold_sizes": [
+          206,
+          206,
+          206,
+          206,
+          206
+        ]
+      }
+    }
+  }
+}

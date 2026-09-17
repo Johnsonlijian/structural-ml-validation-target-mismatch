@@ -1,10 +1,9 @@
-
 cff-version: 1.2.0
 message: "Please cite the associated article and this software release."
 type: software
-title: "Typed deployment-contract compiler for engineering AI"
-version: "2.0.0"
-date-released: "2026-08-02"
+title: "Provenance-aware validation audit of public structural-engineering datasets"
+version: "3.1.0"
+date-released: "2026-09-16"
 license: MIT
 repository-code: "https://github.com/Johnsonlijian/structural-ml-validation-target-mismatch"
 url: "https://github.com/Johnsonlijian/structural-ml-validation-target-mismatch"
@@ -13,14 +12,14 @@ authors:
     given-names: "Lijian"
     orcid: "https://orcid.org/0000-0003-1629-4368"
 abstract: >-
-  A path-neutral reproducibility capsule for a typed deployment-estimand and
-  validation-contract compiler, independent conformance checks and
-  aggregate-only confirmatory evidence. Repository release 2.0.0 preserves
-  compiler package 0.4.0 and the sole admissible Attempt-T execution.
+  Audit and experiment code with aggregate results for a provenance-aware validation study across
+  public structural-engineering datasets: configuration registry, fold-bound admissibility audit,
+  size-matched controls, CFST feasibility boundary with an admissible repair, and an
+  engineering-decision experiment. No third-party data are redistributed.
 keywords:
-  - deployment estimand
-  - validation contract
-  - structural engineering
-  - machine learning
+  - validation protocol
+  - provenance
   - data leakage
-  - reproducibility
+  - cross-validation
+  - structural engineering
+  - decision reliability

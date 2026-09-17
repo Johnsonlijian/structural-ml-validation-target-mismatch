@@ -1,3 +1,0 @@
-scenario,datasail_outcome,datasail_solver_status,n_replicates,n_assignment_returned,n_time_limit_likely
-S9_corrupt5,success,optimal_inaccurate,86,86,86
-S9_corrupt5,success,solution_returned_status_unparsed,14,14,0

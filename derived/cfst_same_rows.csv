@@ -1,0 +1,5 @@
+model,random5_R2_all_1316,random5_R2_on_642_rows,random5_R2_per_restricted_family,restricted_holdout_R2,delta_same_rows
+Ridge,0.843,-0.827,"{'double_skin': -0.094, 'rectangular': -0.953}",-1.8796,-1.053
+RandomForest,0.939,0.812,"{'double_skin': 0.98, 'rectangular': 0.79}",0.8172,0.005
+ExtraTrees,0.986,0.944,"{'double_skin': 0.987, 'rectangular': 0.938}",0.8699,-0.074
+GradientBoosting,0.972,0.928,"{'double_skin': 0.979, 'rectangular': 0.921}",0.8942,-0.034

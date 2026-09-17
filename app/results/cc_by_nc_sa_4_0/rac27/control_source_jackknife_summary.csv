@@ -1,5 +1,0 @@
-parent,model,identifiable,n_source_clusters,base_nrmse,delete_one_nrmse_min,delete_one_nrmse_max,maximum_absolute_nrmse_change,interpretation
-rac27,Ridge,False,1,0.4196047541006331,,,,not identifiable: all rows belong to one external programme
-rac27,RBF_SVR,False,1,1.135539504410736,,,,not identifiable: all rows belong to one external programme
-rac27,ExtraTrees,False,1,0.5952243283978228,,,,not identifiable: all rows belong to one external programme
-rac27,HistGradientBoosting,False,1,0.7633343209128761,,,,not identifiable: all rows belong to one external programme

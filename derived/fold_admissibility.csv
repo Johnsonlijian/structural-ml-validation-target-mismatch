@@ -1,0 +1,35 @@
+dataset,variant,K,n,L,U,test_sizes,train_fraction_range,folds_below_L,folds_above_U,admissible
+stub_cfst,honoured,3,1316,66,658,"[674, 396, 246]",0.488-0.813,0,1,False
+stub_cfst,sizematch_relation,3,1316,66,658,"[674, 396, 246]",0.488-0.813,0,1,False
+wall_prj2430_Vmax,honoured_proxy,5,142,8,71,"[111, 11, 10, 8, 2]",0.218-0.986,1,1,False
+wall_prj2430_Vmax,sizematch_proxy,5,142,8,71,"[111, 11, 10, 8, 2]",0.218-0.986,1,1,False
+wall_prj2430_drift,honoured_proxy,5,142,8,71,"[111, 11, 10, 8, 2]",0.218-0.986,1,1,False
+wall_prj2430_drift,sizematch_proxy,5,142,8,71,"[111, 11, 10, 8, 2]",0.218-0.986,1,1,False
+concrete_strength,dummy_trainmean,5,1030,52,515,"[206, 206, 206, 206, 206]",0.800-0.800,0,0,True
+concrete_strength,honoured_proxy,5,1030,52,515,"[206, 206, 206, 206, 206]",0.800-0.800,0,0,True
+concrete_strength,random5,5,1030,52,515,"[206, 206, 206, 206, 206]",0.800-0.800,0,0,True
+concrete_strength,sizematch_proxy,5,1030,52,515,"[206, 206, 206, 206, 206]",0.800-0.800,0,0,True
+concrete_strength,uci_428_ingredients,5,1030,52,515,"[206, 206, 206, 206, 206]",0.800-0.800,0,0,True
+concrete_strength,uci_428_ingredients_shuffledlabels,5,1030,52,515,"[206, 206, 206, 206, 206]",0.800-0.800,0,0,True
+concrete_strength,uci_996_allinputs,5,1030,52,515,"[206, 206, 206, 206, 206]",0.800-0.800,0,0,True
+concrete_strength,uci_996_allinputs_shuffledlabels,5,1030,52,515,"[206, 206, 206, 206, 206]",0.800-0.800,0,0,True
+corroded_rc_beam,dummy_trainmean,5,804,41,402,"[161, 161, 161, 161, 160]",0.800-0.801,0,0,True
+corroded_rc_beam,honoured,5,804,41,402,"[162, 162, 160, 160, 160]",0.798-0.801,0,0,True
+corroded_rc_beam,random5,5,804,41,402,"[161, 161, 161, 161, 160]",0.800-0.801,0,0,True
+corroded_rc_beam,sizematch_relation,5,804,41,402,"[162, 162, 160, 160, 160]",0.798-0.801,0,0,True
+coupling_beams_prj3053,dummy_trainmean,5,60,3,30,"[12, 12, 12, 12, 12]",0.800-0.800,0,0,True
+coupling_beams_prj3053,honoured,5,60,3,30,"[12, 12, 12, 12, 12]",0.800-0.800,0,0,True
+coupling_beams_prj3053,random5,5,60,3,30,"[12, 12, 12, 12, 12]",0.800-0.800,0,0,True
+coupling_beams_prj3053,sizematch_relation,5,60,3,30,"[12, 12, 12, 12, 12]",0.800-0.800,0,0,True
+stub_cfst,dummy_trainmean,5,1316,66,658,"[264, 263, 263, 263, 263]",0.799-0.800,0,0,True
+stub_cfst,random5,5,1316,66,658,"[264, 263, 263, 263, 263]",0.799-0.800,0,0,True
+wall_prj2430_Vmax,dummy_trainmean,5,142,8,71,"[29, 29, 28, 28, 28]",0.796-0.803,0,0,True
+wall_prj2430_Vmax,honoured,5,142,8,71,"[29, 29, 28, 28, 28]",0.796-0.803,0,0,True
+wall_prj2430_Vmax,random5,5,142,8,71,"[29, 29, 28, 28, 28]",0.796-0.803,0,0,True
+wall_prj2430_Vmax,sizematch_relation,5,142,8,71,"[29, 29, 28, 28, 28]",0.796-0.803,0,0,True
+wall_prj2430_Vmax,wall_combo,5,142,8,71,"[29, 29, 28, 28, 28]",0.796-0.803,0,0,True
+wall_prj2430_drift,dummy_trainmean,5,142,8,71,"[29, 29, 28, 28, 28]",0.796-0.803,0,0,True
+wall_prj2430_drift,honoured,5,142,8,71,"[29, 29, 28, 28, 28]",0.796-0.803,0,0,True
+wall_prj2430_drift,random5,5,142,8,71,"[29, 29, 28, 28, 28]",0.796-0.803,0,0,True
+wall_prj2430_drift,sizematch_relation,5,142,8,71,"[29, 29, 28, 28, 28]",0.796-0.803,0,0,True
+wall_prj2430_drift,wall_combo,5,142,8,71,"[29, 29, 28, 28, 28]",0.796-0.803,0,0,True
