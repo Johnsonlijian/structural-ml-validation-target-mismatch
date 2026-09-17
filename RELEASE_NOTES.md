@@ -20,3 +20,13 @@ Corrected:
   statement no longer mixes tenses.
 - **failure-mode family**: the classification asset ships no codebook, so the family is stated as a
   scenario category (label code 1) rather than as a "brittle" family.
+
+## v3.4.0
+
+- Adds `verify_reported_numbers.py`, a runnable entry point that reproduces every reported number from
+  the shipped aggregate tables; earlier releases documented commands that could not run from a clean
+  checkout, which an independent audit correctly flagged.
+- Adds the fold-influence and utility-sensitivity tables and their source CSVs, the two results added to
+  the manuscript after the concentration of the beam-scenario improvement was measured.
+- README corrected: the analysis scripts are archived for inspection, not offered as a pipeline, because
+  they depend on raw third-party tables that are not redistributed.

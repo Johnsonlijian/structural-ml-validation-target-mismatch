@@ -48,14 +48,18 @@ not uniform across the sources; the audit is regenerated from the public identif
 
 ## Quick start
 
+The release is verified from the derived tables alone; this needs no raw data and no network:
+
 ```
-pip install -r requirements.txt
-python analysis/04_corpus_registry.py        # registry -> corpus numbers and the inventory table
-python analysis/12_rebuild_all_tables.py     # every manuscript table
-python analysis/14_figures_legible_type.py   # Figures 2-5
-python analysis/19_geometry_check_v3.py      # rendered-page geometry gate
-python analysis/27_selfcheck_r38.py          # guards every quoted number (38 checks)
+pip install pandas
+python verify_reported_numbers.py            # 20 checks over every number reported in the manuscript
 ```
+
+The analysis scripts in `analysis/` are the ones that produced those tables. They read the private raw
+tables and the per-row predictions, which are not redistributed here, so they are archived for
+inspection rather than offered as a turnkey pipeline. `analysis/verify_reported_numbers.py` is the
+runnable entry point: it recomputes the pooled counts, the fold-concentration result, the
+utility-sensitivity expressions, the registry totals and the contrast strata from `derived/`.
 
 ## Licence
 

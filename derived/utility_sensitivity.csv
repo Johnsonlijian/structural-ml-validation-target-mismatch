@@ -1,0 +1,7 @@
+scenario,alpha,N,A_rand,E_rand,A_src,E_src,dA,dE,utility,folds
+beam_release,0.05,804,416,40,396,16,-20,-24,(4 + 24*lambda)/804,5
+beam_release,0.1,804,416,40,363,13,-53,-27,(-26 + 27*lambda)/804,5
+beam_release,0.2,804,416,40,374,16,-42,-24,(-18 + 24*lambda)/804,5
+failure_mode,0.05,393,193,31,164,22,-29,-9,(-20 + 9*lambda)/393,5
+failure_mode,0.1,393,193,30,197,35,4,5,(-1 + -5*lambda)/393,5
+failure_mode,0.2,393,193,30,197,35,4,5,(-1 + -5*lambda)/393,5
