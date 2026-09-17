@@ -35,3 +35,11 @@ Corrected:
 
 - Ships Figure 6 (per-fold influence) and the scripts that regenerate it from `derived/decision_outer.csv`,
   so the figure and the verification of the fold-concentration claim are reproducible from the release.
+
+## v3.5.0
+
+- Adds the previously open comparison: a grouped-only baseline (correctly configured `GroupKFold`
+  selection) against the audit-gated policy on the same outer holdout, rule space and inner estimates.
+  Result: identical decisions in all 90 settings; the gates never bound.
+- Ships `analysis/baseline_vs_audit.py`, the per-setting table and the summary, so the result can be
+  regenerated from `derived/decision_candidates.csv` and `derived/decision_outer.csv`.

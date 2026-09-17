@@ -1,0 +1,21 @@
+scenario,outer_fold,protocol,n_train,L,U,fold_sizes,groups,groups_per_fold,fold_size_ok,group_cert_ok,admissible
+beam_release,0,random,642,33,321,"[129, 129, 128, 128, 128]",45,"[38, 36, 35, 35, 36]",True,True,True
+beam_release,0,source,642,33,321,"[129, 129, 128, 129, 127]",45,"[9, 9, 9, 10, 8]",True,True,True
+beam_release,1,random,642,33,321,"[129, 129, 128, 128, 128]",42,"[32, 32, 34, 33, 30]",True,True,True
+beam_release,1,source,642,33,321,"[129, 128, 128, 128, 129]",42,"[5, 9, 9, 9, 10]",True,True,True
+beam_release,2,random,644,33,322,"[129, 129, 129, 129, 128]",43,"[32, 36, 32, 36, 33]",True,True,True
+beam_release,2,source,644,33,322,"[129, 129, 128, 129, 129]",43,"[5, 9, 9, 10, 10]",True,True,True
+beam_release,3,random,644,33,322,"[129, 129, 129, 129, 128]",43,"[33, 40, 31, 33, 31]",True,True,True
+beam_release,3,source,644,33,322,"[129, 129, 129, 128, 129]",43,"[5, 9, 10, 9, 10]",True,True,True
+beam_release,4,random,644,33,322,"[129, 129, 129, 129, 128]",43,"[38, 35, 34, 32, 30]",True,True,True
+beam_release,4,source,644,33,322,"[129, 130, 128, 129, 128]",43,"[5, 10, 9, 9, 10]",True,True,True
+failure_mode,0,random,305,16,152,"[61, 61, 61, 61, 61]",74,"[36, 36, 38, 34, 35]",True,True,True
+failure_mode,0,source,305,16,152,"[61, 61, 61, 61, 61]",74,"[13, 14, 15, 16, 16]",True,True,True
+failure_mode,1,random,316,16,158,"[64, 63, 63, 63, 63]",57,"[29, 27, 25, 32, 29]",True,True,True
+failure_mode,1,source,316,16,158,"[88, 57, 57, 57, 57]",57,"[1, 13, 14, 14, 15]",True,True,True
+failure_mode,2,random,317,16,158,"[64, 64, 63, 63, 63]",57,"[26, 28, 25, 33, 30]",True,True,True
+failure_mode,2,source,317,16,158,"[88, 58, 57, 57, 57]",57,"[1, 13, 14, 14, 15]",True,True,True
+failure_mode,3,random,317,16,158,"[64, 64, 63, 63, 63]",56,"[27, 28, 27, 31, 25]",True,True,True
+failure_mode,3,source,317,16,158,"[88, 58, 57, 57, 57]",56,"[1, 13, 13, 14, 15]",True,True,True
+failure_mode,4,random,317,16,158,"[64, 64, 63, 63, 63]",56,"[30, 29, 24, 32, 23]",True,True,True
+failure_mode,4,source,317,16,158,"[88, 58, 57, 57, 57]",56,"[1, 13, 13, 14, 15]",True,True,True

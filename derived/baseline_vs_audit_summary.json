@@ -1,0 +1,67 @@
+{
+  "settings": 90,
+  "identical_decisions": 90,
+  "empty_feasible_sets": 0,
+  "inadmissible_inner_splits": 0,
+  "inner_splits_checked": 20,
+  "baseline_released": 3644,
+  "baseline_unsafe": 454,
+  "audit_released": 3644,
+  "audit_unsafe": 454,
+  "by_group": [
+    {
+      "scenario": "beam_release",
+      "action_set": "regression",
+      "protocol": "random",
+      "settings": 15,
+      "differing": 0,
+      "empty_feasible": 0,
+      "inadmissible": 0
+    },
+    {
+      "scenario": "beam_release",
+      "action_set": "regression",
+      "protocol": "source",
+      "settings": 15,
+      "differing": 0,
+      "empty_feasible": 0,
+      "inadmissible": 0
+    },
+    {
+      "scenario": "failure_mode",
+      "action_set": "act_on_confidence",
+      "protocol": "random",
+      "settings": 15,
+      "differing": 0,
+      "empty_feasible": 0,
+      "inadmissible": 0
+    },
+    {
+      "scenario": "failure_mode",
+      "action_set": "act_on_confidence",
+      "protocol": "source",
+      "settings": 15,
+      "differing": 0,
+      "empty_feasible": 0,
+      "inadmissible": 0
+    },
+    {
+      "scenario": "failure_mode",
+      "action_set": "release_when_not_dangerous",
+      "protocol": "random",
+      "settings": 15,
+      "differing": 0,
+      "empty_feasible": 0,
+      "inadmissible": 0
+    },
+    {
+      "scenario": "failure_mode",
+      "action_set": "release_when_not_dangerous",
+      "protocol": "source",
+      "settings": 15,
+      "differing": 0,
+      "empty_feasible": 0,
+      "inadmissible": 0
+    }
+  ]
+}
