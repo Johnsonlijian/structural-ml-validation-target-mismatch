@@ -30,3 +30,8 @@ Corrected:
   the manuscript after the concentration of the beam-scenario improvement was measured.
 - README corrected: the analysis scripts are archived for inspection, not offered as a pipeline, because
   they depend on raw third-party tables that are not redistributed.
+
+## v3.4.1
+
+- Ships Figure 6 (per-fold influence) and the scripts that regenerate it from `derived/decision_outer.csv`,
+  so the figure and the verification of the fold-concentration claim are reproducible from the release.
