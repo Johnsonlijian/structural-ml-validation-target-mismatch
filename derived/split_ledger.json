@@ -1,0 +1,31 @@
+{
+  "splits": 34,
+  "admissible": 28,
+  "inadmissible": 6,
+  "inadmissible_list": [
+    {
+      "dataset": "stub_cfst",
+      "variant": "honoured"
+    },
+    {
+      "dataset": "stub_cfst",
+      "variant": "sizematch_relation"
+    },
+    {
+      "dataset": "wall_prj2430_Vmax",
+      "variant": "honoured_proxy"
+    },
+    {
+      "dataset": "wall_prj2430_Vmax",
+      "variant": "sizematch_proxy"
+    },
+    {
+      "dataset": "wall_prj2430_drift",
+      "variant": "honoured_proxy"
+    },
+    {
+      "dataset": "wall_prj2430_drift",
+      "variant": "sizematch_proxy"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "executed_variants": 5,
+  "executed_rows": 48,
+  "inadmissible_rows": 12,
+  "admissible_rows": 36,
+  "alias_rows": 4,
+  "distinct_admissible_entries": 36,
+  "distinct_dealiased_entries": 32,
+  "variants_inadmissible": [],
+  "variants_partially_inadmissible": [
+    "honoured",
+    "honoured_proxy"
+  ]
+}

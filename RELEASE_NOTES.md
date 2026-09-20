@@ -56,3 +56,13 @@ Corrected:
   [2, 14].
 - Ships `analysis/wall_discard_alternative.py`, `analysis/wall_discard_verify.py` and the quarantined-
   campaign table, so the ceiling and the cost are reproducible from the published extraction.
+
+## v3.7.0
+
+- Adds the admissibility ledger (34 executed splits -> 6 exclusions -> 28 admissible -> 48 contrasts ->
+  36 admissible -> 32 distinct entries) and the campaign-by-type incidence table behind the wall fold
+  ceiling, both with their generator scripts.
+- Adds Figure 4 (why the wall database admits at most three folds) and its script.
+- Adds the four-model panel gate report and synthesis for this round.
+- Bibliography de-duplicated (BibTeX case collision) and two entries enriched with Crossref-verified
+  volume and page data.
