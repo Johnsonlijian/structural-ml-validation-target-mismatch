@@ -43,3 +43,16 @@ Corrected:
   Result: identical decisions in all 90 settings; the gates never bound.
 - Ships `analysis/baseline_vs_audit.py`, the per-setting table and the summary, so the result can be
   regenerated from `derived/decision_candidates.csv` and `derived/decision_outer.csv`.
+
+## v3.6.0
+
+- Adds the discard-based alternative for the wall database's two-relation claim. Result: a
+  two-relation-honouring partition admits **at most three folds** for this database, because every
+  campaign carrying wall type B or I also carries Rect, so B, I and Rect cannot be separated; four and
+  five folds are impossible however many records are discarded.
+- The best three-fold protocol retains 29 of 142 records (20.4%),
+  quarantining 113 records across
+  21 of 28 campaigns, in folds of [11, 11, 7] within the bounds
+  [2, 14].
+- Ships `analysis/wall_discard_alternative.py`, `analysis/wall_discard_verify.py` and the quarantined-
+  campaign table, so the ceiling and the cost are reproducible from the published extraction.

@@ -1,0 +1,401 @@
+{
+  "records": 142,
+  "campaigns": 28,
+  "per_K": {
+    "2": {
+      "feasible": true,
+      "n_retained": 22,
+      "quarantined": 120,
+      "fold_sizes": [
+        11,
+        11
+      ],
+      "L": 2,
+      "U": 11,
+      "clusters": [
+        [
+          "B",
+          "I"
+        ],
+        [
+          "Flanged"
+        ]
+      ],
+      "kept_types": [
+        "B",
+        "Flanged",
+        "I"
+      ],
+      "quarantined_campaigns": [
+        {
+          "campaign": "Lefas",
+          "records": 15,
+          "type_levels": [
+            "Rect"
+          ]
+        },
+        {
+          "campaign": "Lu",
+          "records": 11,
+          "type_levels": [
+            "Rect"
+          ]
+        },
+        {
+          "campaign": "Whittaker",
+          "records": 7,
+          "type_levels": [
+            "Rect"
+          ]
+        },
+        {
+          "campaign": "Massone",
+          "records": 6,
+          "type_levels": [
+            "Rect"
+          ]
+        },
+        {
+          "campaign": "Segura",
+          "records": 6,
+          "type_levels": [
+            "Rect",
+            "T"
+          ]
+        },
+        {
+          "campaign": "Dazio",
+          "records": 6,
+          "type_levels": [
+            "Rect"
+          ]
+        },
+        {
+          "campaign": "Hube",
+          "records": 6,
+          "type_levels": [
+            "Rect"
+          ]
+        },
+        {
+          "campaign": "Pilakoutas",
+          "records": 6,
+          "type_levels": [
+            "Rect"
+          ]
+        },
+        {
+          "campaign": "Oh",
+          "records": 5,
+          "type_levels": [
+            "B",
+            "Rect",
+            "T"
+          ]
+        },
+        {
+          "campaign": "Tran",
+          "records": 5,
+          "type_levels": [
+            "Rect"
+          ]
+        },
+        {
+          "campaign": "DengLiang",
+          "records": 4,
+          "type_levels": [
+            "Rect"
+          ]
+        },
+        {
+          "campaign": "Tasnimi",
+          "records": 4,
+          "type_levels": [
+            "Rect"
+          ]
+        },
+        {
+          "campaign": "Wallace",
+          "records": 4,
+          "type_levels": [
+            "Rect",
+            "T"
+          ]
+        },
+        {
+          "campaign": "Lowes",
+          "records": 4,
+          "type_levels": [
+            "Rect"
+          ]
+        },
+        {
+          "campaign": "Huq",
+          "records": 4,
+          "type_levels": [
+            "T"
+          ]
+        },
+        {
+          "campaign": "Shegay",
+          "records": 4,
+          "type_levels": [
+            "Rect"
+          ]
+        },
+        {
+          "campaign": "Cardenas",
+          "records": 4,
+          "type_levels": [
+            "Rect"
+          ]
+        },
+        {
+          "campaign": "Alarcon",
+          "records": 3,
+          "type_levels": [
+            "Rect"
+          ]
+        },
+        {
+          "campaign": "ZhangWang",
+          "records": 3,
+          "type_levels": [
+            "Rect"
+          ]
+        },
+        {
+          "campaign": "SuWong",
+          "records": 3,
+          "type_levels": [
+            "Rect"
+          ]
+        },
+        {
+          "campaign": "Bertero",
+          "records": 2,
+          "type_levels": [
+            "Rect"
+          ]
+        },
+        {
+          "campaign": "Wiradinata",
+          "records": 2,
+          "type_levels": [
+            "Rect"
+          ]
+        },
+        {
+          "campaign": "Liu",
+          "records": 2,
+          "type_levels": [
+            "Rect"
+          ]
+        },
+        {
+          "campaign": "Tupper",
+          "records": 1,
+          "type_levels": [
+            "Rect"
+          ]
+        }
+      ]
+    },
+    "3": {
+      "feasible": true,
+      "n_retained": 29,
+      "quarantined": 113,
+      "fold_sizes": [
+        11,
+        11,
+        7
+      ],
+      "L": 2,
+      "U": 14,
+      "clusters": [
+        [
+          "B",
+          "I"
+        ],
+        [
+          "Flanged"
+        ],
+        [
+          "T"
+        ]
+      ],
+      "kept_types": [
+        "B",
+        "Flanged",
+        "I",
+        "T"
+      ],
+      "quarantined_campaigns": [
+        {
+          "campaign": "Lefas",
+          "records": 15,
+          "type_levels": [
+            "Rect"
+          ]
+        },
+        {
+          "campaign": "Lu",
+          "records": 11,
+          "type_levels": [
+            "Rect"
+          ]
+        },
+        {
+          "campaign": "Whittaker",
+          "records": 7,
+          "type_levels": [
+            "Rect"
+          ]
+        },
+        {
+          "campaign": "Dazio",
+          "records": 6,
+          "type_levels": [
+            "Rect"
+          ]
+        },
+        {
+          "campaign": "Massone",
+          "records": 6,
+          "type_levels": [
+            "Rect"
+          ]
+        },
+        {
+          "campaign": "Hube",
+          "records": 6,
+          "type_levels": [
+            "Rect"
+          ]
+        },
+        {
+          "campaign": "Pilakoutas",
+          "records": 6,
+          "type_levels": [
+            "Rect"
+          ]
+        },
+        {
+          "campaign": "Oh",
+          "records": 5,
+          "type_levels": [
+            "B",
+            "Rect",
+            "T"
+          ]
+        },
+        {
+          "campaign": "Tran",
+          "records": 5,
+          "type_levels": [
+            "Rect"
+          ]
+        },
+        {
+          "campaign": "DengLiang",
+          "records": 4,
+          "type_levels": [
+            "Rect"
+          ]
+        },
+        {
+          "campaign": "Tasnimi",
+          "records": 4,
+          "type_levels": [
+            "Rect"
+          ]
+        },
+        {
+          "campaign": "Cardenas",
+          "records": 4,
+          "type_levels": [
+            "Rect"
+          ]
+        },
+        {
+          "campaign": "Lowes",
+          "records": 4,
+          "type_levels": [
+            "Rect"
+          ]
+        },
+        {
+          "campaign": "Shegay",
+          "records": 4,
+          "type_levels": [
+            "Rect"
+          ]
+        },
+        {
+          "campaign": "Alarcon",
+          "records": 3,
+          "type_levels": [
+            "Rect"
+          ]
+        },
+        {
+          "campaign": "ZhangWang",
+          "records": 3,
+          "type_levels": [
+            "Rect"
+          ]
+        },
+        {
+          "campaign": "SuWong",
+          "records": 3,
+          "type_levels": [
+            "Rect"
+          ]
+        },
+        {
+          "campaign": "Bertero",
+          "records": 2,
+          "type_levels": [
+            "Rect"
+          ]
+        },
+        {
+          "campaign": "Wiradinata",
+          "records": 2,
+          "type_levels": [
+            "Rect"
+          ]
+        },
+        {
+          "campaign": "Liu",
+          "records": 2,
+          "type_levels": [
+            "Rect"
+          ]
+        },
+        {
+          "campaign": "Tupper",
+          "records": 1,
+          "type_levels": [
+            "Rect"
+          ]
+        }
+      ]
+    },
+    "4": {
+      "feasible": false
+    },
+    "5": {
+      "feasible": false
+    }
+  },
+  "structural_ceiling": 3,
+  "type_levels": 5,
+  "type_level_names": [
+    "B",
+    "Flanged",
+    "I",
+    "Rect",
+    "T"
+  ]
+}
